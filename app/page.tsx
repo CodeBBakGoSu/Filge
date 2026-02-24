@@ -1,7 +1,8 @@
 import HomeDashboard from "@/components/HomeDashboard";
-import { getSubjectCounts } from "@/lib/questions";
+import { getSubjectCounts, getSubjectCountsForYears } from "@/lib/questions";
 
 export default function HomePage() {
   const counts = getSubjectCounts();
-  return <HomeDashboard counts={counts} />;
+  const counts2026 = getSubjectCountsForYears([2026]);
+  return <HomeDashboard counts={counts} counts2026={counts2026} />;
 }

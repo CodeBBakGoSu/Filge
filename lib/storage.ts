@@ -1,9 +1,9 @@
-import { CanonicalSubject, ProgressBySubject } from "@/lib/types";
+import { CanonicalSubject, ProgressBySubject, WrongNoteScope } from "@/lib/types";
 
 const WRONG_NOTE_KEY = "filge.wrongnote.v1";
 const PROGRESS_KEY = "filge.progress.v1";
 
-type WrongNoteStore = Partial<Record<CanonicalSubject, string[]>>;
+type WrongNoteStore = Record<string, string[]>;
 type ProgressStore = Partial<Record<CanonicalSubject, ProgressBySubject>>;
 
 const EMPTY_PROGRESS: ProgressBySubject = {
@@ -67,28 +67,40 @@ function getProgressForSubject(store: ProgressStore, subject: CanonicalSubject):
   return store[subject] ?? { ...EMPTY_PROGRESS };
 }
 
-export function addWrongNote(subject: CanonicalSubject, questionId: string): void {
+function wrongNoteBucketKey(subject: CanonicalSubject, scope: WrongNoteScope): string {
+  return `${subject}::${scope}`;
+}
+
+export function addWrongNote(subject: CanonicalSubject, questionId: string, scope: WrongNoteScope = "all"): void {
   const store = loadJson<WrongNoteStore>(WRONG_NOTE_KEY, {});
-  const current = new Set(store[subject] ?? []);
+  const bucket = wrongNoteBucketKey(subject, scope);
+  const current = new Set(store[bucket] ?? []);
   current.add(questionId);
-  store[subject] = Array.from(current);
+  store[bucket] = Array.from(current);
   saveJson(WRONG_NOTE_KEY, store);
 }
 
-export function getWrongNotes(subject: CanonicalSubject): string[] {
+export function getWrongNotes(subject: CanonicalSubject, scope: WrongNoteScope = "all"): string[] {
   const store = loadJson<WrongNoteStore>(WRONG_NOTE_KEY, {});
-  return store[subject] ?? [];
+  const bucket = wrongNoteBucketKey(subject, scope);
+  return store[bucket] ?? [];
 }
 
-export function removeWrongNote(subject: CanonicalSubject, questionId: string): void {
+export function removeWrongNote(
+  subject: CanonicalSubject,
+  questionId: string,
+  scope: WrongNoteScope = "all"
+): void {
   const store = loadJson<WrongNoteStore>(WRONG_NOTE_KEY, {});
-  store[subject] = (store[subject] ?? []).filter((id) => id !== questionId);
+  const bucket = wrongNoteBucketKey(subject, scope);
+  store[bucket] = (store[bucket] ?? []).filter((id) => id !== questionId);
   saveJson(WRONG_NOTE_KEY, store);
 }
 
-export function clearWrongNotes(subject: CanonicalSubject): void {
+export function clearWrongNotes(subject: CanonicalSubject, scope: WrongNoteScope = "all"): void {
   const store = loadJson<WrongNoteStore>(WRONG_NOTE_KEY, {});
-  delete store[subject];
+  const bucket = wrongNoteBucketKey(subject, scope);
+  delete store[bucket];
   saveJson(WRONG_NOTE_KEY, store);
 }
 

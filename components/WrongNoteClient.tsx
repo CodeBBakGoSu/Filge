@@ -10,24 +10,32 @@ import {
   recordPracticeAnswer,
   removeWrongNote,
 } from "@/lib/storage";
-import { CanonicalSubject, NormalizedQuestion, PoolWarning } from "@/lib/types";
+import { CanonicalSubject, NormalizedQuestion, PoolWarning, WrongNoteScope } from "@/lib/types";
 import { Alerts } from "@/components/Alerts";
 
 interface WrongNoteClientProps {
   subject: CanonicalSubject;
   pool: NormalizedQuestion[];
   warnings: PoolWarning[];
+  wrongNoteScope?: WrongNoteScope;
+  headingSuffix?: string;
 }
 
-export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteClientProps) {
+export default function WrongNoteClient({
+  subject,
+  pool,
+  warnings,
+  wrongNoteScope = "all",
+  headingSuffix = "",
+}: WrongNoteClientProps) {
   const [version, setVersion] = useState(0);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [wrongNoteIds, setWrongNoteIds] = useState<string[] | null>(null);
   const [quiz, setQuiz] = useState<RenderedQuestion[] | null>(null);
 
   useEffect(() => {
-    setWrongNoteIds(getWrongNotes(subject));
-  }, [subject, version]);
+    setWrongNoteIds(getWrongNotes(subject, wrongNoteScope));
+  }, [subject, version, wrongNoteScope]);
 
   const wrongPool = useMemo(
     () => pool.filter((question) => (wrongNoteIds ?? []).includes(question.id)),
@@ -47,7 +55,9 @@ export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteCl
     return (
       <main id="main-content" className="container">
         <header className="page-header">
-          <h1>{SUBJECT_MAP[subject].name} 오답노트</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 오답노트{headingSuffix}
+          </h1>
           <Link href="/">홈으로</Link>
         </header>
         <Alerts warnings={warnings} />
@@ -60,7 +70,9 @@ export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteCl
     return (
       <main id="main-content" className="container">
         <header className="page-header">
-          <h1>{SUBJECT_MAP[subject].name} 오답노트</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 오답노트{headingSuffix}
+          </h1>
           <Link href="/">홈으로</Link>
         </header>
         <Alerts warnings={warnings} />
@@ -73,7 +85,9 @@ export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteCl
     <main id="main-content" className="container">
       <header className="page-header">
         <div>
-          <h1>{SUBJECT_MAP[subject].name} 오답노트</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 오답노트{headingSuffix}
+          </h1>
           <p className="muted">{quiz.length}문항</p>
         </div>
         <div className="button-row">
@@ -85,7 +99,7 @@ export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteCl
               if (!confirmed) {
                 return;
               }
-              clearWrongNotes(subject);
+              clearWrongNotes(subject, wrongNoteScope);
               setVersion((prev) => prev + 1);
             }}
           >
@@ -157,7 +171,7 @@ export default function WrongNoteClient({ subject, pool, warnings }: WrongNoteCl
                   if (!confirmed) {
                     return;
                   }
-                  removeWrongNote(subject, question.id);
+                  removeWrongNote(subject, question.id, wrongNoteScope);
                   setVersion((prev) => prev + 1);
                 }}
               >

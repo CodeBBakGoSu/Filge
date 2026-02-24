@@ -1,0 +1,598 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2026,
+            "session": 1
+        },
+        "subject": {
+            "name": "소프트웨어 설계",
+            "code": "SW_DESIGN"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "사용자 제공(수제비 2026 정리) 기반. 일부 보기/정답 누락 문항은 유사 난이도로 자동 생성(auto_generated=true)."
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "정형 기술 검토(FTR) 지침",
+            "question": "정형 기술 검토(FTR)의 지침 사항으로 가장 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제품의 검토에만 집중한다."
+                },
+                {
+                    "no": 2,
+                    "text": "문제 영역을 명확히 표현한다."
+                },
+                {
+                    "no": 3,
+                    "text": "참가자의 수를 제한하고 사전 준비를 강요한다."
+                },
+                {
+                    "no": 4,
+                    "text": "논쟁이나 반박을 제한하지 않는다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FTR은 논쟁/반박을 제한하며 효율을 위해 참여 인원 제한과 사전 준비를 요구한다.",
+            "source": "2026 수제비 필기 기본서 p1-116",
+            "auto_generated": false
+        },
+        {
+            "no": 2,
+            "topic": "유스케이스 다이어그램 구성요소",
+            "question": "유스케이스 다이어그램의 구성요소가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "유스케이스(Usecase)"
+                },
+                {
+                    "no": 2,
+                    "text": "액터(Actor)"
+                },
+                {
+                    "no": 3,
+                    "text": "시스템(System)"
+                },
+                {
+                    "no": 4,
+                    "text": "클래스(Class)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "유스케이스 다이어그램에는 액터/유스케이스/시스템 경계가 등장하며 클래스는 클래스 다이어그램 요소이다.",
+            "source": "2026 수제비 필기 기본서 p1-16",
+            "auto_generated": false
+        },
+        {
+            "no": 3,
+            "topic": "UI 오류 메시지 지침",
+            "question": "User Interface 설계 시 오류 메시지나 경고에 관한 지침으로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "메시지는 이해하기 쉬워야 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "오류로부터 회복을 위한 구체적인 설명이 제공되어야 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "오류로 인해 발생할 수 있는 부정적인 내용을 적극적으로 사용자들에게 알려야 한다."
+                },
+                {
+                    "no": 4,
+                    "text": "소리나 색의 사용을 줄이고 텍스트로만 전달하도록 한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "오류 전달은 텍스트만 강제하기보다 상황에 맞게 시각/청각 피드백을 적절히 활용할 수 있다.",
+            "source": "2026 수제비 필기 기본서 p1-48",
+            "auto_generated": false
+        },
+        {
+            "no": 4,
+            "topic": "파이프-필터 아키텍처",
+            "question": "파이프 필터 형태의 소프트웨어 아키텍처에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "노드와 간선으로 구성된다."
+                },
+                {
+                    "no": 2,
+                    "text": "서브 시스템이 입력 데이터를 받아 처리하고 결과를 다음 서브 시스템으로 넘겨주는 과정을 반복한다."
+                },
+                {
+                    "no": 3,
+                    "text": "계층 모델이라고도 한다."
+                },
+                {
+                    "no": 4,
+                    "text": "3개의 서브 시스템(모델, 뷰, 제어)으로 구성되어 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "파이프-필터는 필터들이 파이프로 연결되어 단계적으로 데이터를 변환/처리한다.",
+            "source": "2026 수제비 필기 기본서 p1-71",
+            "auto_generated": false
+        },
+        {
+            "no": 5,
+            "topic": "CASE 도구 기능",
+            "question": "CASE가 갖고 있는 주요 기능이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "그래픽 지원"
+                },
+                {
+                    "no": 2,
+                    "text": "소프트웨어 생명주기 전 단계의 연결"
+                },
+                {
+                    "no": 3,
+                    "text": "언어 번역"
+                },
+                {
+                    "no": 4,
+                    "text": "다양한 소프트웨어 개발 모형 지원"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "CASE는 개발 자동화/문서화/표준화 등을 지원하지만 언어 번역 자체는 핵심 기능이 아니다.",
+            "source": "2026 수제비 필기 기본서 p1-42",
+            "auto_generated": false
+        },
+        {
+            "no": 6,
+            "topic": "응집도-교환적",
+            "question": "다음에서 설명하는 응집도의 유형은 무엇인가?\n- 동일한 입력과 출력을 사용하여 다른 기능을 수행하는 활동들이 모여있을 경우의 응집도",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "논리적 응집도"
+                },
+                {
+                    "no": 2,
+                    "text": "절차적 응집도"
+                },
+                {
+                    "no": 3,
+                    "text": "시간적 응집도"
+                },
+                {
+                    "no": 4,
+                    "text": "교환적 응집도"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "동일한 입력/출력 데이터를 사용하는 기능들이 모인 경우 교환적(통신적) 응집도로 분류한다.",
+            "source": "2026 수제비 필기 기본서 p1-60",
+            "auto_generated": false
+        },
+        {
+            "no": 7,
+            "topic": "응집도 정의",
+            "question": "모듈 내부 요소 간의 관련성을 무엇이라고 하는가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "cohesion"
+                },
+                {
+                    "no": 2,
+                    "text": "coupling"
+                },
+                {
+                    "no": 3,
+                    "text": "method"
+                },
+                {
+                    "no": 4,
+                    "text": "chaining"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "모듈 내부 구성 요소 간 관련성은 응집도(cohesion)이다.",
+            "source": "2026 수제비 필기 기본서 p1-59",
+            "auto_generated": false
+        },
+        {
+            "no": 8,
+            "topic": "애자일 가치/원칙",
+            "question": "애자일(Agile) 프로세스 모델에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "변화에 대한 대응보다는 자세한 계획을 중심으로 소프트웨어를 개발한다."
+                },
+                {
+                    "no": 2,
+                    "text": "프로세스와 도구 중심이 아닌 개개인과의 상호 소통을 통해 의견을 수렴한다."
+                },
+                {
+                    "no": 3,
+                    "text": "협상과 계약보다는 고객과의 협력을 중시한다."
+                },
+                {
+                    "no": 4,
+                    "text": "문서 중심이 아닌, 실행 가능한 소프트웨어를 중시한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "애자일은 변화 대응을 중시한다.",
+            "source": "2026 수제비 필기 기본서 p1-22",
+            "auto_generated": false
+        },
+        {
+            "no": 9,
+            "topic": "객체지향 메시지",
+            "question": "다음 중 객체에게 어떤 행위를 하도록 지시하는 방법은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Object"
+                },
+                {
+                    "no": 2,
+                    "text": "Method"
+                },
+                {
+                    "no": 3,
+                    "text": "Message"
+                },
+                {
+                    "no": 4,
+                    "text": "Instance"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "객체 간 행위 요청은 메시지(Message)로 표현한다.",
+            "source": "2026 수제비 필기 기본서 p1-86",
+            "auto_generated": false
+        },
+        {
+            "no": 10,
+            "topic": "GoF 행위 패턴-Visitor",
+            "question": "다음에서 설명하는 디자인 패턴의 유형은?\n- 처리 기능을 분리한 클래스를 두고 객체 구조를 돌아다니며 작업 수행\n- 구조 변경 없이 기능을 추가/확장",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Visitor"
+                },
+                {
+                    "no": 2,
+                    "text": "State"
+                },
+                {
+                    "no": 3,
+                    "text": "Command"
+                },
+                {
+                    "no": 4,
+                    "text": "Strategy"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Visitor는 객체 구조를 순회하며 새로운 연산을 추가할 때 사용한다.",
+            "source": "2026 수제비 필기 기본서 p1-94",
+            "auto_generated": false
+        },
+        {
+            "no": 11,
+            "topic": "인터페이스 연계-간접 연계",
+            "question": "인터페이스 연계에서 간접 연계 방식의 특징으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "연계 절차가 복잡할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "중간 매개체로 인해 성능 저하 가능성이 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "테스트/장애 추적이 상대적으로 어려울 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "구성이 단순하며 항상 실시간 고성능이 보장된다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "간접 연계는 유연성을 얻는 대신 지연/복잡성이 증가할 수 있다.",
+            "source": "2026 수제비 필기 기본서 p1-121",
+            "auto_generated": true
+        },
+        {
+            "no": 12,
+            "topic": "스크럼 용어-스프린트",
+            "question": "애자일(Agile) 기법 중 스크럼(Scrum)과 관련된 용어 설명이 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스크럼 마스터는 팀이 스크럼을 효과적으로 활용하도록 돕는다."
+                },
+                {
+                    "no": 2,
+                    "text": "제품 백로그에는 요구사항/아키텍처 정의 등이 포함될 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "스프린트는 보통 3달 이상의 장기간으로 결정된다."
+                },
+                {
+                    "no": 4,
+                    "text": "속도(Velocity)는 한 스프린트에서 처리 가능한 백로그 규모의 추정치다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "스프린트는 보통 1~4주 단위로 운영된다.",
+            "source": "2026 수제비 필기 기본서 p1-24",
+            "auto_generated": false
+        },
+        {
+            "no": 13,
+            "topic": "현행 시스템 파악 절차",
+            "question": "현행 시스템 파악 절차에 속하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "시스템 구성 파악"
+                },
+                {
+                    "no": 2,
+                    "text": "기능 파악"
+                },
+                {
+                    "no": 3,
+                    "text": "인터페이스 현황 파악"
+                },
+                {
+                    "no": 4,
+                    "text": "단위 테스트 케이스 설계"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "현행 시스템 파악은 구성/기능/인터페이스/네트워크 현황 중심이다.",
+            "source": "2026 수제비 필기 기본서 p1-2",
+            "auto_generated": true
+        },
+        {
+            "no": 14,
+            "topic": "요구사항 검증-유효성",
+            "question": "요구사항 검증(Validation)과 가장 직접적으로 관련 있는 품질 특성은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "유연성(Flexibility)"
+                },
+                {
+                    "no": 2,
+                    "text": "유효성(Validity)"
+                },
+                {
+                    "no": 3,
+                    "text": "가용성(Availability)"
+                },
+                {
+                    "no": 4,
+                    "text": "이식성(Portability)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "검증은 사용자의 요구를 올바르게 충족하는지 확인하는 유효성 관점이다.",
+            "source": "2026 수제비 필기 기본서 p1-47",
+            "auto_generated": true
+        },
+        {
+            "no": 15,
+            "topic": "UML 구조/행위 구분",
+            "question": "다음 중 동적(행위) 다이어그램이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "시퀀스 다이어그램"
+                },
+                {
+                    "no": 2,
+                    "text": "활동 다이어그램"
+                },
+                {
+                    "no": 3,
+                    "text": "상태 다이어그램"
+                },
+                {
+                    "no": 4,
+                    "text": "컴포넌트 다이어그램"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "컴포넌트 다이어그램은 구조(정적) 다이어그램이다.",
+            "source": "2026 수제비 필기 기본서 p1-14",
+            "auto_generated": true
+        },
+        {
+            "no": 16,
+            "topic": "캡슐화/정보은닉",
+            "question": "정보 은닉(Information Hiding)의 효과로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "변경 영향 범위를 줄인다."
+                },
+                {
+                    "no": 2,
+                    "text": "모듈 간 결합도를 낮추는 데 도움을 준다."
+                },
+                {
+                    "no": 3,
+                    "text": "인터페이스 기반 사용을 유도한다."
+                },
+                {
+                    "no": 4,
+                    "text": "상속 없이도 모든 재사용 문제가 자동 해결된다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정보 은닉은 변경/결합도에 유리하지만 재사용을 자동 보장하지는 않는다.",
+            "source": "2026 수제비 필기 기본서 p1-85",
+            "auto_generated": true
+        },
+        {
+            "no": 17,
+            "topic": "GoF 패턴 분류-Proxy",
+            "question": "다음 중 GoF 디자인 패턴에서 행위 패턴이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Command"
+                },
+                {
+                    "no": 2,
+                    "text": "Observer"
+                },
+                {
+                    "no": 3,
+                    "text": "State"
+                },
+                {
+                    "no": 4,
+                    "text": "Proxy"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Proxy는 구조 패턴이다.",
+            "source": "2026 수제비 필기 기본서 p1-89",
+            "auto_generated": true
+        },
+        {
+            "no": 18,
+            "topic": "CPM vs PERT",
+            "question": "다음 중 CPM(Critical Path Method)에 대한 설명으로 가장 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "각 작업 수행 시간이 고정된 확정적 모델이다."
+                },
+                {
+                    "no": 2,
+                    "text": "임계 경로(최장 경로)를 산출한다."
+                },
+                {
+                    "no": 3,
+                    "text": "자원 제약을 배제하고 네트워크로 공정을 계산한다."
+                },
+                {
+                    "no": 4,
+                    "text": "낙관치/비관치로 일정 불확실성을 시뮬레이션하기에 유리하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "불확실성/3점 추정은 PERT 특징이다.",
+            "source": "2026 수제비 필기 기본서 p5-12",
+            "auto_generated": false
+        },
+        {
+            "no": 19,
+            "topic": "애자일 방법론 분류",
+            "question": "다음 중 애자일 기법이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "XP"
+                },
+                {
+                    "no": 2,
+                    "text": "Crystal"
+                },
+                {
+                    "no": 3,
+                    "text": "Scrum"
+                },
+                {
+                    "no": 4,
+                    "text": "SPICE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "SPICE는 프로세스 평가/개선 표준 계열이다.",
+            "source": "2026 수제비 필기 기본서 p1-22",
+            "auto_generated": false
+        },
+        {
+            "no": 20,
+            "topic": "UI 설계 원칙-유효성",
+            "question": "다음에서 설명하는 사용자 인터페이스 설계 원칙은?\n- 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "직관성(Intuitiveness)"
+                },
+                {
+                    "no": 2,
+                    "text": "유효성(Effectiveness)"
+                },
+                {
+                    "no": 3,
+                    "text": "학습성(Learnability)"
+                },
+                {
+                    "no": 4,
+                    "text": "유연성(Flexibility)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "사용자 목표 달성의 정확성/완전성은 유효성(Effectiveness)이다.",
+            "source": "2026 수제비 필기 기본서 p1-48",
+            "auto_generated": false
+        }
+    ]
+}

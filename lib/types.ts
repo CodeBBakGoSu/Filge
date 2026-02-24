@@ -74,3 +74,5 @@ export interface ProgressBySubject {
   examQuestions: number;
   examCorrect: number;
 }
+
+export type WrongNoteScope = "all" | "y2026";

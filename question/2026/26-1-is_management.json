@@ -1,0 +1,598 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2026,
+            "session": 1
+        },
+        "subject": {
+            "name": "정보시스템 구축관리",
+            "code": "IS_MANAGEMENT"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "사용자 제공(수제비 2026 정리) 기반. 일부 보기/정답 누락 문항은 유사 난이도로 자동 생성(auto_generated=true)."
+    },
+    "questions": [
+        {
+            "no": 81,
+            "topic": "MQTT",
+            "question": "다음 내용이 설명하는 것은?\n- 대역폭 제한 환경 최적화, Broker 기반 Pub/Sub, IBM 주도 개발",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GRID"
+                },
+                {
+                    "no": 2,
+                    "text": "TELNET"
+                },
+                {
+                    "no": 3,
+                    "text": "GPN"
+                },
+                {
+                    "no": 4,
+                    "text": "MQTT"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "MQTT.",
+            "source": "2026 수제비 필기 기본서 p5-40",
+            "auto_generated": false
+        },
+        {
+            "no": 82,
+            "topic": "COCOMO-Organic",
+            "question": "COCOMO Model 중 기관 내부에서 개발된 중소 규모(5만 LOC 이하) 업무용 소프트웨어 유형은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Embedded"
+                },
+                {
+                    "no": 2,
+                    "text": "Organic"
+                },
+                {
+                    "no": 3,
+                    "text": "Semi-detached"
+                },
+                {
+                    "no": 4,
+                    "text": "Semi-embedded"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Organic.",
+            "source": "2026 수제비 필기 기본서 p5-10",
+            "auto_generated": false
+        },
+        {
+            "no": 83,
+            "topic": "프로토타이핑 모델",
+            "question": "프로토타이핑 모형(Prototyping Model)에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개발단계에서 오류 수정이 불가하므로 유지보수비용이 많이 발생한다."
+                },
+                {
+                    "no": 2,
+                    "text": "최종 결과물이 만들어지기 전에 일부/모형을 볼 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "발주자/개발자 공동 참조 모델을 제공한다."
+                },
+                {
+                    "no": 4,
+                    "text": "구현 단계의 구현 골격이 될 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "프로토타이핑은 초기 피드백으로 오류를 조기에 수정 가능.",
+            "source": "2026 수제비 필기 기본서 p5-4",
+            "auto_generated": false
+        },
+        {
+            "no": 84,
+            "topic": "Mesh Network",
+            "question": "대규모 디바이스 네트워크 생성에 최적화된 새로운 무선 네트워크 기술은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Software Defined Perimeter"
+                },
+                {
+                    "no": 2,
+                    "text": "Virtual Private Network"
+                },
+                {
+                    "no": 3,
+                    "text": "Local Area Network"
+                },
+                {
+                    "no": 4,
+                    "text": "Mesh Network"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Mesh Network.",
+            "source": "2026 수제비 필기 기본서 p5-46",
+            "auto_generated": false
+        },
+        {
+            "no": 85,
+            "topic": "프레임워크",
+            "question": "다음 설명에 해당하는 소프트웨어는?\n- 일부 기능이 내장된 라이브러리 기반, 확장/이용, 예: Spring",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "전역 함수 라이브러리"
+                },
+                {
+                    "no": 2,
+                    "text": "소프트웨어 개발 프레임워크"
+                },
+                {
+                    "no": 3,
+                    "text": "컨테이너 아키텍처"
+                },
+                {
+                    "no": 4,
+                    "text": "어휘 분석기"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "프레임워크.",
+            "source": "2026 수제비 필기 기본서 p5-31",
+            "auto_generated": false
+        },
+        {
+            "no": 86,
+            "topic": "메타버스",
+            "question": "가상·초월과 세계·우주의 합성어로 3차원 가상 세계를 뜻하며 현실에도 활용되는 기술은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "메타버스(Metaverse)"
+                },
+                {
+                    "no": 2,
+                    "text": "증강 현실(Augmented Reality)"
+                },
+                {
+                    "no": 3,
+                    "text": "포스퀘어(Foursquare)"
+                },
+                {
+                    "no": 4,
+                    "text": "매시업(Mashup)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "메타버스.",
+            "source": "2026 수제비 필기 기본서 p5-53",
+            "auto_generated": false
+        },
+        {
+            "no": 87,
+            "topic": "BaaS",
+            "question": "블록체인 개발 환경을 클라우드로 제공하고 인프라를 추상화하는 서비스는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "OTT"
+                },
+                {
+                    "no": 2,
+                    "text": "BaaS"
+                },
+                {
+                    "no": 3,
+                    "text": "SDDC"
+                },
+                {
+                    "no": 4,
+                    "text": "Wi-SUN"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "BaaS.",
+            "source": "2026 수제비 필기 기본서 p5-52",
+            "auto_generated": false
+        },
+        {
+            "no": 88,
+            "topic": "물리 보안",
+            "question": "취약점 관리를 위한 응용 프로그램의 보안 설정과 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "서버 관리실 출입 통제"
+                },
+                {
+                    "no": 2,
+                    "text": "실행 프로세스 권한 설정"
+                },
+                {
+                    "no": 3,
+                    "text": "운영체제의 접근 제한"
+                },
+                {
+                    "no": 4,
+                    "text": "운영체제의 정보 수집 제한"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "출입 통제는 물리 보안이다.",
+            "source": "2026 수제비 필기 기본서 p5-75",
+            "auto_generated": false
+        },
+        {
+            "no": 89,
+            "topic": "근접 무선 통신(복원)",
+            "question": "근접 거리(수 cm~수십 cm)에서 데이터 전송을 위한 기술과 가장 관련 있는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Bluetooth Classic"
+                },
+                {
+                    "no": 2,
+                    "text": "NFC"
+                },
+                {
+                    "no": 3,
+                    "text": "LTE"
+                },
+                {
+                    "no": 4,
+                    "text": "ARP"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "근접 무선 통신은 NFC가 대표적이다.",
+            "source": "2026 수제비 필기 기본서 p5-39",
+            "auto_generated": true
+        },
+        {
+            "no": 90,
+            "topic": "AES vs 해시",
+            "question": "다음 암호 알고리즘 중 성격이 다른 하나는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "MD4"
+                },
+                {
+                    "no": 2,
+                    "text": "MD5"
+                },
+                {
+                    "no": 3,
+                    "text": "SHA-1"
+                },
+                {
+                    "no": 4,
+                    "text": "AES"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "AES는 대칭키 블록 암호.",
+            "source": "2026 수제비 필기 기본서 p5-92",
+            "auto_generated": false
+        },
+        {
+            "no": 91,
+            "topic": "NS Chart(복원)",
+            "question": "NS(Nassi-Shneiderman) Chart에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "주로 화살표로 흐름을 표현한다."
+                },
+                {
+                    "no": 2,
+                    "text": "GOTO 중심 흐름에 적합하다."
+                },
+                {
+                    "no": 3,
+                    "text": "연속/선택/반복 제어구조를 도형으로 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "DB 테이블 관계를 표현한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "NS Chart는 구조적 제어를 블록으로 표현한다.",
+            "source": "2026 수제비 필기 기본서 p5-5",
+            "auto_generated": true
+        },
+        {
+            "no": 92,
+            "topic": "프레임워크 정의(복원)",
+            "question": "소프트웨어의 설계/구현을 재사용 가능한 형태로 제공하고 협업화된 구조를 제공하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프레임워크"
+                },
+                {
+                    "no": 2,
+                    "text": "에뮬레이터"
+                },
+                {
+                    "no": 3,
+                    "text": "부트로더"
+                },
+                {
+                    "no": 4,
+                    "text": "컴파일러"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정의에 해당하는 것은 프레임워크.",
+            "source": "2026 수제비 필기 기본서 p5-33",
+            "auto_generated": true
+        },
+        {
+            "no": 93,
+            "topic": "Bell-LaPadula",
+            "question": "Bell-LaPadula 모델과 가장 관련이 깊은 접근 통제는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DAC"
+                },
+                {
+                    "no": 2,
+                    "text": "MAC"
+                },
+                {
+                    "no": 3,
+                    "text": "RBAC"
+                },
+                {
+                    "no": 4,
+                    "text": "ABAC"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "기밀성 중심 MAC.",
+            "source": "2026 수제비 필기 기본서 p5-118",
+            "auto_generated": true
+        },
+        {
+            "no": 94,
+            "topic": "OLTP",
+            "question": "짧고 빈번한 트랜잭션을 실시간 처리하는 방식은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "OLAP"
+                },
+                {
+                    "no": 2,
+                    "text": "OLTP"
+                },
+                {
+                    "no": 3,
+                    "text": "ETL"
+                },
+                {
+                    "no": 4,
+                    "text": "EDA"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "OLTP.",
+            "source": "2026 수제비 필기 기본서 p5-65",
+            "auto_generated": true
+        },
+        {
+            "no": 95,
+            "topic": "Kerberos(복원)",
+            "question": "KDC와 티켓을 이용해 비밀번호를 직접 전송하지 않는 네트워크 인증 프로토콜은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Kerberos"
+                },
+                {
+                    "no": 2,
+                    "text": "SNMP"
+                },
+                {
+                    "no": 3,
+                    "text": "DHCP"
+                },
+                {
+                    "no": 4,
+                    "text": "NTP"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Kerberos.",
+            "source": "2026 수제비 필기 기본서 p5-??",
+            "auto_generated": true
+        },
+        {
+            "no": 96,
+            "topic": "Cobertura(복원)",
+            "question": "Java 코드 커버리지를 측정하는 도구로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Cobertura"
+                },
+                {
+                    "no": 2,
+                    "text": "Gradle"
+                },
+                {
+                    "no": 3,
+                    "text": "Ant"
+                },
+                {
+                    "no": 4,
+                    "text": "Maven"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Cobertura는 코드 커버리지 도구.",
+            "source": "2026 수제비 필기 기본서 p5-??",
+            "auto_generated": true
+        },
+        {
+            "no": 97,
+            "topic": "DAS 프로토콜",
+            "question": "DAS 방식에서 사용되는 프로토콜이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SCSI"
+                },
+                {
+                    "no": 2,
+                    "text": "SAS"
+                },
+                {
+                    "no": 3,
+                    "text": "eSATA"
+                },
+                {
+                    "no": 4,
+                    "text": "iSCSI"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "iSCSI는 IP 기반 스토리지 네트워크에서 사용.",
+            "source": "2026 수제비 필기 기본서 p5-62",
+            "auto_generated": false
+        },
+        {
+            "no": 98,
+            "topic": "COCOMO-Organic(재출제)",
+            "question": "COCOMO Model의 Organic 유형에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "강한 제약의 대규모 임베디드"
+                },
+                {
+                    "no": 2,
+                    "text": "중소 규모, 비교적 단순한 업무 처리"
+                },
+                {
+                    "no": 3,
+                    "text": "매우 복잡한 고신뢰 실시간 시스템"
+                },
+                {
+                    "no": 4,
+                    "text": "초대형 분산 인프라"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Organic.",
+            "source": "2026 수제비 필기 기본서 p5-12",
+            "auto_generated": true
+        },
+        {
+            "no": 99,
+            "topic": "프레임워크(재출제)",
+            "question": "설계/구현을 재사용 가능한 형태로 제공(예: Spring Boot)하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프레임워크"
+                },
+                {
+                    "no": 2,
+                    "text": "디버거"
+                },
+                {
+                    "no": 3,
+                    "text": "드라이버"
+                },
+                {
+                    "no": 4,
+                    "text": "스니퍼"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "프레임워크.",
+            "source": "2026 수제비 필기 기본서 p5-33",
+            "auto_generated": true
+        },
+        {
+            "no": 100,
+            "topic": "Ping of Death",
+            "question": "다음 설명에 해당하는 공격 기법은? (과대/비정상 ICMP 패킷 등으로 시스템 마비)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Smurf"
+                },
+                {
+                    "no": 2,
+                    "text": "SQL Injection"
+                },
+                {
+                    "no": 3,
+                    "text": "Ping of Death"
+                },
+                {
+                    "no": 4,
+                    "text": "XSS"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Ping of Death.",
+            "source": "2026 수제비 필기 기본서 p5-105",
+            "auto_generated": true
+        }
+    ]
+}

@@ -7,9 +7,10 @@ import { clearAllLocalData } from "@/lib/storage";
 
 interface HomeDashboardProps {
   counts: Record<CanonicalSubject, number>;
+  counts2026: Record<CanonicalSubject, number>;
 }
 
-export default function HomeDashboard({ counts }: HomeDashboardProps) {
+export default function HomeDashboard({ counts, counts2026 }: HomeDashboardProps) {
   return (
     <main id="main-content" className="container">
       <header className="hero">
@@ -22,6 +23,7 @@ export default function HomeDashboard({ counts }: HomeDashboardProps) {
           <article key={subject.slug} className="subject-card">
             <h2>{subject.name}</h2>
             <p className="muted">출제 풀: {counts[subject.slug]}문항</p>
+            <p className="muted">2026 전용: {counts2026[subject.slug]}문항</p>
             <div className="button-row">
               <Link className="button" href={`/practice/${subject.slug}`}>
                 연습 시작
@@ -31,6 +33,12 @@ export default function HomeDashboard({ counts }: HomeDashboardProps) {
               </Link>
               <Link className="button button-ghost" href={`/wrong-note/${subject.slug}`}>
                 오답노트
+              </Link>
+              <Link className="button button-secondary" href={`/practice-2026/${subject.slug}`}>
+                2026 연습
+              </Link>
+              <Link className="button button-ghost" href={`/wrong-note-2026/${subject.slug}`}>
+                2026 오답노트
               </Link>
             </div>
           </article>

@@ -5,16 +5,24 @@ import { type PointerEvent, useEffect, useState } from "react";
 import { SUBJECT_MAP } from "@/lib/subjects";
 import { buildRenderedQuestions, RenderedQuestion } from "@/lib/quiz";
 import { addWrongNote, recordPracticeAnswer } from "@/lib/storage";
-import { CanonicalSubject, NormalizedQuestion, PoolWarning } from "@/lib/types";
+import { CanonicalSubject, NormalizedQuestion, PoolWarning, WrongNoteScope } from "@/lib/types";
 import { Alerts } from "@/components/Alerts";
 
 interface PracticeClientProps {
   subject: CanonicalSubject;
   pool: NormalizedQuestion[];
   warnings: PoolWarning[];
+  wrongNoteScope?: WrongNoteScope;
+  headingSuffix?: string;
 }
 
-export default function PracticeClient({ subject, pool, warnings }: PracticeClientProps) {
+export default function PracticeClient({
+  subject,
+  pool,
+  warnings,
+  wrongNoteScope = "all",
+  headingSuffix = "",
+}: PracticeClientProps) {
   const [seed, setSeed] = useState(0);
   const [quiz, setQuiz] = useState<RenderedQuestion[] | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,7 +43,9 @@ export default function PracticeClient({ subject, pool, warnings }: PracticeClie
     return (
       <main id="main-content" className="container">
         <header className="page-header">
-          <h1>{SUBJECT_MAP[subject].name} 연습</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 연습{headingSuffix}
+          </h1>
           <Link href="/">홈으로</Link>
         </header>
         <Alerts warnings={warnings} />
@@ -48,7 +58,9 @@ export default function PracticeClient({ subject, pool, warnings }: PracticeClie
     return (
       <main id="main-content" className="container">
         <header className="page-header">
-          <h1>{SUBJECT_MAP[subject].name} 연습</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 연습{headingSuffix}
+          </h1>
           <Link href="/">홈으로</Link>
         </header>
         <Alerts warnings={warnings} />
@@ -72,7 +84,7 @@ export default function PracticeClient({ subject, pool, warnings }: PracticeClie
     setAnswers((prev) => ({ ...prev, [question.id]: choiceNo }));
     recordPracticeAnswer(subject, isCorrect);
     if (!isCorrect) {
-      addWrongNote(subject, question.id);
+      addWrongNote(subject, question.id, wrongNoteScope);
     }
   }
 
@@ -100,7 +112,9 @@ export default function PracticeClient({ subject, pool, warnings }: PracticeClie
     <main id="main-content" className="container" onPointerUp={advanceByTap}>
       <header className="page-header">
         <div>
-          <h1>{SUBJECT_MAP[subject].name} 연습</h1>
+          <h1>
+            {SUBJECT_MAP[subject].name} 연습{headingSuffix}
+          </h1>
           <p className="muted">
             {currentIndex + 1}/{quiz.length} | 정답 {correctCount}
           </p>

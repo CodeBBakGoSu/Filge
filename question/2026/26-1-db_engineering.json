@@ -1,0 +1,598 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2026,
+            "session": 1
+        },
+        "subject": {
+            "name": "데이터베이스 구축",
+            "code": "DB_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "사용자 제공(수제비 2026 정리) 기반. 일부 보기/정답 누락 문항은 유사 난이도로 자동 생성(auto_generated=true)."
+    },
+    "questions": [
+        {
+            "no": 41,
+            "topic": "SQL 분류(DDL/DML)",
+            "question": "다음 명령 중 그 성격이 나머지 셋과 다른 하나는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "CREATE"
+                },
+                {
+                    "no": 2,
+                    "text": "SELECT"
+                },
+                {
+                    "no": 3,
+                    "text": "INSERT"
+                },
+                {
+                    "no": 4,
+                    "text": "UPDATE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "CREATE는 DDL, 나머지는 DML.",
+            "source": "2026 수제비 필기 기본서 p3-7",
+            "auto_generated": false
+        },
+        {
+            "no": 42,
+            "topic": "View 특징",
+            "question": "뷰(View)에 대한 설명 중 옳은 내용으로만 나열한 것은?\nⓐ 물리적 존재\nⓑ 기본 테이블 삭제돼도 자동 삭제X\nⓒ 보안에 활용\nⓓ 삽입/삭제/갱신 제약",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "ⓐ,ⓑ,ⓒ,ⓓ"
+                },
+                {
+                    "no": 2,
+                    "text": "ⓐ,ⓒ,ⓓ"
+                },
+                {
+                    "no": 3,
+                    "text": "ⓑ,ⓓ"
+                },
+                {
+                    "no": 4,
+                    "text": "ⓒ,ⓓ"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "뷰는 물리적 존재가 아니며 보안 활용/갱신 제약이 있다.",
+            "source": "2026 수제비 필기 기본서 p3-43",
+            "auto_generated": false
+        },
+        {
+            "no": 43,
+            "topic": "관계 해석",
+            "question": "관계 해석에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프레디킷 해석 기반"
+                },
+                {
+                    "no": 2,
+                    "text": "Codd가 제안"
+                },
+                {
+                    "no": 3,
+                    "text": "튜플/도메인 관계 해석 존재"
+                },
+                {
+                    "no": 4,
+                    "text": "절차적 특성을 가진다"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "관계 해석은 비절차적이다.",
+            "source": "2026 수제비 필기 기본서 p3-67",
+            "auto_generated": false
+        },
+        {
+            "no": 44,
+            "topic": "ACID-고립성",
+            "question": "병행 실행 중 다른 트랜잭션 연산이 끼어들 수 없음을 의미하는 특성은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Log"
+                },
+                {
+                    "no": 2,
+                    "text": "Consistency"
+                },
+                {
+                    "no": 3,
+                    "text": "Isolation"
+                },
+                {
+                    "no": 4,
+                    "text": "Durability"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Isolation(고립성).",
+            "source": "2026 수제비 필기 기본서 p3-29",
+            "auto_generated": false
+        },
+        {
+            "no": 45,
+            "topic": "전칭 한정자",
+            "question": "관계 해석에서 ‘for all(모든 것에 대하여)’의 의미를 나타내는 논리 기호는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "∃"
+                },
+                {
+                    "no": 2,
+                    "text": "∈"
+                },
+                {
+                    "no": 3,
+                    "text": "∀"
+                },
+                {
+                    "no": 4,
+                    "text": "∪"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "∀.",
+            "source": "2026 수제비 필기 기본서 p3-36",
+            "auto_generated": false
+        },
+        {
+            "no": 46,
+            "topic": "BETWEEN 포함 범위",
+            "question": "다음 BETWEEN 연산의 의미와 동일한 것은? (점수 BETWEEN 90 AND 95)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "점수 >= 90 AND 점수 <= 95"
+                },
+                {
+                    "no": 2,
+                    "text": "점수 > 90 AND 점수 < 95"
+                },
+                {
+                    "no": 3,
+                    "text": "점수 > 90 AND 점수 <= 95"
+                },
+                {
+                    "no": 4,
+                    "text": "점수 >= 90 AND 점수 < 95"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "BETWEEN은 양 끝 포함.",
+            "source": "2026 수제비 필기 기본서 p3-3",
+            "auto_generated": false
+        },
+        {
+            "no": 47,
+            "topic": "로킹 단위",
+            "question": "병행 제어의 로킹(Locking) 단위에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DB/파일/레코드는 로킹 단위 가능"
+                },
+                {
+                    "no": 2,
+                    "text": "로킹 단위가 작아지면 로킹 오버헤드가 감소"
+                },
+                {
+                    "no": 3,
+                    "text": "로킹 단위가 작아지면 공유도 증가"
+                },
+                {
+                    "no": 4,
+                    "text": "한꺼번에 로킹할 객체 크기가 로킹 단위"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "로킹 단위가 작아지면 락 수가 늘어 오버헤드가 증가할 수 있다.",
+            "source": "2026 수제비 필기 기본서 p3-31",
+            "auto_generated": false
+        },
+        {
+            "no": 48,
+            "topic": "DROP VIEW CASCADE",
+            "question": "DROP VIEW V_1 CASCADE 수행 결과로 옳은 것은? (V2가 V1에 종속)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "V1만 삭제"
+                },
+                {
+                    "no": 2,
+                    "text": "V2만 삭제"
+                },
+                {
+                    "no": 3,
+                    "text": "V1과 V2 모두 삭제"
+                },
+                {
+                    "no": 4,
+                    "text": "둘 다 삭제 안 됨"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "CASCADE는 종속 뷰까지 삭제.",
+            "source": "2026 수제비 필기 기본서 p3-44",
+            "auto_generated": false
+        },
+        {
+            "no": 49,
+            "topic": "2NF→3NF",
+            "question": "제2정규형에서 제3정규형이 되기 위한 조건은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "이행적 함수 종속 제거"
+                },
+                {
+                    "no": 2,
+                    "text": "부분적 함수 종속 제거"
+                },
+                {
+                    "no": 3,
+                    "text": "다치 종속 제거"
+                },
+                {
+                    "no": 4,
+                    "text": "결정자이면서 후보키가 아닌 것 제거"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "3NF는 이행 종속 제거.",
+            "source": "2026 수제비 필기 기본서 p3-84",
+            "auto_generated": false
+        },
+        {
+            "no": 50,
+            "topic": "시스템 카탈로그",
+            "question": "시스템 카탈로그에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "사용자가 SQL로 직접 갱신해야 한다"
+                },
+                {
+                    "no": 2,
+                    "text": "데이터 객체 정의/명세 정보 유지"
+                },
+                {
+                    "no": 3,
+                    "text": "DBMS가 생성/유지"
+                },
+                {
+                    "no": 4,
+                    "text": "저장 정보는 메타데이터"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "카탈로그는 DBMS가 관리한다.",
+            "source": "2026 수제비 필기 기본서 p3-67",
+            "auto_generated": false
+        },
+        {
+            "no": 51,
+            "topic": "DROP VIEW RESTRICT",
+            "question": "R→V1→V2, (V2,R)→V3 상황에서 DROP VIEW V1 RESTRICT 실행 결과는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "V1만 삭제"
+                },
+                {
+                    "no": 2,
+                    "text": "V1,V2,V3 삭제"
+                },
+                {
+                    "no": 3,
+                    "text": "아무것도 삭제되지 않음"
+                },
+                {
+                    "no": 4,
+                    "text": "R,V1,V2,V3 삭제"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "RESTRICT는 종속이 있으면 삭제 거부.",
+            "source": "2026 수제비 필기 기본서 p3-44",
+            "auto_generated": true
+        },
+        {
+            "no": 52,
+            "topic": "차수/카디널리티",
+            "question": "릴레이션의 차수(Degree)와 기수(Cardinality)의 정의로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "차수=속성(열) 수, 기수=튜플(행) 수"
+                },
+                {
+                    "no": 2,
+                    "text": "차수=행 수, 기수=열 수"
+                },
+                {
+                    "no": 3,
+                    "text": "차수=키 수, 기수=도메인 수"
+                },
+                {
+                    "no": 4,
+                    "text": "차수=도메인 수, 기수=키 수"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Degree=열, Cardinality=행.",
+            "source": "2026 수제비 필기 기본서 p3-62",
+            "auto_generated": true
+        },
+        {
+            "no": 53,
+            "topic": "무결성-개체 무결성",
+            "question": "다음 중 데이터베이스 무결성(Integrity) 제약 조건에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개체 무결성: 기본키는 NULL/중복 불가"
+                },
+                {
+                    "no": 2,
+                    "text": "참조 무결성: 값 범위 제약"
+                },
+                {
+                    "no": 3,
+                    "text": "도메인 무결성: 외래키는 NULL 또는 참조 PK와 일치"
+                },
+                {
+                    "no": 4,
+                    "text": "사용자 정의 무결성: 도메인 범위"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "개체 무결성은 PK의 NULL 불가/유일성.",
+            "source": "2026 수제비 필기 기본서 p3-111",
+            "auto_generated": false
+        },
+        {
+            "no": 54,
+            "topic": "정규형-1NF",
+            "question": "원자성(Atomicity)을 만족시키는 정규형은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제1정규형(1NF)"
+                },
+                {
+                    "no": 2,
+                    "text": "제2정규형(2NF)"
+                },
+                {
+                    "no": 3,
+                    "text": "제3정규형(3NF)"
+                },
+                {
+                    "no": 4,
+                    "text": "BCNF"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "1NF는 원자값.",
+            "source": "2026 수제비 필기 기본서 p3-83",
+            "auto_generated": true
+        },
+        {
+            "no": 55,
+            "topic": "DDL vs DML",
+            "question": "다음 중 성격이 다른 하나는? (INSERT/UPDATE/DELETE/ALTER)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "INSERT"
+                },
+                {
+                    "no": 2,
+                    "text": "UPDATE"
+                },
+                {
+                    "no": 3,
+                    "text": "DELETE"
+                },
+                {
+                    "no": 4,
+                    "text": "ALTER"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "ALTER는 DDL.",
+            "source": "2026 수제비 필기 기본서 p3-7",
+            "auto_generated": true
+        },
+        {
+            "no": 56,
+            "topic": "DCL",
+            "question": "REVOKE 명령은 DDL/DML/DCL/TCL 중 어디에 속하는가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DDL"
+                },
+                {
+                    "no": 2,
+                    "text": "DML"
+                },
+                {
+                    "no": 3,
+                    "text": "DCL"
+                },
+                {
+                    "no": 4,
+                    "text": "TCL"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "권한 회수는 DCL.",
+            "source": "2026 수제비 필기 기본서 p3-10",
+            "auto_generated": true
+        },
+        {
+            "no": 57,
+            "topic": "다중행 서브쿼리",
+            "question": "다중 행 서브쿼리에 적절한 연산자는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "="
+                },
+                {
+                    "no": 2,
+                    "text": "IN"
+                },
+                {
+                    "no": 3,
+                    "text": "<"
+                },
+                {
+                    "no": 4,
+                    "text": "LIKE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "다중행은 IN/ANY/ALL.",
+            "source": "2026 수제비 필기 기본서 p3-54",
+            "auto_generated": true
+        },
+        {
+            "no": 58,
+            "topic": "파티셔닝-Range",
+            "question": "파티셔닝 중 Range(범위) 분할에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "열 값의 범위 기준으로 분할"
+                },
+                {
+                    "no": 2,
+                    "text": "해시 함수 결과로 분할"
+                },
+                {
+                    "no": 3,
+                    "text": "라운드로빈으로 분할"
+                },
+                {
+                    "no": 4,
+                    "text": "네트워크 위치로 분할"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Range는 구간 분할.",
+            "source": "2026 수제비 필기 기본서 p3-107",
+            "auto_generated": true
+        },
+        {
+            "no": 59,
+            "topic": "슈퍼키",
+            "question": "키(Key)의 정의와 특징이 바르게 연결된 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "슈퍼키: 유일성 O, 최소성 X일 수 있음"
+                },
+                {
+                    "no": 2,
+                    "text": "기본키: 중복/NULL 허용"
+                },
+                {
+                    "no": 3,
+                    "text": "대체키: 유일성만 만족"
+                },
+                {
+                    "no": 4,
+                    "text": "외래키: 자기 릴레이션 내에서만 정의"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "슈퍼키는 최소성 불만족 가능.",
+            "source": "2026 수제비 필기 기본서 p3-115",
+            "auto_generated": false
+        },
+        {
+            "no": 60,
+            "topic": "트랜잭션 상태",
+            "question": "트랜잭션의 상태(Transaction State)에 대한 설명으로 가장 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "활동(Active): 실행 중"
+                },
+                {
+                    "no": 2,
+                    "text": "완료(Committed): 반영 완료"
+                },
+                {
+                    "no": 3,
+                    "text": "부분 완료(Partially Committed): 마지막 연산 바로 직전"
+                },
+                {
+                    "no": 4,
+                    "text": "철회(Aborted): 오류로 중단/롤백"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "부분 완료는 보통 마지막 연산 수행 후(커밋 직전)로 다룬다.",
+            "source": "2026 수제비 필기 기본서 p3-33",
+            "auto_generated": false
+        }
+    ]
+}

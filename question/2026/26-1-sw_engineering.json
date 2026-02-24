@@ -1,0 +1,598 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2026,
+            "session": 1
+        },
+        "subject": {
+            "name": "소프트웨어 개발",
+            "code": "SW_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "사용자 제공(수제비 2026 정리) 기반. 일부 보기/정답 누락 문항은 유사 난이도로 자동 생성(auto_generated=true)."
+    },
+    "questions": [
+        {
+            "no": 21,
+            "topic": "재공학-마이그레이션",
+            "question": "소프트웨어 재공학의 주요 활동 중 기존 소프트웨어 시스템을 새로운 기술 또는 하드웨어 환경에서 사용할 수 있도록 변환하는 작업은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Analysis"
+                },
+                {
+                    "no": 2,
+                    "text": "Migration"
+                },
+                {
+                    "no": 3,
+                    "text": "Restructuring"
+                },
+                {
+                    "no": 4,
+                    "text": "Reverse Engineering"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "환경/플랫폼 전환은 Migration이다.",
+            "source": "2026 수제비 필기 기본서 p2-26",
+            "auto_generated": false
+        },
+        {
+            "no": 22,
+            "topic": "알파/베타-인수 테스트",
+            "question": "알파, 베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "단위 테스트"
+                },
+                {
+                    "no": 2,
+                    "text": "인수 테스트"
+                },
+                {
+                    "no": 3,
+                    "text": "통합 테스트"
+                },
+                {
+                    "no": 4,
+                    "text": "시스템 테스트"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "알파/베타는 사용자 관점의 인수 테스트 범주로 출제된다.",
+            "source": "2026 수제비 필기 기본서 p2-75",
+            "auto_generated": false
+        },
+        {
+            "no": 23,
+            "topic": "비선형 자료구조",
+            "question": "비선형 자료 구조에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "큐(Queue)"
+                },
+                {
+                    "no": 2,
+                    "text": "그래프(Graph)"
+                },
+                {
+                    "no": 3,
+                    "text": "데크(Deque)"
+                },
+                {
+                    "no": 4,
+                    "text": "스택(Stack)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "그래프/트리는 비선형 구조이다.",
+            "source": "2026 수제비 필기 기본서 p2-6",
+            "auto_generated": false
+        },
+        {
+            "no": 24,
+            "topic": "스택 응용",
+            "question": "스택(Stack)에 대한 옳은 내용으로만 나열된 것은?\n㉠ FIFO\n㉡ Rear 삽입/Front 제거\n㉢ 양쪽 끝 삽입/삭제\n㉣ 인터럽트/서브루틴 호출 응용",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "㉠, ㉡"
+                },
+                {
+                    "no": 2,
+                    "text": "㉡, ㉢"
+                },
+                {
+                    "no": 3,
+                    "text": "㉣"
+                },
+                {
+                    "no": 4,
+                    "text": "㉠, ㉡, ㉢, ㉣"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "스택은 LIFO이며 ㉣만 옳다.",
+            "source": "2026 수제비 필기 기본서 p2-3",
+            "auto_generated": false
+        },
+        {
+            "no": 25,
+            "topic": "스택 연산 시퀀스",
+            "question": "입력 A,B,C,D를 Push, Push, Pop, Push, Push, Pop, Pop, Pop 순서로 스택 연산을 수행할 때 출력 결과는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "B D C A"
+                },
+                {
+                    "no": 2,
+                    "text": "A B C D"
+                },
+                {
+                    "no": 3,
+                    "text": "B A C D"
+                },
+                {
+                    "no": 4,
+                    "text": "A B D C"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "연산을 순서대로 적용하면 Pop 출력은 B→D→C→A.",
+            "source": "2026 수제비 필기 기본서 p2-4",
+            "auto_generated": false
+        },
+        {
+            "no": 26,
+            "topic": "결함 집중(Pareto) 법칙",
+            "question": "소프트웨어 테스트에서 오류의 80%는 전체 모듈의 20% 내에서 발견된다는 법칙은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Brooks의 법칙"
+                },
+                {
+                    "no": 2,
+                    "text": "Boehm의 법칙"
+                },
+                {
+                    "no": 3,
+                    "text": "Pareto의 법칙"
+                },
+                {
+                    "no": 4,
+                    "text": "Jackson의 법칙"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "결함 집중(파레토) 법칙이다.",
+            "source": "2026 수제비 필기 기본서 p2-59",
+            "auto_generated": false
+        },
+        {
+            "no": 27,
+            "topic": "화이트박스-기초경로",
+            "question": "블랙박스 테스트 기법으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기초 경로 검사"
+                },
+                {
+                    "no": 2,
+                    "text": "동치 클래스 분해"
+                },
+                {
+                    "no": 3,
+                    "text": "경곗값 분석"
+                },
+                {
+                    "no": 4,
+                    "text": "원인 결과 그래프"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "기초 경로 검사는 화이트박스 기법이다.",
+            "source": "2026 수제비 필기 기본서 p2-89",
+            "auto_generated": false
+        },
+        {
+            "no": 28,
+            "topic": "합병 정렬",
+            "question": "정렬된 n개의 데이터를 처리하는데 O(nlog2n)의 시간이 소요되는 정렬 알고리즘은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "선택 정렬"
+                },
+                {
+                    "no": 2,
+                    "text": "삽입 정렬"
+                },
+                {
+                    "no": 3,
+                    "text": "버블 정렬"
+                },
+                {
+                    "no": 4,
+                    "text": "합병 정렬"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "합병 정렬은 O(n log n).",
+            "source": "2026 수제비 필기 기본서 p2-111",
+            "auto_generated": false
+        },
+        {
+            "no": 29,
+            "topic": "버블정렬 PASS2",
+            "question": "다음 자료를 버블 정렬을 이용하여 오름차순으로 정렬할 경우 PASS 2의 수행 결과는?\n9, 6, 7, 3, 5",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3, 5, 6, 7, 9"
+                },
+                {
+                    "no": 2,
+                    "text": "6, 7, 3, 5, 9"
+                },
+                {
+                    "no": 3,
+                    "text": "3, 5, 9, 6, 7"
+                },
+                {
+                    "no": 4,
+                    "text": "6, 3, 5, 7, 9"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "제시 답안 기준 PASS2 결과는 6,3,5,7,9.",
+            "source": "2026 수제비 필기 기본서 p2-112",
+            "auto_generated": false
+        },
+        {
+            "no": 30,
+            "topic": "인터페이스 테스트 도구",
+            "question": "인터페이스 구현 검증 도구가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Foxbase"
+                },
+                {
+                    "no": 2,
+                    "text": "STAF"
+                },
+                {
+                    "no": 3,
+                    "text": "watir"
+                },
+                {
+                    "no": 4,
+                    "text": "xUnit"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Foxbase는 테스트 프레임워크가 아니다.",
+            "source": "2026 수제비 필기 기본서 p2-135",
+            "auto_generated": false
+        },
+        {
+            "no": 31,
+            "topic": "분할 정복",
+            "question": "복잡한 문제를 해결하기 쉬운 작은 단위로 나누는 개념은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Divide and Conquer"
+                },
+                {
+                    "no": 2,
+                    "text": "Dynamic Programming"
+                },
+                {
+                    "no": 3,
+                    "text": "Branch and Bound"
+                },
+                {
+                    "no": 4,
+                    "text": "Heuristic"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "분할정복은 분해→정복→결합.",
+            "source": "2026 수제비 필기 기본서 p2-105",
+            "auto_generated": true
+        },
+        {
+            "no": 32,
+            "topic": "테스트 케이스",
+            "question": "\"입력 값, 실행 조건, 기대 결과 등을 모아놓은 명세\"에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Test Driver"
+                },
+                {
+                    "no": 2,
+                    "text": "Test Stub"
+                },
+                {
+                    "no": 3,
+                    "text": "Test Suite"
+                },
+                {
+                    "no": 4,
+                    "text": "Test Case"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정의에 해당하는 용어는 Test Case.",
+            "source": "2026 수제비 필기 기본서 p2-94",
+            "auto_generated": true
+        },
+        {
+            "no": 33,
+            "topic": "트리 차수",
+            "question": "트리의 차수(Degree)에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "각 노드 차수 중 최대값"
+                },
+                {
+                    "no": 2,
+                    "text": "트리 전체 노드 수"
+                },
+                {
+                    "no": 3,
+                    "text": "트리 높이"
+                },
+                {
+                    "no": 4,
+                    "text": "단말 노드 수"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "트리의 차수=노드 차수의 최대.",
+            "source": "2026 수제비 필기 기본서 p2-27",
+            "auto_generated": true
+        },
+        {
+            "no": 34,
+            "topic": "블록 탐색",
+            "question": "대량의 데이터를 블록별로 인덱싱하여 검색하는 방식은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "선형 탐색"
+                },
+                {
+                    "no": 2,
+                    "text": "이진 탐색"
+                },
+                {
+                    "no": 3,
+                    "text": "보간 탐색"
+                },
+                {
+                    "no": 4,
+                    "text": "블록 탐색(Block Search)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "블록 탐색은 먼저 블록을 찾고 내부 탐색.",
+            "source": "2026 수제비 필기 기본서 p2-107",
+            "auto_generated": true
+        },
+        {
+            "no": 35,
+            "topic": "신택스 테스트(복원)",
+            "question": "다음 설명 중 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "신택스 테스트는 입력 데이터/코드의 문법 규칙 준수 여부를 확인한다."
+                },
+                {
+                    "no": 2,
+                    "text": "제어 구조 검사는 화이트박스 테스트에 포함될 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "신택스 테스트는 블랙박스 테스트의 대표 기법이다."
+                },
+                {
+                    "no": 4,
+                    "text": "화이트박스는 내부 구조 기반 테스트이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "신택스 테스트를 블랙박스 대표 기법으로 보기는 어렵다.",
+            "source": "2026 수제비 필기 기본서 p2-81",
+            "auto_generated": true
+        },
+        {
+            "no": 36,
+            "topic": "Clean Code",
+            "question": "\"다수의 사용자가 읽고 수정하기 쉬운 코드\"에 해당하는 용어는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Legacy Code"
+                },
+                {
+                    "no": 2,
+                    "text": "Clean Code"
+                },
+                {
+                    "no": 3,
+                    "text": "Spaghetti Code"
+                },
+                {
+                    "no": 4,
+                    "text": "Alien Code"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "가독성/유지보수성이 높은 코드는 Clean Code.",
+            "source": "2026 수제비 필기 기본서 p2-116",
+            "auto_generated": true
+        },
+        {
+            "no": 37,
+            "topic": "Brooks의 법칙",
+            "question": "프로젝트 말기에 인력 추가 투입이 오히려 지연을 초래한다는 법칙은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Putnam"
+                },
+                {
+                    "no": 2,
+                    "text": "Mayer"
+                },
+                {
+                    "no": 3,
+                    "text": "Brooks"
+                },
+                {
+                    "no": 4,
+                    "text": "Boehm"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Brooks의 법칙이다.",
+            "source": "2026 수제비 필기 기본서 p2-59",
+            "auto_generated": false
+        },
+        {
+            "no": 38,
+            "topic": "워크스루 vs 인스펙션",
+            "question": "워크스루(Walkthrough)와 인스펙션(Inspection)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "워크스루는 작성자 주도, 이해/교육 목적이 강하다."
+                },
+                {
+                    "no": 2,
+                    "text": "인스펙션은 공식적 검토로 결함 탐지 목적이 강하다."
+                },
+                {
+                    "no": 3,
+                    "text": "워크스루와 인스펙션은 완전히 동일하다."
+                },
+                {
+                    "no": 4,
+                    "text": "인스펙션은 역할과 절차를 둔다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "둘은 목적/형식이 다르다.",
+            "source": "2026 수제비 필기 기본서 p2-27",
+            "auto_generated": true
+        },
+        {
+            "no": 39,
+            "topic": "결함관리 단계",
+            "question": "결함 관리 프로세스 단계 설명으로 가장 적절하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "결함 등록: 발견 오류 기록/보고"
+                },
+                {
+                    "no": 2,
+                    "text": "결함 검토: 중복/유효성 분석"
+                },
+                {
+                    "no": 3,
+                    "text": "결함 할당: 담당자 지정"
+                },
+                {
+                    "no": 4,
+                    "text": "결함 수정: '수정 완료' 상태가 된 것을 의미"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "수정은 활동이며 상태 관리는 별도로 수행한다.",
+            "source": "2026 수제비 필기 기본서 p2-92",
+            "auto_generated": false
+        },
+        {
+            "no": 40,
+            "topic": "동등 분할",
+            "question": "타당/비타당 입력으로 나누어 결과를 확인하는 블랙박스 테스트는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "equivalence partitioning test"
+                },
+                {
+                    "no": 2,
+                    "text": "boundary value analysis"
+                },
+                {
+                    "no": 3,
+                    "text": "comparison testing"
+                },
+                {
+                    "no": 4,
+                    "text": "cause-effect graphing testing"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "동등 분할 테스트이다.",
+            "source": "2026 수제비 필기 기본서 p2-79",
+            "auto_generated": false
+        }
+    ]
+}

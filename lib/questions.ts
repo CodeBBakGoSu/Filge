@@ -102,7 +102,7 @@ export function listQuestionFiles(): string[] {
 
 export function getSubjectPool(
   subject: CanonicalSubject,
-  years: number[] = [2024, 2025],
+  years: number[] = [2024, 2025, 2026],
   sessions: number[] = [1, 2, 3]
 ): SubjectPool {
   const warnings: PoolWarning[] = [];
@@ -194,6 +194,16 @@ export function getSubjectCounts(): Record<CanonicalSubject, number> {
 
   for (const subject of SUBJECTS) {
     result[subject.slug] = getSubjectPool(subject.slug).questions.length;
+  }
+
+  return result;
+}
+
+export function getSubjectCountsForYears(years: number[]): Record<CanonicalSubject, number> {
+  const result = {} as Record<CanonicalSubject, number>;
+
+  for (const subject of SUBJECTS) {
+    result[subject.slug] = getSubjectPool(subject.slug, years).questions.length;
   }
 
   return result;

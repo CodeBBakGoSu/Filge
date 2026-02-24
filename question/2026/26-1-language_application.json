@@ -1,0 +1,598 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2026,
+            "session": 1
+        },
+        "subject": {
+            "name": "프로그래밍 언어 활용",
+            "code": "LANGUAGE_APPLICATION"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "사용자 제공(수제비 2026 정리) 기반. 일부 보기/정답 누락 문항은 유사 난이도로 자동 생성(auto_generated=true)."
+    },
+    "questions": [
+        {
+            "no": 61,
+            "topic": "C 식별자 규칙",
+            "question": "C언어에서 사용할 수 없는 변수명은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "student2019"
+                },
+                {
+                    "no": 2,
+                    "text": "text-color"
+                },
+                {
+                    "no": 3,
+                    "text": "_korea"
+                },
+                {
+                    "no": 4,
+                    "text": "amount"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "식별자에 '-'는 사용할 수 없다.",
+            "source": "2026 수제비 필기 기본서 p4-15",
+            "auto_generated": false
+        },
+        {
+            "no": 62,
+            "topic": "C 콤마 연산자",
+            "question": "다음 C 프로그램이 실행되었을 때 출력 결과로 옳은 것은?\n(콤마 연산자 사용)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "1"
+                },
+                {
+                    "no": 2,
+                    "text": "2"
+                },
+                {
+                    "no": 3,
+                    "text": "3"
+                },
+                {
+                    "no": 4,
+                    "text": "4"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "콤마 연산자는 마지막 표현식 값(b++의 증가 전 값)을 반환한다.",
+            "source": "2026 수제비 필기 기본서 p4-38",
+            "auto_generated": false
+        },
+        {
+            "no": 63,
+            "topic": "Python 컬렉션",
+            "question": "파이썬에서 여러 자료를 한 번에 저장하는 자료형으로만 묶인 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "int, float, str"
+                },
+                {
+                    "no": 2,
+                    "text": "float, bool, list"
+                },
+                {
+                    "no": 3,
+                    "text": "bool, tuple, set"
+                },
+                {
+                    "no": 4,
+                    "text": "list, set, tuple"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "list/set/tuple은 대표 컬렉션 타입이다.",
+            "source": "2026 수제비 필기 기본서 p4-26",
+            "auto_generated": false
+        },
+        {
+            "no": 64,
+            "topic": "FIFO 페이지 교체",
+            "question": "3개의 프레임에서 FIFO 페이지 교체 알고리즘을 사용할 경우 페이지 결함 횟수는? (참조열 제시)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "13"
+                },
+                {
+                    "no": 2,
+                    "text": "14"
+                },
+                {
+                    "no": 3,
+                    "text": "15"
+                },
+                {
+                    "no": 4,
+                    "text": "20"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "제시 답안 기준 14회.",
+            "source": "2026 수제비 필기 기본서 p4-105",
+            "auto_generated": false
+        },
+        {
+            "no": 65,
+            "topic": "교착 조건",
+            "question": "교착상태 발생의 필요 충분 조건이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "상호배제"
+                },
+                {
+                    "no": 2,
+                    "text": "점유와 대기"
+                },
+                {
+                    "no": 3,
+                    "text": "환형 대기"
+                },
+                {
+                    "no": 4,
+                    "text": "선점(Preemption)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "교착 조건은 비선점(Non-preemption)이다.",
+            "source": "2026 수제비 필기 기본서 p4-125",
+            "auto_generated": false
+        },
+        {
+            "no": 66,
+            "topic": "ARP",
+            "question": "TCP/IP 네트워크에서 IP 주소를 MAC 주소로 변환하는 프로토콜은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "UDP"
+                },
+                {
+                    "no": 2,
+                    "text": "ARP"
+                },
+                {
+                    "no": 3,
+                    "text": "TCP"
+                },
+                {
+                    "no": 4,
+                    "text": "ICMP"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "ARP는 IP→MAC.",
+            "source": "2026 수제비 필기 기본서 p4-158",
+            "auto_generated": false
+        },
+        {
+            "no": 67,
+            "topic": "DNS",
+            "question": "IP 주소와 호스트 이름 간의 변환을 제공하는 시스템은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DNS"
+                },
+                {
+                    "no": 2,
+                    "text": "NFS"
+                },
+                {
+                    "no": 3,
+                    "text": "Router"
+                },
+                {
+                    "no": 4,
+                    "text": "Modem"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "DNS는 이름↔IP 매핑.",
+            "source": "2026 수제비 필기 기본서 p4-162",
+            "auto_generated": false
+        },
+        {
+            "no": 68,
+            "topic": "Well-known Port",
+            "question": "다음 중 프로토콜의 포트 번호가 올바르지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "TFTP - UDP 69"
+                },
+                {
+                    "no": 2,
+                    "text": "SNMP - UDP 161"
+                },
+                {
+                    "no": 3,
+                    "text": "RPC - TCP 112"
+                },
+                {
+                    "no": 4,
+                    "text": "TELNET - TCP 23"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "RPC는 보통 111로 다룬다.",
+            "source": "2026 수제비 필기 기본서 p4-162",
+            "auto_generated": false
+        },
+        {
+            "no": 69,
+            "topic": "IPv4 클래스",
+            "question": "다음 중 C Class에 속하는 IP Address는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "200.168.30.1"
+                },
+                {
+                    "no": 2,
+                    "text": "10.3.2.1"
+                },
+                {
+                    "no": 3,
+                    "text": "225.2.4.1"
+                },
+                {
+                    "no": 4,
+                    "text": "172.16.98.3"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Class C: 192~223.",
+            "source": "2026 수제비 필기 기본서 p4-166",
+            "auto_generated": false
+        },
+        {
+            "no": 70,
+            "topic": "Best Fit 단편화",
+            "question": "Best Fit을 사용하여 17KB 적재 시 내부 단편화 크기는? (빈공간: 20/16/8/40KB)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3KB"
+                },
+                {
+                    "no": 2,
+                    "text": "23KB"
+                },
+                {
+                    "no": 3,
+                    "text": "64KB"
+                },
+                {
+                    "no": 4,
+                    "text": "67KB"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "20KB에 배치 → 3KB 단편화.",
+            "source": "2026 수제비 필기 기본서 p4-101",
+            "auto_generated": false
+        },
+        {
+            "no": 71,
+            "topic": "C 콤마 연산자(복원)",
+            "question": "C언어에서 콤마 연산자(,)의 동작으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "가장 첫 표현식 값을 반환한다."
+                },
+                {
+                    "no": 2,
+                    "text": "마지막 표현식 값을 반환한다."
+                },
+                {
+                    "no": 3,
+                    "text": "모든 표현식 값을 더해 반환한다."
+                },
+                {
+                    "no": 4,
+                    "text": "논리 AND로 결합한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "콤마 연산자는 왼쪽부터 평가 후 마지막 값을 반환한다.",
+            "source": "2026 수제비 필기 기본서 p4-32",
+            "auto_generated": true
+        },
+        {
+            "no": 72,
+            "topic": "Java 예외처리",
+            "question": "a=5, b=0일 때 a/b 수행 시 발생 예외로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "NullPointerException"
+                },
+                {
+                    "no": 2,
+                    "text": "ArithmeticException"
+                },
+                {
+                    "no": 3,
+                    "text": "ArrayIndexOutOfBoundsException"
+                },
+                {
+                    "no": 4,
+                    "text": "IOException"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "0으로 나누기는 ArithmeticException.",
+            "source": "2026 수제비 필기 기본서 p4-83",
+            "auto_generated": true
+        },
+        {
+            "no": 73,
+            "topic": "break 동작(복원)",
+            "question": "break를 만났을 때 동작으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "가장 안쪽 반복문 또는 switch를 종료한다."
+                },
+                {
+                    "no": 2,
+                    "text": "프로그램을 즉시 종료한다."
+                },
+                {
+                    "no": 3,
+                    "text": "현재 함수만 종료한다."
+                },
+                {
+                    "no": 4,
+                    "text": "현재 if 블록만 종료한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "break는 반복문/스위치 탈출.",
+            "source": "2026 수제비 필기 기본서 p4-43",
+            "auto_generated": true
+        },
+        {
+            "no": 74,
+            "topic": "Python except 문법",
+            "question": "Python의 except 절에 들어갈 수 없는 형태는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "except:"
+                },
+                {
+                    "no": 2,
+                    "text": "except ValueError:"
+                },
+                {
+                    "no": 3,
+                    "text": "except ValueError as e:"
+                },
+                {
+                    "no": 4,
+                    "text": "except e:"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "except에는 예외 타입(클래스)만 지정 가능.",
+            "source": "2026 수제비 필기 기본서 p4-83",
+            "auto_generated": true
+        },
+        {
+            "no": 75,
+            "topic": "Java 예외 vs 컴파일 오류",
+            "question": "JAVA의 예외(Exception)와 관련된 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "문법 오류로 인해 발생한 것"
+                },
+                {
+                    "no": 2,
+                    "text": "실행 시간 동안 발생할 수 있는 오류"
+                },
+                {
+                    "no": 3,
+                    "text": "배열 인덱스 범위 초과 시 발생"
+                },
+                {
+                    "no": 4,
+                    "text": "없는 파일 읽기 시 발생"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "문법 오류는 컴파일 오류.",
+            "source": "2026 수제비 필기 기본서 p4-83",
+            "auto_generated": false
+        },
+        {
+            "no": 76,
+            "topic": "SSH 포트",
+            "question": "SSH(Secure Shell)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SSH의 기본 네트워크 포트는 220번을 사용한다."
+                },
+                {
+                    "no": 2,
+                    "text": "전송되는 데이터는 암호화된다."
+                },
+                {
+                    "no": 3,
+                    "text": "키 기반 인증은 공개키를 서버에 등록해 수행 가능하다."
+                },
+                {
+                    "no": 4,
+                    "text": "원격 명령 실행/쉘 서비스를 수행한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "SSH 기본 포트는 22.",
+            "source": "2026 수제비 필기 기본서 p4-155",
+            "auto_generated": false
+        },
+        {
+            "no": 77,
+            "topic": "Python 불변 자료형",
+            "question": "다음 중 수정 불가능(Immutable)한 자료형은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "list"
+                },
+                {
+                    "no": 2,
+                    "text": "dict"
+                },
+                {
+                    "no": 3,
+                    "text": "tuple"
+                },
+                {
+                    "no": 4,
+                    "text": "set"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "tuple은 immutable.",
+            "source": "2026 수제비 필기 기본서 p4-28",
+            "auto_generated": true
+        },
+        {
+            "no": 78,
+            "topic": "C 비트 OR 연산(복원)",
+            "question": "비트 OR(|) 연산의 예로 0xF1 | 0x0F의 결과는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "0xFF"
+                },
+                {
+                    "no": 2,
+                    "text": "0xF0"
+                },
+                {
+                    "no": 3,
+                    "text": "0x0F"
+                },
+                {
+                    "no": 4,
+                    "text": "0x01"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "11110001 | 00001111 = 11111111.",
+            "source": "2026 수제비 필기 기본서 p4-31",
+            "auto_generated": true
+        },
+        {
+            "no": 79,
+            "topic": "UNIX 프로세스 생성",
+            "question": "UNIX에서 새로운 프로세스를 생성하는 명령어(시스템 호출)로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "ls"
+                },
+                {
+                    "no": 2,
+                    "text": "cat"
+                },
+                {
+                    "no": 3,
+                    "text": "fork"
+                },
+                {
+                    "no": 4,
+                    "text": "chmod"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "fork.",
+            "source": "2026 수제비 필기 기본서 p4-123",
+            "auto_generated": false
+        },
+        {
+            "no": 80,
+            "topic": "ARQ",
+            "question": "오류 제어에 사용되는 자동반복 요청방식(ARQ)이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Stop-and-wait ARQ"
+                },
+                {
+                    "no": 2,
+                    "text": "Go-back-N ARQ"
+                },
+                {
+                    "no": 3,
+                    "text": "Selective-Repeat ARQ"
+                },
+                {
+                    "no": 4,
+                    "text": "Non-Acknowledge ARQ"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "ARQ는 ACK 기반 재전송.",
+            "source": "2026 수제비 필기 기본서 p4-156",
+            "auto_generated": false
+        }
+    ]
+}
