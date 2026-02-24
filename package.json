@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS=--no-webstorage next dev",
+    "dev": "node --no-webstorage ./node_modules/next/dist/bin/next dev",
     "dev:clean": "node -e \"const fs=require('fs'); fs.rmSync('.next',{recursive:true,force:true});\" && npm run dev",
-    "build": "NODE_OPTIONS=--no-webstorage next build",
-    "start": "NODE_OPTIONS=--no-webstorage next start",
+    "build": "next build",
+    "start": "next start",
     "validate:questions": "node scripts/validate-questions.mjs",
     "verify:smoke": "curl -fsS http://127.0.0.1:3000/ >/dev/null && curl -fsS http://127.0.0.1:3000/practice/sw_design >/dev/null && curl -fsS http://127.0.0.1:3000/exam/sw_design >/dev/null && curl -fsS http://127.0.0.1:3000/wrong-note/sw_design >/dev/null && echo smoke-ok"
   },
