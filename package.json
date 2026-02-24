@@ -11,7 +11,7 @@
     "verify:smoke": "curl -fsS http://127.0.0.1:3000/ >/dev/null && curl -fsS http://127.0.0.1:3000/practice/sw_design >/dev/null && curl -fsS http://127.0.0.1:3000/exam/sw_design >/dev/null && curl -fsS http://127.0.0.1:3000/wrong-note/sw_design >/dev/null && echo smoke-ok"
   },
   "dependencies": {
-    "next": "15.3.2",
+    "next": "^16.1.6",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
