@@ -1,0 +1,531 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 3
+        },
+        "subject": {
+            "name": "소프트웨어 개발",
+            "code": "SW_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 보기/문항은 유사 난이도로 자동 생성(그림/파일 첨부 문항은 안내 포함)"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "Spring MVC(개념)",
+            "question": "다음 중 Spring MVC에 대한 설명으로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "컨트롤러는 비즈니스 로직을 수행하고 결과를 ModelAndView에 반영한다."
+                },
+                {
+                    "no": 2,
+                    "text": "HandlerMapping은 URL에 매핑되는 컨트롤러를 검색/결정한다."
+                },
+                {
+                    "no": 3,
+                    "text": "View Resolver는 어떤 뷰를 선택할지 결정한다."
+                },
+                {
+                    "no": 4,
+                    "text": "View는 모델 데이터 객체, 이동할 페이지 정보 및 뷰로 이루어져 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "ModelAndView가 (모델+뷰이름/정보)이며, View 자체를 '모델+페이지정보+뷰'로 설명하는 것은 부적절하다."
+        },
+        {
+            "no": 2,
+            "topic": "필기[20년3회] 블랙박스/화이트박스",
+            "question": "블랙박스 테스트의 유형으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "경계값 분석"
+                },
+                {
+                    "no": 2,
+                    "text": "오류 예측"
+                },
+                {
+                    "no": 3,
+                    "text": "동등 분할 기법"
+                },
+                {
+                    "no": 4,
+                    "text": "조건, 루프 검사"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "조건/루프 검사는 화이트박스(구조 기반) 테스트에 가깝다."
+        },
+        {
+            "no": 3,
+            "topic": "필기[20년2회] DRM 요소",
+            "question": "디지털 저작권 관리(DRM)의 기술 요소가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "크랙 방지 기술"
+                },
+                {
+                    "no": 2,
+                    "text": "정책 관리 기술"
+                },
+                {
+                    "no": 3,
+                    "text": "암호화 기술"
+                },
+                {
+                    "no": 4,
+                    "text": "방화벽 기술"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "방화벽은 네트워크 보안 기술로 DRM 핵심 요소가 아니다."
+        },
+        {
+            "no": 4,
+            "topic": "필기[20년2회] 하향식 통합-스텁",
+            "question": "하향식 통합 테스트에서 하위 모듈이 미완성일 때 일시적으로 필요한 기능만 제공하는 시험용 모듈은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Stub"
+                },
+                {
+                    "no": 2,
+                    "text": "Driver"
+                },
+                {
+                    "no": 3,
+                    "text": "Procedure"
+                },
+                {
+                    "no": 4,
+                    "text": "Function"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Stub은 하위 모듈을 대체하는 임시 모듈이다."
+        },
+        {
+            "no": 5,
+            "topic": "필기[20년4회] Postfix 계산",
+            "question": "다음 Postfix 연산식의 결과로 옳은 것은?\n3 4 * 5 6 * +",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "35"
+                },
+                {
+                    "no": 2,
+                    "text": "42"
+                },
+                {
+                    "no": 3,
+                    "text": "77"
+                },
+                {
+                    "no": 4,
+                    "text": "360"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "(3×4)+(5×6)=12+30=42"
+        },
+        {
+            "no": 6,
+            "topic": "필기[20년4회] 트리 INORDER(그림 누락)",
+            "question": "주어진 트리를 중위 순회(INORDER)한 결과로 옳은 것은? (그림 첨부 누락: 복원 문항)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "D B A E C F"
+                },
+                {
+                    "no": 2,
+                    "text": "A B D C E F"
+                },
+                {
+                    "no": 3,
+                    "text": "D B E C F A"
+                },
+                {
+                    "no": 4,
+                    "text": "A B C D E F"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "그림 누락 복원 문항으로, 전형적 트리 구조(루트 A, 좌 B-좌 D, 우 C-좌 E-우 F) 기준 중위 순회는 D B A E C F이다."
+        },
+        {
+            "no": 7,
+            "topic": "휴리스틱 알고리즘(보완)",
+            "question": "다음 중 휴리스틱(Heuristic) 알고리즘에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Greedy Search"
+                },
+                {
+                    "no": 2,
+                    "text": "A* Algorithm"
+                },
+                {
+                    "no": 3,
+                    "text": "Hill Climbing"
+                },
+                {
+                    "no": 4,
+                    "text": "Merge Sort"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Merge Sort는 정렬 알고리즘이며 휴리스틱 탐색 기법이 아니다."
+        },
+        {
+            "no": 8,
+            "topic": "필기[20년2회] Pareto 법칙",
+            "question": "소프트웨어 테스트에서 오류의 80%는 전체 모듈의 20% 내에서 발견된다는 법칙은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Brooks의 법칙"
+                },
+                {
+                    "no": 2,
+                    "text": "Boehm의 법칙"
+                },
+                {
+                    "no": 3,
+                    "text": "Pareto의 법칙"
+                },
+                {
+                    "no": 4,
+                    "text": "Jackson의 법칙"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "결함 집중과 함께 파레토 법칙으로 출제된다."
+        },
+        {
+            "no": 9,
+            "topic": "필기[23년2회] 인접 행렬(파일 누락)",
+            "question": "그래프의 인접 행렬(Adjacency Matrix) 표현을 묻는 문제이다. (파일/그림 누락으로 복원 불가)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "그림 필요"
+                },
+                {
+                    "no": 2,
+                    "text": "그림 필요"
+                },
+                {
+                    "no": 3,
+                    "text": "그림 필요"
+                },
+                {
+                    "no": 4,
+                    "text": "그림 필요"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "모르겠습니다"
+        },
+        {
+            "no": 10,
+            "topic": "필기[?] 버전관리 도구",
+            "question": "소프트웨어 버전 관리 도구가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "CVS"
+                },
+                {
+                    "no": 2,
+                    "text": "BitKeeper"
+                },
+                {
+                    "no": 3,
+                    "text": "SVN"
+                },
+                {
+                    "no": 4,
+                    "text": "Maven"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Maven은 빌드/의존성 관리 도구이다."
+        },
+        {
+            "no": 11,
+            "topic": "필기[20년4회] 삽입정렬 1회전",
+            "question": "초기 자료 8, 3, 4, 9, 7을 삽입 정렬로 오름차순 정렬할 때 1회전 후 결과는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3, 4, 8, 7, 9"
+                },
+                {
+                    "no": 2,
+                    "text": "3, 4, 9, 7, 8"
+                },
+                {
+                    "no": 3,
+                    "text": "7, 8, 3, 4, 9"
+                },
+                {
+                    "no": 4,
+                    "text": "3, 8, 4, 9, 7"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "첫 삽입(3)을 정렬 구간 [8]에 삽입하면 3,8,4,9,7이 된다."
+        },
+        {
+            "no": 12,
+            "topic": "선형/비선형 자료구조",
+            "question": "비선형 구조와 선형 구조가 옳게 짝지어진 것은?\n㉠스택 ㉡큐 ㉢트리 ㉣연결리스트 ㉤그래프",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "비선형: ㉠,㉡,㉤ / 선형: ㉢,㉣"
+                },
+                {
+                    "no": 2,
+                    "text": "비선형: ㉢,㉤ / 선형: ㉠,㉡,㉣"
+                },
+                {
+                    "no": 3,
+                    "text": "비선형: ㉠,㉡,㉢ / 선형: ㉣,㉤"
+                },
+                {
+                    "no": 4,
+                    "text": "비선형: ㉢ / 선형: ㉠,㉡,㉣,㉤"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "트리/그래프는 비선형, 스택/큐/연결리스트는 선형 구조이다."
+        },
+        {
+            "no": 13,
+            "topic": "재사용 효과",
+            "question": "소프트웨어 재사용에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "명세/설계/코드 등 산출물을 공유할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "생산성을 향상시킬 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "프로젝트 실패 위험을 증가시킨다."
+                },
+                {
+                    "no": 4,
+                    "text": "조직의 표준화로 인해 새로운 방법론 도입이 어려울 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "재사용은 일반적으로 비용/일정/품질 측면에서 위험을 감소시키는 방향의 효과를 기대한다."
+        },
+        {
+            "no": 14,
+            "topic": "퀵정렬(피벗/최악 비교)",
+            "question": "분할 정복에 기반하며 피벗(pivot)을 사용하고, 최악의 경우 n(n-1)/2회의 비교를 수행할 수 있는 정렬은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Quick Sort"
+                },
+                {
+                    "no": 2,
+                    "text": "Merge Sort"
+                },
+                {
+                    "no": 3,
+                    "text": "Heap Sort"
+                },
+                {
+                    "no": 4,
+                    "text": "Counting Sort"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "퀵정렬은 피벗 선택이 나쁘면 최악 O(n^2) 비교가 발생한다."
+        },
+        {
+            "no": 15,
+            "topic": "필기[20년3회] 알파/베타",
+            "question": "알파/베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "단위 테스트"
+                },
+                {
+                    "no": 2,
+                    "text": "인수 테스트"
+                },
+                {
+                    "no": 3,
+                    "text": "통합 테스트"
+                },
+                {
+                    "no": 4,
+                    "text": "시스템 테스트"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "알파/베타는 사용자 관점의 인수 테스트 범주로 출제된다."
+        },
+        {
+            "no": 16,
+            "topic": "Infix→Postfix",
+            "question": "중위 표기법 (A＋B)*C＋(D＋E)을 후위 표기법(Postfix)으로 옳게 표기한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "AB＋CDE*＋＋"
+                },
+                {
+                    "no": 2,
+                    "text": "AB＋C*DE＋＋"
+                },
+                {
+                    "no": 3,
+                    "text": "＋AB*C＋DE＋"
+                },
+                {
+                    "no": 4,
+                    "text": "＋*＋ABC＋DE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "AB+ C* DE+ +"
+        },
+        {
+            "no": 17,
+            "topic": "필기[21년3회] 스택 Underflow",
+            "question": "스택 삭제 알고리즘에서 Top=0이면 (ⓐ)에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Overflow"
+                },
+                {
+                    "no": 2,
+                    "text": "Top = Top + 1"
+                },
+                {
+                    "no": 3,
+                    "text": "Underflow"
+                },
+                {
+                    "no": 4,
+                    "text": "Top = Top"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "비어있는 스택에서 pop 시 Underflow."
+        },
+        {
+            "no": 18,
+            "topic": "필기[20년2회] 경계값 분석",
+            "question": "다음 성적 기준을 경계값 분석으로 테스트할 때 입력값으로 옳지 않은 것은?\n80~100:A, 60~79:B, 0~59:C",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "59"
+                },
+                {
+                    "no": 2,
+                    "text": "80"
+                },
+                {
+                    "no": 3,
+                    "text": "90"
+                },
+                {
+                    "no": 4,
+                    "text": "101"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "경계값 분석은 경계 주변(예: 59,60,79,80,100,101)을 중점으로 선정한다. 90은 경계값이 아니다."
+        },
+        {
+            "no": 19,
+            "topic": "필기[20년3회] 설계 기법",
+            "question": "알고리즘 설계 기법으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Divide and Conquer"
+                },
+                {
+                    "no": 2,
+                    "text": "Greedy"
+                },
+                {
+                    "no": 3,
+                    "text": "Static Block"
+                },
+                {
+                    "no": 4,
+                    "text": "Backtracking"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "대표 설계 기법은 분할정복/탐욕/백트래킹 등이다."
+        }
+    ]
+}

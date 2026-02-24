@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "exam": {
+      "name": "정보처리기사",
+      "year": 2024,
+      "session": 2
+    },
+    "subject": {
+      "name": "정보시스템 구축 관리",
+      "code": "IS_MANAGEMENT"
+    },
+    "type": "multiple_choice_single",
+    "language": "ko-KR",
+    "note": "2024년 2회 기출(PDF) 기반 추출. topic은 문제 내용과 연관되게 자동 생성."
+  },
+  "questions": [
+    {
+      "no": 81,
+      "topic": "기타",
+      "question": "인터넷을 통해 사용자의 컴퓨터에 침입하여 내 부 문서를 암호화한 뒤에 해독 프로그램 제공을 조건으로 사용자에게 돈을 요구하는 공격 방식 은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Smurf Attack"
+        },
+        {
+          "no": 2,
+          "text": "SYN Flooding"
+        },
+        {
+          "no": 3,
+          "text": "Ransomware"
+        },
+        {
+          "no": 4,
+          "text": "SQL Injection"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 ③ (Ransomware)이다."
+    },
+    {
+      "no": 82,
+      "topic": "보안-사회공학",
+      "question": "사회 공학 공격(Social Engineering Attack)에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Back Door"
+        },
+        {
+          "no": 2,
+          "text": "Phishing"
+        },
+        {
+          "no": 3,
+          "text": "Smishing"
+        },
+        {
+          "no": 4,
+          "text": "Parming"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 ① (Back Door)이다."
+    },
+    {
+      "no": 83,
+      "topic": "기타",
+      "question": "다음 중 시스템 인증 접근 방법에 대한 예시가 올바르지 않은 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "지식 기반 인증 : 패스워드, 핀 번호 등"
+        },
+        {
+          "no": 2,
+          "text": "소유 기반 인증 : 서명, 움직임 등"
+        },
+        {
+          "no": 3,
+          "text": "존재 기반 인증 : 지문, 홍채 등"
+        },
+        {
+          "no": 4,
+          "text": "위치 기반 인증 : GPS 좌표, IP 주소 등"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (소유 기반 인증 : 서명, 움직임 등)이다."
+    },
+    {
+      "no": 84,
+      "topic": "기타",
+      "question": "최대 50m 거리의 스마트폰을 자동으로 인식하 여 데이터를 전송하는 무선 통신 장치는 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Foursquare"
+        },
+        {
+          "no": 2,
+          "text": "Beacon"
+        },
+        {
+          "no": 3,
+          "text": "Mesh Network"
+        },
+        {
+          "no": 4,
+          "text": "Smart Grid"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (Beacon)이다."
+    },
+    {
+      "no": 85,
+      "topic": "기타",
+      "question": "위치 기반 소셜 네트워크 서비스로, 자신의 위치 를 지도상에 표시하거나 방문한 곳의 정보를 남 길 수 있는 기능을 제공하는 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Ubiquitous"
+        },
+        {
+          "no": 2,
+          "text": "MQTT"
+        },
+        {
+          "no": 3,
+          "text": "Zing"
+        },
+        {
+          "no": 4,
+          "text": "Foursquare"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 ④ (Foursquare)이다."
+    },
+    {
+      "no": 86,
+      "topic": "프로그래밍-Java",
+      "question": "가상화된 대형 스토리지를 형성하고 그 안에 보 관된 거대한 데이터 세트를 병렬로 처리할 수 있 도록 개발된 자바 소프트웨어 프레임워크는 무 엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Memristor"
+        },
+        {
+          "no": 2,
+          "text": "Foursquare"
+        },
+        {
+          "no": 3,
+          "text": "Hadoop"
+        },
+        {
+          "no": 4,
+          "text": "Beacon"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 ③ (Hadoop)이다."
+    },
+    {
+      "no": 87,
+      "topic": "네트워크-프로토콜",
+      "question": "TCP/IP 프로토콜 중, 응용 계층의 프로토콜에 해당하지 않는 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "SSL"
+        },
+        {
+          "no": 2,
+          "text": "TCP"
+        },
+        {
+          "no": 3,
+          "text": "SMTP"
+        },
+        {
+          "no": 4,
+          "text": "HTTP"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (TCP)이다."
+    },
+    {
+      "no": 88,
+      "topic": "기타",
+      "question": "다음 중 부정 응답에 해당하는 전송 제어 문자 는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "NAK"
+        },
+        {
+          "no": 2,
+          "text": "ACK"
+        },
+        {
+          "no": 3,
+          "text": "SYN"
+        },
+        {
+          "no": 4,
+          "text": "ETX"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 ① (NAK)이다."
+    },
+    {
+      "no": 89,
+      "topic": "기타",
+      "question": "이산대수의 난해성에 기반한 암호화 알고리즘으 로 비트코인 등에 활용되는 방식은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "RSA"
+        },
+        {
+          "no": 2,
+          "text": "ECC"
+        },
+        {
+          "no": 3,
+          "text": "DSA"
+        },
+        {
+          "no": 4,
+          "text": "MD5"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (ECC)이다."
+    },
+    {
+      "no": 90,
+      "topic": "기타",
+      "question": "아래 이미지와 같은 동작 방식을 가지는 블록 암호화 방식은 무엇인가? Initialization Vector (IV) Block Cipher Block Cipher Block Cipher Key Encryption Key Encryption Key Encryption Plaintext Plaintext Plaintext Ciphertext Ciphertext Ciphertext",
+      "choices": [
+        {
+          "no": 1,
+          "text": "CBC"
+        },
+        {
+          "no": 2,
+          "text": "ECB"
+        },
+        {
+          "no": 3,
+          "text": "CFB"
+        },
+        {
+          "no": 4,
+          "text": "OFB"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 ③ (CFB)이다."
+    },
+    {
+      "no": 91,
+      "topic": "기타",
+      "question": "판매나 배포 계획이 있었으나 실제로 고객에게 판매되거나 배포되지 않은 소프트웨어는 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Vaporware"
+        },
+        {
+          "no": 2,
+          "text": "Kiosk"
+        },
+        {
+          "no": 3,
+          "text": "HoneyPot"
+        },
+        {
+          "no": 4,
+          "text": "TensorFlow"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 ① (Vaporware)이다."
+    },
+    {
+      "no": 92,
+      "topic": "기타",
+      "question": "웹 페이지에 악의적인 스크립트를 포함시켜 사 용자 측에서 실행되게끔 유도하는 취약점은 무 엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Dictionary Attack"
+        },
+        {
+          "no": 2,
+          "text": "Back Door"
+        },
+        {
+          "no": 3,
+          "text": "Smishing"
+        },
+        {
+          "no": 4,
+          "text": "XSS"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 ④ (XSS)이다."
+    },
+    {
+      "no": 93,
+      "topic": "기타",
+      "question": "다음 중 대칭키 암호화 방식이 아닌 것은 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "DES"
+        },
+        {
+          "no": 2,
+          "text": "RSA"
+        },
+        {
+          "no": 3,
+          "text": "SEED"
+        },
+        {
+          "no": 4,
+          "text": "ARIA"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (RSA)이다."
+    },
+    {
+      "no": 94,
+      "topic": "암호-암호기술",
+      "question": "해시 암호에 대한 설명으로 옳지 않은 것은 무엇 인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "동일한 입력에 대해 동일한 출력을 보장한 다."
+        },
+        {
+          "no": 2,
+          "text": "양방향으로 변환 가능한 알고리즘이다."
+        },
+        {
+          "no": 3,
+          "text": "SNEFRU, MD4, MD5, N-NASH, SHA 등이 있다."
+        },
+        {
+          "no": 4,
+          "text": "암호화, 무결성 검증 등 정보보호의 다양한 분야에서 활용된다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (양방향으로 변환 가능한 알고리즘이다.)이다."
+    },
+    {
+      "no": 95,
+      "topic": "기타",
+      "question": "다음 중 위험 분석에 대한 설명과 가장 거리가 먼 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "위험은 위협에 의해 정보 자산이 피해를 입 을 확률과 자산에 끼치는 영향이다."
+        },
+        {
+          "no": 2,
+          "text": "위험을 인식하고 적절한 비용 이내에서 적절 한 통제 방안을 통해 위협을 통제하는 과정 이다."
+        },
+        {
+          "no": 3,
+          "text": "위험을 전부 제거하는 것이 궁극적인 목적이 다."
+        },
+        {
+          "no": 4,
+          "text": "잔여 위험이 너무 적은 경우는 위험 관리의 성능이 좋거나 자산의 가치가 낮은 경우일 수 있다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 ③ (위험을 전부 제거하는 것이 궁극적인 목적이 다.)이다."
+    },
+    {
+      "no": 96,
+      "topic": "네트워크-기초",
+      "question": "IPv6의 주소 표기법으로 올바른 것은 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "192.168.1.30"
+        },
+        {
+          "no": 2,
+          "text": "3ffe:1900:4545:0003:0200:f8ff:ffff:1105"
+        },
+        {
+          "no": 3,
+          "text": "00:A0:C3:4B:21:33"
+        },
+        {
+          "no": 4,
+          "text": "0000:002A:0080:c703:3c75"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 ② (3ffe:1900:4545:0003:0200:f8ff:ffff:1105)이다."
+    },
+    {
+      "no": 97,
+      "topic": "네트워크-기초",
+      "question": "다음 중 네트워크 토폴로지에 해당하지 않는 것 은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Line"
+        },
+        {
+          "no": 2,
+          "text": "Bus"
+        },
+        {
+          "no": 3,
+          "text": "Mesh"
+        },
+        {
+          "no": 4,
+          "text": "Tree"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 ① (Line)이다."
+    },
+    {
+      "no": 98,
+      "topic": "네트워크-기초",
+      "question": "다음 중 OSI 7계층의 전송 계층에 해당하는 설 명이 아닌 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "단말기 간 신뢰성을 보장하는 데이터 송수 신을 제공한다."
+        },
+        {
+          "no": 2,
+          "text": "오류 검출, 흐름 제어, 다중화 등을 수행한 다."
+        },
+        {
+          "no": 3,
+          "text": "종단 간 통신을 다루는 최하위 계층이다."
+        },
+        {
+          "no": 4,
+          "text": "프레임 단위로 데이터를 전송한다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 ④ (프레임 단위로 데이터를 전송한다.)이다."
+    },
+    {
+      "no": 99,
+      "topic": "기타",
+      "question": "전자우편 서비스에서 멀티미디어 메일을 주고받 기 위한 프로토콜은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "SMTP"
+        },
+        {
+          "no": 2,
+          "text": "POP3"
+        },
+        {
+          "no": 3,
+          "text": "MIME"
+        },
+        {
+          "no": 4,
+          "text": "IMAP"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 ③ (MIME)이다."
+    },
+    {
+      "no": 100,
+      "topic": "네트워크-기초",
+      "question": "IPv4 주소 체계에 해당하지 않는 전송 방식은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "애니캐스트"
+        },
+        {
+          "no": 2,
+          "text": "유니캐스트"
+        },
+        {
+          "no": 3,
+          "text": "멀티캐스트"
+        },
+        {
+          "no": 4,
+          "text": "브로드캐스트"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 ① (애니캐스트)이다."
+    }
+  ]
+}

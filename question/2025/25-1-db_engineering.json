@@ -1,0 +1,531 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 1
+        },
+        "subject": {
+            "name": "데이터베이스 구축",
+            "code": "DB_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "트랜잭션 특성(ACID)",
+            "question": "트랜잭션이 가져야 할 특성으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Atomicity"
+                },
+                {
+                    "no": 2,
+                    "text": "Concurrency"
+                },
+                {
+                    "no": 3,
+                    "text": "Isolation"
+                },
+                {
+                    "no": 4,
+                    "text": "Durability"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "ACID는 Atomicity/Consistency/Isolation/Durability이다."
+        },
+        {
+            "no": 2,
+            "topic": "정규화 목적(복원)",
+            "question": "정규화의 목적으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "어떠한 릴레이션이라도 DB 내에서 표현 가능하게 만든다."
+                },
+                {
+                    "no": 2,
+                    "text": "데이터 삽입 시 릴레이션 재구성 필요성을 줄인다."
+                },
+                {
+                    "no": 3,
+                    "text": "중복을 배제하여 삽입/삭제/갱신 이상의 발생을 야기한다."
+                },
+                {
+                    "no": 4,
+                    "text": "효과적인 검색 알고리즘을 생성할 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정규화는 이상(Anomaly)을 '방지'하는 것이 목적이다."
+        },
+        {
+            "no": 3,
+            "topic": "분산 DB 투명성(위치 투명성) (복원)",
+            "question": "분산 데이터베이스 목표 중 \"저장 위치를 몰라도 논리적으로 자신의 사이트에 있는 것처럼 처리\"와 관계 있는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Failure Transparency"
+                },
+                {
+                    "no": 2,
+                    "text": "Concurrency Transparency"
+                },
+                {
+                    "no": 3,
+                    "text": "Location Transparency"
+                },
+                {
+                    "no": 4,
+                    "text": "Replication Transparency"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Location Transparency는 데이터 위치를 사용자에게 숨긴다."
+        },
+        {
+            "no": 4,
+            "topic": "릴레이션 특징(복원)",
+            "question": "릴레이션(Relation)에 대한 설명으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "튜플 삽입/삭제로 시간에 따라 변한다."
+                },
+                {
+                    "no": 2,
+                    "text": "하나의 릴레이션 내 튜플은 일반적으로 중복되지 않는다."
+                },
+                {
+                    "no": 3,
+                    "text": "애트리뷰트 값은 원자값을 가진다."
+                },
+                {
+                    "no": 4,
+                    "text": "튜플 사이에는 순서가 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "릴레이션의 튜플은 순서가 없다고 본다."
+        },
+        {
+            "no": 5,
+            "topic": "HAVING 절",
+            "question": "SQL에서 HAVING 절은 반드시 어떤 구문과 함께 사용되는가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GROUP BY"
+                },
+                {
+                    "no": 2,
+                    "text": "ORDER BY"
+                },
+                {
+                    "no": 3,
+                    "text": "UPDATE"
+                },
+                {
+                    "no": 4,
+                    "text": "JOIN"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "HAVING은 그룹(집계 결과)에 대한 조건이므로 GROUP BY와 함께 사용된다."
+        },
+        {
+            "no": 6,
+            "topic": "DISTINCT",
+            "question": "SELECT 결과에서 중복 레코드를 제거하기 위해 사용하는 키워드는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GROUP BY"
+                },
+                {
+                    "no": 2,
+                    "text": "DISTINCT"
+                },
+                {
+                    "no": 3,
+                    "text": "UPDATE"
+                },
+                {
+                    "no": 4,
+                    "text": "JOIN"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "DISTINCT는 중복 행 제거에 사용된다."
+        },
+        {
+            "no": 7,
+            "topic": "ETL 정의",
+            "question": "ETL(Extraction, Transformation, Loading)에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DB 인덱스를 생성하고 튜닝하는 과정"
+                },
+                {
+                    "no": 2,
+                    "text": "소스에서 추출→변환→타깃에 적재하는 데이터 이동/가공 과정"
+                },
+                {
+                    "no": 3,
+                    "text": "트랜잭션 격리 수준을 설정하는 과정"
+                },
+                {
+                    "no": 4,
+                    "text": "분산 DB 복제본을 동기화하는 과정"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "ETL은 데이터 웨어하우징 등에서 표준 데이터 적재 흐름이다."
+        },
+        {
+            "no": 8,
+            "topic": "로킹(Locking) (복원)",
+            "question": "로킹(Locking) 기법에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "로킹 대상 객체의 크기를 로킹 단위라고 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "로킹 단위가 작아지면 병행성 수준이 낮아진다."
+                },
+                {
+                    "no": 3,
+                    "text": "데이터베이스도 로킹 단위가 될 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "로킹 단위가 커지면 로크 수가 작아 오버헤드가 감소할 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "로킹 단위가 작아지면 보통 병행성이 증가한다(락 수/오버헤드는 증가 가능)."
+        },
+        {
+            "no": 9,
+            "topic": "정규화(복원)",
+            "question": "정규화에 관한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "1NF: 도메인 값이 원자값만 가지면 1정규형이다."
+                },
+                {
+                    "no": 2,
+                    "text": "정규형 차수가 높아질수록 만족해야 할 제약조건이 많아진다."
+                },
+                {
+                    "no": 3,
+                    "text": "2NF: 1NF이며 키가 아닌 모든 속성이 기본키에 완전 함수 종속이면 2정규형이다."
+                },
+                {
+                    "no": 4,
+                    "text": "3NF: 2NF이며 결정자이면서 후보키가 아닌 것을 제거하면 3정규형이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "④는 보통 BCNF(결정자가 후보키가 되도록) 설명에 더 가깝다."
+        },
+        {
+            "no": 10,
+            "topic": "버전관리 용어(체크인) (복원)",
+            "question": "저장소에 새로운 버전의 파일로 갱신하는 것을 의미하는 용어는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "형상 감사(Configuration Audit)"
+                },
+                {
+                    "no": 2,
+                    "text": "롤백(Rollback)"
+                },
+                {
+                    "no": 3,
+                    "text": "단위 테스트(Unit Test)"
+                },
+                {
+                    "no": 4,
+                    "text": "체크인(Check-In)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Check-in은 변경을 저장소에 반영(commit/push 맥락)하는 개념으로 출제된다."
+        },
+        {
+            "no": 11,
+            "topic": "NULL 검색 SQL(복원)",
+            "question": "학적 테이블에서 전화번호가 NULL이 아닌 학생명을 검색하는 SQL로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SELECT 학생명 FROM 학적 WHERE 전화번호 DON'T NULL;"
+                },
+                {
+                    "no": 2,
+                    "text": "SELECT 학생명 FROM 학적 WHERE 전화번호 != NOT NULL;"
+                },
+                {
+                    "no": 3,
+                    "text": "SELECT 학생명 FROM 학적 WHERE 전화번호 IS NOT NULL;"
+                },
+                {
+                    "no": 4,
+                    "text": "SELECT 학생명 FROM 학적 WHERE 전화번호 IS NULL;"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "NULL 비교는 IS NULL / IS NOT NULL을 사용한다."
+        },
+        {
+            "no": 12,
+            "topic": "정규화 수행 시점(복원)",
+            "question": "정규화에 대한 설명으로 적절하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "데이터베이스의 개념적 설계 단계 이전에 수행한다."
+                },
+                {
+                    "no": 2,
+                    "text": "데이터 구조의 안정성을 최대화한다."
+                },
+                {
+                    "no": 3,
+                    "text": "중복을 배제하여 이상 발생을 방지한다."
+                },
+                {
+                    "no": 4,
+                    "text": "데이터 삽입 시 재구성 필요성을 줄인다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정규화는 일반적으로 개념/논리 설계 과정에서 수행된다."
+        },
+        {
+            "no": 13,
+            "topic": "슈퍼키(유일성 O, 최소성 X) (복원)",
+            "question": "릴레이션의 모든 튜플에 대해 유일성은 만족하지만 최소성은 만족하지 못하는 키는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "후보키"
+                },
+                {
+                    "no": 2,
+                    "text": "기본키"
+                },
+                {
+                    "no": 3,
+                    "text": "슈퍼키"
+                },
+                {
+                    "no": 4,
+                    "text": "외래키"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "슈퍼키는 유일성은 만족하나 최소성은 보장되지 않는다."
+        },
+        {
+            "no": 14,
+            "topic": "DDL 아닌 것(복원)",
+            "question": "SQL 분류 중 DDL에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "UPDATE"
+                },
+                {
+                    "no": 2,
+                    "text": "ALTER"
+                },
+                {
+                    "no": 3,
+                    "text": "DROP"
+                },
+                {
+                    "no": 4,
+                    "text": "CREATE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "UPDATE는 DML이다."
+        },
+        {
+            "no": 15,
+            "topic": "Atomicity(복원)",
+            "question": "다음 설명에 해당하는 트랜잭션 특성은?\n\"트랜잭션의 연산은 모두 반영되거나 전혀 반영되지 않아야 한다.\"",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Durability"
+                },
+                {
+                    "no": 2,
+                    "text": "Share"
+                },
+                {
+                    "no": 3,
+                    "text": "Consistency"
+                },
+                {
+                    "no": 4,
+                    "text": "Atomicity"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "All-or-Nothing 성질은 Atomicity이다."
+        },
+        {
+            "no": 16,
+            "topic": "SELECT 설명(복원)",
+            "question": "SQL문에서 SELECT에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "FROM 절에는 검색 대상 테이블명을 기술한다."
+                },
+                {
+                    "no": 2,
+                    "text": "중복 제거를 위해 WHERE 절에 DISTINCT를 사용한다."
+                },
+                {
+                    "no": 3,
+                    "text": "HAVING은 GROUP BY와 함께 사용되며 그룹 조건을 지정한다."
+                },
+                {
+                    "no": 4,
+                    "text": "ORDER BY는 특정 속성 기준 정렬에 사용한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "DISTINCT는 SELECT 절에서 사용한다(SELECT DISTINCT ...)."
+        },
+        {
+            "no": 17,
+            "topic": "트랜잭션 특성 아닌 것(복원)",
+            "question": "트랜잭션의 특성에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Isolation"
+                },
+                {
+                    "no": 2,
+                    "text": "Consistency"
+                },
+                {
+                    "no": 3,
+                    "text": "Atomicity"
+                },
+                {
+                    "no": 4,
+                    "text": "Distribution"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "ACID에 Distribution은 포함되지 않는다."
+        },
+        {
+            "no": 18,
+            "topic": "뷰(View) (복원)",
+            "question": "뷰(View)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "뷰 위에 또 다른 뷰를 정의할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "뷰 조작에서 삽입/갱신/삭제는 제약이 따른다."
+                },
+                {
+                    "no": 3,
+                    "text": "뷰의 정의는 기본 테이블과 같이 ALTER로 변경한다."
+                },
+                {
+                    "no": 4,
+                    "text": "기본 테이블이 제거되면 뷰도 제거될 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "뷰 정의 변경은 보통 CREATE OR REPLACE VIEW 또는 DROP 후 CREATE로 처리한다."
+        },
+        {
+            "no": 19,
+            "topic": "TRUNCATE 특징(복원)",
+            "question": "TRUNCATE에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DML이며 행 단위로 삭제되어 롤백이 항상 가능하다."
+                },
+                {
+                    "no": 2,
+                    "text": "DDL로 분류되며 보통 자동 커밋 성격으로 롤백이 어렵다."
+                },
+                {
+                    "no": 3,
+                    "text": "특정 조건을 만족하는 행만 삭제한다."
+                },
+                {
+                    "no": 4,
+                    "text": "JOIN 결과를 임시로 제거하는 명령이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "TRUNCATE는 테이블 전체 데이터 삭제(DDL 취급)로 출제된다."
+        }
+    ]
+}

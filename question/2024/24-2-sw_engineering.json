@@ -1,0 +1,558 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2024,
+            "session": 2
+        },
+        "subject": {
+            "name": "소프트웨어 개발",
+            "code": "SW_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "2024년 2회 기출(PDF) 기반 추출. topic은 문제 내용과 연관되게 자동 생성."
+    },
+    "questions": [
+        {
+            "no": 21,
+            "topic": "테스트 환경 구축",
+            "question": "다음 중 테스트 환경 구축에 대한 설명으로 가 장 거리가 먼 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "실제 환경과 유사한 시스템을 구축하여 테스 트를 진행한다."
+                },
+                {
+                    "no": 2,
+                    "text": "물리적 구축이 어려운 경우에는 가상 환경 을 이용하여 테스트를 진행한다."
+                },
+                {
+                    "no": 3,
+                    "text": "네트워크 역시 VLAN과 같은 기술을 활용 하여 논리적으로 분할된 환경을 구성한다."
+                },
+                {
+                    "no": 4,
+                    "text": "테스트 성공 여부 판단의 기준은 기대 결과 와 실제 결과가 완전히 일치하는 것이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ (테스트 성공 여부 판단의 기준은 기대 결과 와 실제 결과가 완전히 일치하는 것이다.)이다."
+        },
+        {
+            "no": 22,
+            "topic": "기타",
+            "question": "다음 중 개발이 완료된 소프트웨어에 대해 사용 자 요구사항 충족 여부를 사용자가 직접 테스트 하는 테스트 방식은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "시스템 테스트"
+                },
+                {
+                    "no": 2,
+                    "text": "인수 테스트"
+                },
+                {
+                    "no": 3,
+                    "text": "회귀 테스트"
+                },
+                {
+                    "no": 4,
+                    "text": "단위 테스트"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (인수 테스트)이다."
+        },
+        {
+            "no": 23,
+            "topic": "기타",
+            "question": "소프트웨어 복잡도를 판단하는 요소 중 하나로, “자신을 호출하는 모듈의 수”를 나타내는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Fan-In"
+                },
+                {
+                    "no": 2,
+                    "text": "Fan-Out"
+                },
+                {
+                    "no": 3,
+                    "text": "Cohesion"
+                },
+                {
+                    "no": 4,
+                    "text": "Coupling"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (Fan-In)이다."
+        },
+        {
+            "no": 24,
+            "topic": "기타",
+            "question": "다음 중 효율적인 모듈 설계에 해당하는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제어도와 결합도는 높이고, 공유도와 응집도 는 낮추도록 설계되어야 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "공유도와 응집도는 높이고, 제어도와 결합도 는 낮추도록 설계되어야 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "제어도와 응집도는 높이고, 공유도와 결합도 는 낮추도록 설계되어야 한다."
+                },
+                {
+                    "no": 4,
+                    "text": "공유도와 결합도는 높이고, 제어도와 응집도 는 낮추도록 설계되어야 한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (공유도와 응집도는 높이고, 제어도와 결합도 는 낮추도록 설계되어야 한다.)이다."
+        },
+        {
+            "no": 25,
+            "topic": "모듈 품질-응집도",
+            "question": "다음 중 동일한 입력을 기반으로 수행된 기능의 출력 결과를 이용하여 서로 다른 기능을 수행하 는 경우의 응집도는 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Temporal"
+                },
+                {
+                    "no": 2,
+                    "text": "Procedural"
+                },
+                {
+                    "no": 3,
+                    "text": "Communication"
+                },
+                {
+                    "no": 4,
+                    "text": "Parameter"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (Communication)이다."
+        },
+        {
+            "no": 26,
+            "topic": "기타",
+            "question": "다음 중 모듈 간 가장 강한 의존성을 가지는 결 합도는 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "External"
+                },
+                {
+                    "no": 2,
+                    "text": "Stamp"
+                },
+                {
+                    "no": 3,
+                    "text": "Control"
+                },
+                {
+                    "no": 4,
+                    "text": "Content"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④이다."
+        },
+        {
+            "no": 27,
+            "topic": "운영체제-페이지 교체",
+            "question": "페이지 교체 알고리즘 중, FIFO를 변형한 형태 로 페이지 부재가 발생하지 않으면 참조된 페이 지를 큐의 맨 뒤로 이동시키는 알고리즘은 무엇 인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "LRU"
+                },
+                {
+                    "no": 2,
+                    "text": "LFU"
+                },
+                {
+                    "no": 3,
+                    "text": "NUR"
+                },
+                {
+                    "no": 4,
+                    "text": "SCR"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④이다."
+        },
+        {
+            "no": 28,
+            "topic": "자료구조-스택/수식",
+            "question": "다음 중 후위식(postfix)을 변환하기에 가장 적 절한 자료구조는 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스택"
+                },
+                {
+                    "no": 2,
+                    "text": "트리"
+                },
+                {
+                    "no": 3,
+                    "text": "연결 리스트"
+                },
+                {
+                    "no": 4,
+                    "text": "데크"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (스택)이다."
+        },
+        {
+            "no": 29,
+            "topic": "자료구조-트리 순회",
+            "question": "다음 중 아래 트리의 전위 순회 경로로 옳은 것 은? U L Z W Q D G Y J",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "G→Y→W→Q→L→J→D→Z→U"
+                },
+                {
+                    "no": 2,
+                    "text": "G→W→Y→L→Q→U→J→D→Z"
+                },
+                {
+                    "no": 3,
+                    "text": "G→D→W→Q→L→J→Y→Z→U"
+                },
+                {
+                    "no": 4,
+                    "text": "U→L→W→G→Y→Q→Z→D→J"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ (U→L→W→G→Y→Q→Z→D→J)이다."
+        },
+        {
+            "no": 30,
+            "topic": "자료구조-트리 순회",
+            "question": "다음 트리를 중위 순회할 경우, 4번째로 방문하 는 노드는 무엇인가? R P H Q L B T",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "R"
+                },
+                {
+                    "no": 2,
+                    "text": "P"
+                },
+                {
+                    "no": 3,
+                    "text": "H"
+                },
+                {
+                    "no": 4,
+                    "text": "L"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (R)이다."
+        },
+        {
+            "no": 31,
+            "topic": "알고리즘-이진 탐색",
+            "question": "다음 중 아래 문자 배열에서 이진 탐색 방식으 로 <H>를 찾을 경우의 탐색 횟수로 올바른 것은 무엇인가? (단, 탐색 횟수의 기준은 값을 비교하 는 횟수라고 가정한다) A B C D E F G H I J K",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "2"
+                },
+                {
+                    "no": 2,
+                    "text": "3"
+                },
+                {
+                    "no": 3,
+                    "text": "4"
+                },
+                {
+                    "no": 4,
+                    "text": "5"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (4)이다."
+        },
+        {
+            "no": 32,
+            "topic": "기타",
+            "question": "아래 트리 구조는 5개의 데이터 [33, 52, 24, 77, 36]를 하향식 힙으로 변환한 것이다. [A] 노 드에 해당하는 데이터는 무엇인가? A",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "33"
+                },
+                {
+                    "no": 2,
+                    "text": "52"
+                },
+                {
+                    "no": 3,
+                    "text": "24"
+                },
+                {
+                    "no": 4,
+                    "text": "36"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (52)이다."
+        },
+        {
+            "no": 33,
+            "topic": "자료구조-해싱",
+            "question": "다음 중 해싱을 이용하여 처리 데이터에 직접 접근이 가능한 파일 편성(설계) 방식은 무엇인 가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "indexed sequential organization"
+                },
+                {
+                    "no": 2,
+                    "text": "sequential organization"
+                },
+                {
+                    "no": 3,
+                    "text": "Random organization"
+                },
+                {
+                    "no": 4,
+                    "text": "Hash-Directed organization"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (Random organization)이다."
+        },
+        {
+            "no": 34,
+            "topic": "제품 SW 패키징",
+            "question": "다음 중 제품 소프트웨어 패키징에 포함되어야 하는 요소와 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "디지털 저작권 보호 기술"
+                },
+                {
+                    "no": 2,
+                    "text": "릴리즈 노트 및 매뉴얼"
+                },
+                {
+                    "no": 3,
+                    "text": "소프트웨어 수정을 위한 소스 코드"
+                },
+                {
+                    "no": 4,
+                    "text": "소프트웨어 업데이트 및 삭제를 위한 프로그 램"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (소프트웨어 수정을 위한 소스 코드)이다."
+        },
+        {
+            "no": 35,
+            "topic": "테스트-단위",
+            "question": "다음 중 단위 테스트에 대한 설명과 가장 거리 가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "점증적 방식과 비점증적 방식으로 나눌 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "소프트웨어 설계의 최소 단위인 모듈의 기능 을 중심으로 테스트한다."
+                },
+                {
+                    "no": 3,
+                    "text": "모듈의 기능 수행 여부와 논리적인 오류를 검출하는 과정이다."
+                },
+                {
+                    "no": 4,
+                    "text": "일반적으로 화이트박스 테스트를 진행한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (점증적 방식과 비점증적 방식으로 나눌 수 있다.)이다."
+        },
+        {
+            "no": 36,
+            "topic": "기타",
+            "question": "입력값의 범위를 유사한 특성을 가진 그룹으로 분류하고, 각 그룹에서 유효한 값과 무효한 값을 균등하게 선택하여 테스트 케이스를 설계하는 테스트 기법은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Boundary Value Analysis"
+                },
+                {
+                    "no": 2,
+                    "text": "Error Guessing"
+                },
+                {
+                    "no": 3,
+                    "text": "Equivalence Partitioning"
+                },
+                {
+                    "no": 4,
+                    "text": "Cause-Effect Graphing"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (Equivalence Partitioning)이다."
+        },
+        {
+            "no": 37,
+            "topic": "테스트-결함 관리",
+            "question": "다음 중 문제가 해결되어 더 이상 조치가 필요 하지 않음을 의미하는 결함 추적 상태는 무엇인 가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "결함 수정"
+                },
+                {
+                    "no": 2,
+                    "text": "결함 해제"
+                },
+                {
+                    "no": 3,
+                    "text": "결함 할당"
+                },
+                {
+                    "no": 4,
+                    "text": "결함 종료"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ (결함 종료)이다."
+        },
+        {
+            "no": 38,
+            "topic": "기타",
+            "question": "럼바우 분석 절차 중, 상태/활동 다이어그램을 활용하여 기능의 흐름을 표시하는 절차는 무엇 인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개념 모델링"
+                },
+                {
+                    "no": 2,
+                    "text": "객체 모델링"
+                },
+                {
+                    "no": 3,
+                    "text": "동적 모델링"
+                },
+                {
+                    "no": 4,
+                    "text": "기능 모델링"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (동적 모델링)이다."
+        },
+        {
+            "no": 39,
+            "topic": "기타",
+            "question": "다음 중 프로그램 실행 없이 소스 코드의 구조 분석에 중점을 둔 테스트의 종류와 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Basic Path"
+                },
+                {
+                    "no": 2,
+                    "text": "Peer Review"
+                },
+                {
+                    "no": 3,
+                    "text": "Walkthrough"
+                },
+                {
+                    "no": 4,
+                    "text": "Inspection"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (Basic Path)이다."
+        },
+        {
+            "no": 40,
+            "topic": "기타",
+            "question": "다음 중 아래 인접 행렬에 해당하는 그래프는 무엇인가? 0 1 1 0 0 0 1 1 0",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "1 3 2"
+                },
+                {
+                    "no": 2,
+                    "text": "1 3 2"
+                },
+                {
+                    "no": 3,
+                    "text": "1 3 2"
+                },
+                {
+                    "no": 4,
+                    "text": "1 3 2"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (1 3 2)이다."
+        }
+    ]
+}

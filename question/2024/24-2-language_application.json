@@ -1,0 +1,558 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2024,
+            "session": 2
+        },
+        "subject": {
+            "name": "프로그래밍 언어 활용",
+            "code": "LANGUAGE_APPLICATION"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "2024년 2회 기출(PDF) 기반 추출. topic은 문제 내용과 연관되게 자동 생성."
+    },
+    "questions": [
+        {
+            "no": 61,
+            "topic": "프로그래밍-Python",
+            "question": "아래 Python 코드의 실행 결과는 무엇인가? a = [“Python”, “is”, “programming”, “language”] s = a[1:5:3] print(s)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "[‘is’]"
+                },
+                {
+                    "no": 2,
+                    "text": "[‘o’]"
+                },
+                {
+                    "no": 3,
+                    "text": "[‘programming’, ‘language’]"
+                },
+                {
+                    "no": 4,
+                    "text": "[‘language’]"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① ([‘is’])이다."
+        },
+        {
+            "no": 62,
+            "topic": "프로그래밍-Python",
+            "question": "아래 파이썬 코드의 실행 결과는 무엇인가? a = [‘A’, ‘B’, ‘C’, ‘D’] s = a del(s[2]) print(s)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "[‘A’, ‘B’, ‘C’, ‘D’]"
+                },
+                {
+                    "no": 2,
+                    "text": "[‘C’]"
+                },
+                {
+                    "no": 3,
+                    "text": "[‘A’, ‘C’, ‘D’]"
+                },
+                {
+                    "no": 4,
+                    "text": "[‘A’, ‘B’, ‘D’]"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ ([‘A’, ‘B’, ‘D’])이다."
+        },
+        {
+            "no": 63,
+            "topic": "프로그래밍-C",
+            "question": "아래 C코드의 실행 결과는 무엇인가? #include <stdio.h> int fn(int *x, int *y){ int s = *x + *y; *x *= 10; *y += 10; return s; } int main(){ int a=3, b=4, s; s = fn(&a, &b); printf(“%d %d %d”, s, a, b); return 0; }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "7 10 10"
+                },
+                {
+                    "no": 2,
+                    "text": "44 3 4"
+                },
+                {
+                    "no": 3,
+                    "text": "7 30 14"
+                },
+                {
+                    "no": 4,
+                    "text": "0 3 4"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (7 30 14)이다."
+        },
+        {
+            "no": 64,
+            "topic": "프로그래밍-C",
+            "question": "아래 C코드는 변수 n의 홀수/짝수 여부를 판 단하여 출력한다. 빈칸에 알맞은 코드는 무엇인 가? #include <stdio.h> int fn(int n){ int s = <ㄱ>; if(s==1){ <ㄴ>; } return 0; } int main(){ int n=10; if(fn(n)){ printf(“홀수”); }else{ printf(“짝수”); } return 0; }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "<ㄱ> n%2, <ㄴ> return 1"
+                },
+                {
+                    "no": 2,
+                    "text": "<ㄱ> n//2, <ㄴ> return 1"
+                },
+                {
+                    "no": 3,
+                    "text": "<ㄱ> n%2, <ㄴ> return 0"
+                },
+                {
+                    "no": 4,
+                    "text": "<ㄱ> n/2, <ㄴ> return 1"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (<ㄱ> n%2, <ㄴ> return 1)이다."
+        },
+        {
+            "no": 65,
+            "topic": "프로그래밍-C",
+            "question": "아래 C코드의 출력 결과는 무엇인가? #include <stdio.h> struct s{ unsigned int x : 2; unsigned int y : 4; unsigned int z : 8; }; int main(){ struct s a; a.x = 2; a.y = 8; a.z = 32; printf(“%ld”, sizeof(a)); return 0; }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "2"
+                },
+                {
+                    "no": 2,
+                    "text": "4"
+                },
+                {
+                    "no": 3,
+                    "text": "8"
+                },
+                {
+                    "no": 4,
+                    "text": "32"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ②이다."
+        },
+        {
+            "no": 66,
+            "topic": "프로그래밍-Java",
+            "question": "아래 Java코드의 출력 결과로 올바른 것은 무 엇인가? public class Main{ public static void main(String[] args) { int a=3, b=5; System.out.println(“3 + 5 = ” + 3 + 5); System.out.println(“3 + 5 = ” + (3 + 5)); } }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3 + 5 = 8 3 + 5 = 8"
+                },
+                {
+                    "no": 2,
+                    "text": "3 + 5 = 35 3 + 5 = 35"
+                },
+                {
+                    "no": 3,
+                    "text": "3 + 5 = 35 3 + 5 = 8"
+                },
+                {
+                    "no": 4,
+                    "text": "3 + 5 = 8 3 + 5 = 35"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (3 + 5 = 35 3 + 5 = 8)이다."
+        },
+        {
+            "no": 67,
+            "topic": "프로그래밍-Java",
+            "question": "아래 Java코드의 출력 결과로 옳은 것은 무엇 인가? public class Main{ public static void main(String[] args) { int n=5243, s=0, t; while(n>0){ t = n%10; s += t; n /= 10; } System.out.println(s); } }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3"
+                },
+                {
+                    "no": 2,
+                    "text": "14"
+                },
+                {
+                    "no": 3,
+                    "text": "3425"
+                },
+                {
+                    "no": 4,
+                    "text": "0"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (14)이다."
+        },
+        {
+            "no": 68,
+            "topic": "프로그래밍-C",
+            "question": "C언어에서 malloc 함수를 사용하여 생성한 데 이터는 어떤 메모리 영역에 위치하는가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "코드 영역"
+                },
+                {
+                    "no": 2,
+                    "text": "데이터 영역"
+                },
+                {
+                    "no": 3,
+                    "text": "힙 영역"
+                },
+                {
+                    "no": 4,
+                    "text": "스택 영역"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (힙 영역)이다."
+        },
+        {
+            "no": 69,
+            "topic": "기타",
+            "question": "다음 중 주기억 장치 할당 기법에 해당하지 않 는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "페이징"
+                },
+                {
+                    "no": 2,
+                    "text": "단일 분할 할당"
+                },
+                {
+                    "no": 3,
+                    "text": "다중 분할 할당"
+                },
+                {
+                    "no": 4,
+                    "text": "가상 분할 할당"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ (가상 분할 할당)이다."
+        },
+        {
+            "no": 70,
+            "topic": "운영체제-페이지 교체",
+            "question": "3개의 빈 프레임이 존재하고 페이지 참조열이 아래와 같을 때, FIFO 알고리즘에 의해 발생하는 페이지 부재수는 얼마 인가? [3, 0, 1, 2, 0, 2, 0, 4, 2]",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3"
+                },
+                {
+                    "no": 2,
+                    "text": "4"
+                },
+                {
+                    "no": 3,
+                    "text": "5"
+                },
+                {
+                    "no": 4,
+                    "text": "6"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (5)이다."
+        },
+        {
+            "no": 71,
+            "topic": "운영체제-스케줄링",
+            "question": "다음 중 프로세스 스케줄링에 대한 설명과 거리 가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "중요 자원의 선점 및 불안정성이 높은 프로 세스가 우선순위를 가진다."
+                },
+                {
+                    "no": 2,
+                    "text": "CPU 할당을 위해 프로세스들 사이의 우선 순위를 부여, 관리하는 것이다."
+                },
+                {
+                    "no": 3,
+                    "text": "신속한 응답 시간, 효율적 자원 활용의 균형 이 유지되어야 한다."
+                },
+                {
+                    "no": 4,
+                    "text": "실행 중인 프로세스의 강제 중단 여부에 따 라 비선점형, 선점형 스케줄링으로 나뉜다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (중요 자원의 선점 및 불안정성이 높은 프로 세스가 우선순위를 가진다.)이다."
+        },
+        {
+            "no": 72,
+            "topic": "운영체제-스케줄링",
+            "question": "다음 중 비선점형 스케줄링이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "HRN"
+                },
+                {
+                    "no": 2,
+                    "text": "SRT"
+                },
+                {
+                    "no": 3,
+                    "text": "SJF"
+                },
+                {
+                    "no": 4,
+                    "text": "FIFO"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (SRT)이다."
+        },
+        {
+            "no": 73,
+            "topic": "프로그래밍-Python",
+            "question": "아래 Python코드의 출력 결과로 옳은 것은 무 엇인가? s = ‘’ for i in range(1, 16): if(i%5==0): s += “O” else: s += “X” print(s)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "OOOOXOOOOXOOOOX"
+                },
+                {
+                    "no": 2,
+                    "text": "XXXXOXXXXOXXXXO"
+                },
+                {
+                    "no": 3,
+                    "text": "OXXXXOXXXXOXXXX"
+                },
+                {
+                    "no": 4,
+                    "text": "XOOOOXOOOOXOOOO"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (XXXXOXXXXOXXXXO)이다."
+        },
+        {
+            "no": 74,
+            "topic": "프로그래밍-Python",
+            "question": "아래 Python코드의 출력 결과로 옳은 것은 무 엇인가? a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] a[3:7:2] = [‘s’, ‘t’] print(a)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "[1, 2, 3, ‘s’, 5, 6, ‘t’, 8, 9, 0]"
+                },
+                {
+                    "no": 2,
+                    "text": "[1, 2, ‘s’, 4, 5, 6, ‘t’, 8, 9, 0]"
+                },
+                {
+                    "no": 3,
+                    "text": "[1, 2, ‘s’, 4, 5, ‘t’, 7, 8, 9, 0]"
+                },
+                {
+                    "no": 4,
+                    "text": "[1, 2, 3, ‘s’, 5, ‘t’, 7, 8, 9, 0]"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ ([1, 2, 3, ‘s’, 5, ‘t’, 7, 8, 9, 0])이다."
+        },
+        {
+            "no": 75,
+            "topic": "프로그래밍-Python",
+            "question": "다음 중 웹 크롤링을 위한 파이썬 프레임워크는 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Scrapy"
+                },
+                {
+                    "no": 2,
+                    "text": "Django"
+                },
+                {
+                    "no": 3,
+                    "text": "NumPy"
+                },
+                {
+                    "no": 4,
+                    "text": "Scikit-learn"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (Scrapy)이다."
+        },
+        {
+            "no": 76,
+            "topic": "프로그래밍-Python",
+            "question": "아래의 조건에 따라 사용하기 적절한 파이썬 자 료구조는 무엇인가? •데이터 수정이 가능해야 한다. •키워드로 데이터에 접근할 수 있어야 한다.",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "list"
+                },
+                {
+                    "no": 2,
+                    "text": "tuple"
+                },
+                {
+                    "no": 3,
+                    "text": "dictionary"
+                },
+                {
+                    "no": 4,
+                    "text": "array"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 ③ (dictionary)이다."
+        },
+        {
+            "no": 77,
+            "topic": "운영체제-UNIX/Linux",
+            "question": "UNIX에 대한 설명과 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "다수의 작업을 병행처리 할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "다수의 사용자가 동시에 사용할 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "커널과 쉘, 유틸리티로 구성된다."
+                },
+                {
+                    "no": 4,
+                    "text": "Java언어 기반으로 제작되어 이식성이 우수 하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 ④ (Java언어 기반으로 제작되어 이식성이 우수 하다.)이다."
+        },
+        {
+            "no": 78,
+            "topic": "기타",
+            "question": "빈 기억공간의 크기가 각각 8, 8, 10, 10일 때, 6, 6, 12, 15 크기를 가진 파일을 순서대로 할당 하는 경우의 내부 단편화의 합은 얼마인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "4"
+                },
+                {
+                    "no": 2,
+                    "text": "7"
+                },
+                {
+                    "no": 3,
+                    "text": "11"
+                },
+                {
+                    "no": 4,
+                    "text": "27"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (4)이다."
+        },
+        {
+            "no": 79,
+            "topic": "기타",
+            "question": "프로그램을 다양한 크기의 논리적인 조각으로 나눈 후, 주기억 장치에 적재하는 기법은 무엇인 가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "페이징"
+                },
+                {
+                    "no": 2,
+                    "text": "세그먼테이션"
+                },
+                {
+                    "no": 3,
+                    "text": "오버레이"
+                },
+                {
+                    "no": 4,
+                    "text": "스와핑"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 ② (세그먼테이션)이다."
+        },
+        {
+            "no": 80,
+            "topic": "프로그래밍-Java",
+            "question": "아래 Java코드의 출력 결과로 옳은 것은 무엇 인가? class a{ static int c = 10; } class b{ int x = a.c + 10; } public class Main{ public static void main(String[] args) { b t = new b(); System.out.print(t.x); } }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "20"
+                },
+                {
+                    "no": 2,
+                    "text": "10"
+                },
+                {
+                    "no": 3,
+                    "text": "0"
+                },
+                {
+                    "no": 4,
+                    "text": "오류"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 ① (20)이다."
+        }
+    ]
+}

@@ -1,0 +1,531 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 3
+        },
+        "subject": {
+            "name": "정보시스템 구축 관리",
+            "code": "IS_MANAGEMENT"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "필기[20년4회] SDDC",
+            "question": "소프트웨어 정의 데이터센터(SDDC)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "컴퓨팅/네트워킹/스토리지/관리를 소프트웨어로 정의한다."
+                },
+                {
+                    "no": 2,
+                    "text": "인력 개입 없이 소프트웨어 조작만으로 자동 제어/관리한다."
+                },
+                {
+                    "no": 3,
+                    "text": "데이터센터 내 자원을 가상화하여 서비스한다."
+                },
+                {
+                    "no": 4,
+                    "text": "특정 하드웨어에 종속되어 특화 업무에 적합하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "SDDC는 하드웨어 종속을 줄이고 소프트웨어로 유연하게 자원을 운영하는 방향이다."
+        },
+        {
+            "no": 2,
+            "topic": "필기[20년4회] MapReduce",
+            "question": "다음 설명에 해당하는 것은?\n- 대용량 데이터 분산 처리를 위한 프로그래밍 모델\n- Google 고안\n- 분산 처리 후 다시 합치는 과정",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "MapReduce"
+                },
+                {
+                    "no": 2,
+                    "text": "SQL"
+                },
+                {
+                    "no": 3,
+                    "text": "Hijacking"
+                },
+                {
+                    "no": 4,
+                    "text": "Logs"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Map 단계와 Reduce 단계의 병렬 처리 모델이다."
+        },
+        {
+            "no": 3,
+            "topic": "필기[21년1회] MQTT",
+            "question": "대역폭이 제한된 환경에 최적화된 푸시 기반 경량 메시지 전송 프로토콜로 Broker를 통한 발행/구독 방식이며 IBM 주도로 개발된 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GRID"
+                },
+                {
+                    "no": 2,
+                    "text": "TELNET"
+                },
+                {
+                    "no": 3,
+                    "text": "GPN"
+                },
+                {
+                    "no": 4,
+                    "text": "MQTT"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "MQTT는 Publish/Subscribe 기반 메시징 프로토콜이다."
+        },
+        {
+            "no": 4,
+            "topic": "필기[22년2회/21년3회] TensorFlow",
+            "question": "구글 브레인 팀이 제작하여 공개한 기계학습 오픈소스 라이브러리는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Tajo"
+                },
+                {
+                    "no": 2,
+                    "text": "One Seg"
+                },
+                {
+                    "no": 3,
+                    "text": "Foursquare"
+                },
+                {
+                    "no": 4,
+                    "text": "TensorFlow"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "TensorFlow는 Google이 공개한 대표 ML 라이브러리이다."
+        },
+        {
+            "no": 5,
+            "topic": "필기[21년3회] PaaS-TA",
+            "question": "국내 IT 서비스 경쟁력 강화를 목표로 개발된 개방형 클라우드 컴퓨팅 플랫폼은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "N2OS"
+                },
+                {
+                    "no": 2,
+                    "text": "PaaS-TA"
+                },
+                {
+                    "no": 3,
+                    "text": "KAWS"
+                },
+                {
+                    "no": 4,
+                    "text": "Metaverse"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "복원 정답 기준: PaaS-TA."
+        },
+        {
+            "no": 6,
+            "topic": "클라우드 서비스 모델(보완)",
+            "question": "다음 중 서비스형 클라우드 플랫폼(서비스 모델)로 보기 어려운 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "LaaS"
+                },
+                {
+                    "no": 2,
+                    "text": "PaaS"
+                },
+                {
+                    "no": 3,
+                    "text": "IaaS"
+                },
+                {
+                    "no": 4,
+                    "text": "SaaS"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "대표 서비스 모델은 IaaS/PaaS/SaaS이며 LaaS는 일반 표준 분류로는 덜 사용된다."
+        },
+        {
+            "no": 7,
+            "topic": "Salt",
+            "question": "같은 패스워드라도 다른 해시값으로 저장되도록 추가하는 값을 의미하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Pass flag"
+                },
+                {
+                    "no": 2,
+                    "text": "Bucket"
+                },
+                {
+                    "no": 3,
+                    "text": "Opcode"
+                },
+                {
+                    "no": 4,
+                    "text": "Salt"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Salt는 레인보우 테이블 공격 등을 완화한다."
+        },
+        {
+            "no": 8,
+            "topic": "SSH 포트",
+            "question": "SSH(Secure Shell)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SSH의 기본 네트워크 포트는 220번을 사용한다."
+                },
+                {
+                    "no": 2,
+                    "text": "전송되는 데이터는 암호화된다."
+                },
+                {
+                    "no": 3,
+                    "text": "키 인증은 서버에 클라이언트 공개키를 등록해 사용한다."
+                },
+                {
+                    "no": 4,
+                    "text": "원격 명령 실행이나 셸 서비스 등을 수행한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "SSH 기본 포트는 22번이다."
+        },
+        {
+            "no": 9,
+            "topic": "스위치 재밍",
+            "question": "위조된 MAC 주소를 대량으로 흘려 스위치 MAC 테이블을 혼란시켜 더미 허브처럼 작동하게 하는 공격은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "ARP Spoofing"
+                },
+                {
+                    "no": 2,
+                    "text": "Switch Jamming"
+                },
+                {
+                    "no": 3,
+                    "text": "Smishing"
+                },
+                {
+                    "no": 4,
+                    "text": "TearDrop"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "MAC 테이블 플러딩 기반 공격으로 스위치 재밍으로 출제된다."
+        },
+        {
+            "no": 10,
+            "topic": "필기[25년1회] SDS",
+            "question": "다음 설명에 해당하는 SDx 기술은?\n- 스토리지를 소프트웨어로 규정/가상화해 필요한 만큼 나눠 사용\n- 여러 스토리지를 하나처럼 관리",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Software Defined Storage"
+                },
+                {
+                    "no": 2,
+                    "text": "Distribution Oriented Storage"
+                },
+                {
+                    "no": 3,
+                    "text": "Network Architected Storage"
+                },
+                {
+                    "no": 4,
+                    "text": "Systematic Network Storage"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "SDS는 스토리지를 소프트웨어로 추상화/가상화한다."
+        },
+        {
+            "no": 11,
+            "topic": "실기[20년1회] LAND 공격",
+            "question": "출발지 주소/포트를 목적지와 동일하게 위조해 대상 시스템을 마비시키는 공격은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DRDoS 공격"
+                },
+                {
+                    "no": 2,
+                    "text": "LAND 공격"
+                },
+                {
+                    "no": 3,
+                    "text": "SQL 주입 공격"
+                },
+                {
+                    "no": 4,
+                    "text": "SYN Flooding"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "LAND는 출발지=목적지로 위조해 처리 자원을 소모시키는 공격으로 출제된다."
+        },
+        {
+            "no": 12,
+            "topic": "tcp wrapper",
+            "question": "접속 인가 여부를 점검해 허용/거부할 수 있는 접근제어 유틸리티는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "tcp wrapper"
+                },
+                {
+                    "no": 2,
+                    "text": "trace checker"
+                },
+                {
+                    "no": 3,
+                    "text": "token finder"
+                },
+                {
+                    "no": 4,
+                    "text": "change detector"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "호스트 기반 접근제어를 수행한다."
+        },
+        {
+            "no": 13,
+            "topic": "Honeypot",
+            "question": "침입자를 속여 공격기법 정보를 수집하기 위해 의도적으로 취약해 보이도록 설치한 시스템은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Apache"
+                },
+                {
+                    "no": 2,
+                    "text": "Hadoop"
+                },
+                {
+                    "no": 3,
+                    "text": "Honeypot"
+                },
+                {
+                    "no": 4,
+                    "text": "MapReduce"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "허니팟은 공격 유도/분석을 위한 미끼 시스템이다."
+        },
+        {
+            "no": 14,
+            "topic": "Metaverse",
+            "question": "웹/인터넷 등의 가상 세계가 현실에 흡수된 형태로 ‘세컨드라이프’ 등이 대표적인 개념은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "AaaS"
+                },
+                {
+                    "no": 2,
+                    "text": "Grid"
+                },
+                {
+                    "no": 3,
+                    "text": "Metaverse"
+                },
+                {
+                    "no": 4,
+                    "text": "Splogger"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "메타버스는 현실-가상 융합형 가상 세계 개념이다."
+        },
+        {
+            "no": 15,
+            "topic": "인증 요소(Password)",
+            "question": "패스워드(Password)가 해당하는 인증 요소는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Something You Have"
+                },
+                {
+                    "no": 2,
+                    "text": "Something You Are"
+                },
+                {
+                    "no": 3,
+                    "text": "Something You Know"
+                },
+                {
+                    "no": 4,
+                    "text": "Something You Do"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "패스워드는 지식 기반 인증 요소이다."
+        },
+        {
+            "no": 16,
+            "topic": "Vaporware",
+            "question": "판매/배포 계획만 발표되었으나 실제 고객에게 판매·배포되지 않는 소프트웨어를 의미하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "grayware"
+                },
+                {
+                    "no": 2,
+                    "text": "adware"
+                },
+                {
+                    "no": 3,
+                    "text": "spyware"
+                },
+                {
+                    "no": 4,
+                    "text": "vaporware"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "vaporware는 발표만 되고 출시되지 않는 SW를 의미한다."
+        },
+        {
+            "no": 17,
+            "topic": "지식 기반 인증(보완)",
+            "question": "지식 기반 인증(Something You Know) 방법으로 적절하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "패스워드"
+                },
+                {
+                    "no": 2,
+                    "text": "I-PIN"
+                },
+                {
+                    "no": 3,
+                    "text": "보안 질문(예: 출신 초등학교)"
+                },
+                {
+                    "no": 4,
+                    "text": "GPS"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "GPS는 위치/소유 기반 요소에 가깝고 지식 기반 인증으로 보지 않는다."
+        },
+        {
+            "no": 18,
+            "topic": "무결성",
+            "question": "시스템 내 정보가 인가된 사용자만 수정할 수 있도록 하는 보안 요소는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기밀성"
+                },
+                {
+                    "no": 2,
+                    "text": "부인방지"
+                },
+                {
+                    "no": 3,
+                    "text": "가용성"
+                },
+                {
+                    "no": 4,
+                    "text": "무결성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "무결성은 무단 변경 방지를 의미한다."
+        },
+        {
+            "no": 19,
+            "topic": "정보보안 3요소",
+            "question": "정보보안의 3대 요소에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기밀성"
+                },
+                {
+                    "no": 2,
+                    "text": "휘발성"
+                },
+                {
+                    "no": 3,
+                    "text": "무결성"
+                },
+                {
+                    "no": 4,
+                    "text": "가용성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "CIA: 기밀성/무결성/가용성."
+        }
+    ]
+}

@@ -1,0 +1,666 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 2
+        },
+        "subject": {
+            "name": "소프트웨어 설계",
+            "code": "SW_DESIGN"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "성능 측정 항목",
+            "question": "소프트웨어 설계 시 구축된 플랫폼의 성능 특성 분석에 사용되는 측정 항목이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "응답시간(Response Time)"
+                },
+                {
+                    "no": 2,
+                    "text": "가용성(Availability)"
+                },
+                {
+                    "no": 3,
+                    "text": "사용률(Utilization)"
+                },
+                {
+                    "no": 4,
+                    "text": "서버 튜닝(Server Tuning)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "서버 튜닝은 활동/개선 작업에 가깝고, 응답시간·가용성·사용률은 성능 측정 지표로 사용된다."
+        },
+        {
+            "no": 2,
+            "topic": "DFD 요소 표기",
+            "question": "자료 흐름도(DFD)의 각 요소별 표기 형태의 연결이 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Process : 원"
+                },
+                {
+                    "no": 2,
+                    "text": "Data Flow : 화살표"
+                },
+                {
+                    "no": 3,
+                    "text": "Data Store : 삼각형"
+                },
+                {
+                    "no": 4,
+                    "text": "Terminator : 사각형"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Data Store는 보통 평행선(이중선) 또는 열린 사각형으로 표현한다."
+        },
+        {
+            "no": 3,
+            "topic": "UML 구조 다이어그램",
+            "question": "UML 모델에서 사용하는 Structural Diagram에 속하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Class Diagram"
+                },
+                {
+                    "no": 2,
+                    "text": "Object Diagram"
+                },
+                {
+                    "no": 3,
+                    "text": "Component Diagram"
+                },
+                {
+                    "no": 4,
+                    "text": "Activity Diagram"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Activity Diagram은 행위(Behavioral) 다이어그램이다."
+        },
+        {
+            "no": 4,
+            "topic": "애자일 방법론",
+            "question": "애자일 방법론에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 중심 개발(FDD)"
+                },
+                {
+                    "no": 2,
+                    "text": "스크럼(Scrum)"
+                },
+                {
+                    "no": 3,
+                    "text": "익스트림 프로그래밍(XP)"
+                },
+                {
+                    "no": 4,
+                    "text": "하둡(Hadoop)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "하둡은 분산처리 프레임워크로 개발 방법론이 아니다."
+        },
+        {
+            "no": 5,
+            "topic": "리팩토링 목적",
+            "question": "리팩토링(Refactoring)을 하는 목적으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "산출물의 변경 사항을 버전 관리하기 위함이다."
+                },
+                {
+                    "no": 2,
+                    "text": "새로운 코드를 설계하는 기술로, 좋은 설계가 되도록 개선시키기 위함이다."
+                },
+                {
+                    "no": 3,
+                    "text": "소프트웨어의 기능을 추가하여 소프트웨어 시스템을 변경하기 위함이다."
+                },
+                {
+                    "no": 4,
+                    "text": "기능 변경 없이 내부 구조만 개선하여 이해/수정을 쉽게 하기 위함이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "리팩토링은 외부 동작(기능)을 바꾸지 않고 내부 구조를 개선한다."
+        },
+        {
+            "no": 6,
+            "topic": "UML 구조 다이어그램(중복문항)",
+            "question": "UML 모델에서 사용하는 Structural Diagram에 속하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Class Diagram"
+                },
+                {
+                    "no": 2,
+                    "text": "Object Diagram"
+                },
+                {
+                    "no": 3,
+                    "text": "Component Diagram"
+                },
+                {
+                    "no": 4,
+                    "text": "Activity Diagram"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Activity Diagram은 행위 다이어그램이다."
+        },
+        {
+            "no": 7,
+            "topic": "UI 기본 개념-피드백",
+            "question": "UI와 관련된 기본 개념 중 시스템의 상태와 사용자의 지시에 대한 효과를 보여주어 사용자가 진행 상황을 해석할 수 있도록 돕는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Feedback"
+                },
+                {
+                    "no": 2,
+                    "text": "Posture"
+                },
+                {
+                    "no": 3,
+                    "text": "Module"
+                },
+                {
+                    "no": 4,
+                    "text": "Hash"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Feedback은 사용자 행동에 대한 시스템 반응/상태를 알려준다."
+        },
+        {
+            "no": 8,
+            "topic": "하향식/상향식 설계 비교",
+            "question": "하향식 설계 방법과 상향식 설계 방법 비교 설명으로 가장 좋지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "하향식 설계에서는 통합 검사 시 인터페이스가 이미 정의되어 있어 통합이 간단하다."
+                },
+                {
+                    "no": 2,
+                    "text": "하향식 설계에서 레벨이 낮은 데이터 구조의 세부 사항은 설계 초기 단계에서 필요하다."
+                },
+                {
+                    "no": 3,
+                    "text": "상향식 설계는 최하위 수준 모듈부터 설계하고 완성되면 결합하여 검사한다."
+                },
+                {
+                    "no": 4,
+                    "text": "상향식 설계에서는 인터페이스가 성립되지 않아도 기능 추가가 쉽다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "상향식 설계도 결합/인터페이스 설계가 필요하며 인터페이스 없이 쉽다고 보기 어렵다."
+        },
+        {
+            "no": 9,
+            "topic": "정보 은닉",
+            "question": "객체지향에서 정보 은닉(Information Hiding)과 가장 밀접한 관계가 있는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Encapsulation"
+                },
+                {
+                    "no": 2,
+                    "text": "Class"
+                },
+                {
+                    "no": 3,
+                    "text": "Method"
+                },
+                {
+                    "no": 4,
+                    "text": "Instance"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "캡슐화는 내부 구현을 숨기고 필요한 인터페이스만 노출한다."
+        },
+        {
+            "no": 10,
+            "topic": "객체지향-클래스",
+            "question": "객체 지향 소프트웨어 공학에서 하나 이상의 유사한 객체들을 묶어서 하나의 공통된 특성을 표현한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "트랜잭션"
+                },
+                {
+                    "no": 2,
+                    "text": "클래스"
+                },
+                {
+                    "no": 3,
+                    "text": "시퀀스"
+                },
+                {
+                    "no": 4,
+                    "text": "서브루틴"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "클래스는 객체들의 공통 속성과 행위를 정의한다."
+        },
+        {
+            "no": 11,
+            "topic": "GoF 행위 패턴",
+            "question": "GoF(Gang of Four) 디자인 패턴에서 행위(Behavioral) 패턴에 속하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Builder"
+                },
+                {
+                    "no": 2,
+                    "text": "Visitor"
+                },
+                {
+                    "no": 3,
+                    "text": "Prototype"
+                },
+                {
+                    "no": 4,
+                    "text": "Bridge"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Visitor는 행위 패턴, Builder/Prototype은 생성, Bridge는 구조 패턴이다."
+        },
+        {
+            "no": 12,
+            "topic": "CASE 도구",
+            "question": "CASE 도구에 대한 설명으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "소프트웨어 개발 과정의 일부 또는 전체를 자동화하기 위한 도구이다."
+                },
+                {
+                    "no": 2,
+                    "text": "표준화된 개발 환경 구축 및 문서 자동화 기능을 제공한다."
+                },
+                {
+                    "no": 3,
+                    "text": "작업 과정 및 데이터 공유를 통해 커뮤니케이션을 증대한다."
+                },
+                {
+                    "no": 4,
+                    "text": "2000년대 이후 소개되었으며 객체지향 시스템에 한해 효과적이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "CASE는 오래전부터 존재했고 객체지향에만 한정되지 않는다."
+        },
+        {
+            "no": 13,
+            "topic": "UI 설계 원칙-직관성",
+            "question": "UI 설계 원칙에서 누구나 쉽게 이해하고 사용할 수 있어야 한다는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "유효성"
+                },
+                {
+                    "no": 2,
+                    "text": "직관성"
+                },
+                {
+                    "no": 3,
+                    "text": "무결성"
+                },
+                {
+                    "no": 4,
+                    "text": "유연성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "직관성은 사용자가 쉽게 이해하고 사용할 수 있도록 하는 원칙이다."
+        },
+        {
+            "no": 14,
+            "topic": "모듈화(결합도/응집도)",
+            "question": "효과적인 모듈화 설계 방법으로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Coupling은 강하게 Cohesion는 약하게 설계한다."
+                },
+                {
+                    "no": 2,
+                    "text": "Complexity와 Redundancy를 최대한 줄일 수 있도록 설계한다."
+                },
+                {
+                    "no": 3,
+                    "text": "Maintenance가 용이하도록 설계한다."
+                },
+                {
+                    "no": 4,
+                    "text": "Module 크기는 기능/구조를 이해하기 쉬운 크기로 설계한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "좋은 모듈화는 결합도는 약하게, 응집도는 강하게 설계한다."
+        },
+        {
+            "no": 15,
+            "topic": "객체-인스턴스",
+            "question": "객체 지향 기법에서 클래스에 속한 각각의 객체를 의미하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Instance"
+                },
+                {
+                    "no": 2,
+                    "text": "Message"
+                },
+                {
+                    "no": 3,
+                    "text": "Method"
+                },
+                {
+                    "no": 4,
+                    "text": "Module"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Instance는 클래스의 구체화된 객체이다."
+        },
+        {
+            "no": 16,
+            "topic": "럼바우 OMT",
+            "question": "럼바우(Rumbaugh)의 객체지향 분석과 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 모델링"
+                },
+                {
+                    "no": 2,
+                    "text": "동적 모델링"
+                },
+                {
+                    "no": 3,
+                    "text": "객체 모델링"
+                },
+                {
+                    "no": 4,
+                    "text": "정적 모델링"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "OMT는 객체/동적/기능 모델링을 사용한다."
+        },
+        {
+            "no": 17,
+            "topic": "Factory Method 패턴",
+            "question": "다음 내용이 설명하는 디자인 패턴은?\n- 객체 생성을 위한 인터페이스를 정의하지만, 어떤 클래스의 인스턴스를 생성할지는 서브클래스가 결정한다.\n- Virtual-Constructor 패턴이라고도 한다.",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Visitor 패턴"
+                },
+                {
+                    "no": 2,
+                    "text": "Observer 패턴"
+                },
+                {
+                    "no": 3,
+                    "text": "Factory Method 패턴"
+                },
+                {
+                    "no": 4,
+                    "text": "Bridge 패턴"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Factory Method는 객체 생성 책임을 서브클래스로 위임한다."
+        },
+        {
+            "no": 18,
+            "topic": "FTR 지침",
+            "question": "정형 기술 검토(FTR)의 지침으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "의제를 제한한다."
+                },
+                {
+                    "no": 2,
+                    "text": "논쟁과 반박을 제한한다."
+                },
+                {
+                    "no": 3,
+                    "text": "문제 영역을 명확히 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "참가자의 수를 제한하지 않는다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FTR은 효율을 위해 참가자 수를 적절히 제한한다."
+        },
+        {
+            "no": 19,
+            "topic": "요구사항 명세 기법",
+            "question": "요구사항 명세 기법에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "비정형 명세 기법은 자연어 기반으로 서술한다."
+                },
+                {
+                    "no": 2,
+                    "text": "비정형 명세 기법은 Z 비정형 명세 기법을 사용한다."
+                },
+                {
+                    "no": 3,
+                    "text": "정형 명세 기법은 수학적 원리와 표기법을 이용한다."
+                },
+                {
+                    "no": 4,
+                    "text": "정형 명세 기법은 비정형에 비해 표현이 간결할 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Z는 대표적인 정형 명세 기법(형식 명세)이다."
+        },
+        {
+            "no": 20,
+            "topic": "Fan-in",
+            "question": "소프트웨어 구조와 관련된 용어로, 주어진 한 모듈(Module)을 제어하는 상위 모듈 수를 나타내는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Fan-out"
+                },
+                {
+                    "no": 2,
+                    "text": "Coupling"
+                },
+                {
+                    "no": 3,
+                    "text": "Fan-in"
+                },
+                {
+                    "no": 4,
+                    "text": "Cohesion"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Fan-in은 해당 모듈을 호출/제어하는 상위 모듈의 수를 의미한다."
+        },
+        {
+            "no": 21,
+            "topic": "DFD 작성 지침",
+            "question": "자료 흐름도(DFD)를 작성하는데 지침이 될 수 없는 항목은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "자료 흐름은 처리(Process)를 거쳐 변환될 때마다 새로운 이름을 부여한다."
+                },
+                {
+                    "no": 2,
+                    "text": "출력 자료를 산출하기 위해서는 반드시 입력 자료가 발생해야 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "자료 저장소에 입력 화살표가 있으면 반드시 출력 화살표도 표시되어야 한다."
+                },
+                {
+                    "no": 4,
+                    "text": "상위 처리와 하위 DFD의 자료 흐름은 서로 일치되어야 한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "저장소는 입력만(저장) 또는 출력만(조회)인 경우가 있을 수 있어 항상 양방향이 필수는 아니다."
+        },
+        {
+            "no": 22,
+            "topic": "스크럼 활동",
+            "question": "다음 중 스크럼(Scrum) 방법론에서 일반적으로 하지 않는 활동은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제품 백로그(Product Backlog)를 작성한다."
+                },
+                {
+                    "no": 2,
+                    "text": "사용자 스토리를 기반으로 작업을 계획한다."
+                },
+                {
+                    "no": 3,
+                    "text": "스프린트 회고(Sprint Retrospective)를 진행한다."
+                },
+                {
+                    "no": 4,
+                    "text": "프로젝트 완료 후 모든 업무를 PM이 단독 평가한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "스크럼은 팀 중심의 자율성과 피드백을 강조하며, PM 단독 평가를 일반 활동으로 보지 않는다."
+        },
+        {
+            "no": 23,
+            "topic": "요구사항 검토-워크스루",
+            "question": "검토 회의 전에 요구사항 명세서를 미리 배포하여 사전 검토한 후 짧은 검토 회의를 통해 오류를 조기에 검출하는 요구사항 검토 방법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "빌드 검증"
+                },
+                {
+                    "no": 2,
+                    "text": "동료 검토"
+                },
+                {
+                    "no": 3,
+                    "text": "워크스루"
+                },
+                {
+                    "no": 4,
+                    "text": "개발자 검토"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "워크스루는 사전 배포/검토 후 짧게 리뷰하며 결함을 조기에 발견한다."
+        },
+        {
+            "no": 24,
+            "topic": "FTR 지침(중복문항)",
+            "question": "정형 기술 검토(FTR)의 지침으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "의제를 제한한다."
+                },
+                {
+                    "no": 2,
+                    "text": "논쟁과 반박을 제한한다."
+                },
+                {
+                    "no": 3,
+                    "text": "문제 영역을 명확히 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "참가자의 수를 제한하지 않는다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FTR은 참여 인원을 제한하고 집중적으로 진행하는 것이 일반적이다."
+        }
+    ]
+}

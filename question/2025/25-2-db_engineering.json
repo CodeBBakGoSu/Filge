@@ -1,0 +1,423 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 2
+        },
+        "subject": {
+            "name": "데이터베이스 구축",
+            "code": "DB_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성(표현 오류가 있는 보기는 의미 기준으로 판정)"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "DDL",
+            "question": "SQL의 분류 중 DDL에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "UPDATE"
+                },
+                {
+                    "no": 2,
+                    "text": "ALTER"
+                },
+                {
+                    "no": 3,
+                    "text": "DROP"
+                },
+                {
+                    "no": 4,
+                    "text": "CREATE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "UPDATE는 DML이다."
+        },
+        {
+            "no": 2,
+            "topic": "NULL 비교",
+            "question": "\"회사원\" 테이블에서 연락번호가 NULL이 아닌 사원명을 모두 찾는 SQL로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SELECT 사원명 FROM 회사원 WHERE 연락번호 != NULL;"
+                },
+                {
+                    "no": 2,
+                    "text": "SELECT 사원명 FROM 회사원 WHERE 연락번호 <> NULL;"
+                },
+                {
+                    "no": 3,
+                    "text": "SELECT 사원명 FROM 회사원 WHERE 연락번호 IS NOT NULL;"
+                },
+                {
+                    "no": 4,
+                    "text": "SELECT 사원명 FROM 회사원 WHERE 연락번호 DON'T NULL;"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "NULL 비교는 IS NULL / IS NOT NULL을 사용한다."
+        },
+        {
+            "no": 3,
+            "topic": "트랜잭션-원자성",
+            "question": "트랜잭션 특성 중 다음 설명에 해당하는 것은?\n\"트랜잭션의 연산은 모두 반영되거나 전혀 반영되지 않아야 한다.\"",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Durability"
+                },
+                {
+                    "no": 2,
+                    "text": "Share"
+                },
+                {
+                    "no": 3,
+                    "text": "Consistency"
+                },
+                {
+                    "no": 4,
+                    "text": "Atomicity"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "All-or-Nothing 성질은 Atomicity이다."
+        },
+        {
+            "no": 4,
+            "topic": "로킹 단위",
+            "question": "병행 제어의 로킹(Locking) 단위에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "데이터베이스, 파일, 레코드 등은 로킹 단위가 될 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "로킹 단위가 작아지면 로킹 오버헤드가 감소한다."
+                },
+                {
+                    "no": 3,
+                    "text": "로킹 단위가 작아지면 데이터베이스 공유도(병행성)가 증가한다."
+                },
+                {
+                    "no": 4,
+                    "text": "한꺼번에 로킹할 수 있는 객체의 크기를 로킹 단위라고 한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "로킹 단위가 작아지면 락 수가 증가해 오버헤드가 증가할 수 있다."
+        },
+        {
+            "no": 5,
+            "topic": "View",
+            "question": "뷰(View)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "뷰 위에 또 다른 뷰를 정의할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "뷰 조작에서 삽입/갱신/삭제는 제약이 따른다."
+                },
+                {
+                    "no": 3,
+                    "text": "뷰 정의는 기본 테이블과 달리 ALTER로 변경이 불가능하다."
+                },
+                {
+                    "no": 4,
+                    "text": "뷰가 정의된 기본 테이블이 제거되어도 뷰는 그대로 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "기본 테이블이 제거되면 뷰는 무효가 되거나 제거될 수 있다(환경/옵션에 따라 다름)."
+        },
+        {
+            "no": 6,
+            "topic": "릴레이션 성질",
+            "question": "릴레이션(Relation)에 대한 설명으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "튜플 삽입/삭제 등으로 시간에 따라 변한다."
+                },
+                {
+                    "no": 2,
+                    "text": "한 릴레이션 내 튜플들은 모두 상이하다."
+                },
+                {
+                    "no": 3,
+                    "text": "애트리뷰트는 원자 값으로 저장한다."
+                },
+                {
+                    "no": 4,
+                    "text": "튜플 사이에는 순서가 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "릴레이션의 튜플은 순서가 없다."
+        },
+        {
+            "no": 7,
+            "topic": "관계 대수",
+            "question": "관계 대수(Relational Algebra)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "릴레이션 조작을 위한 연산의 집합이다."
+                },
+                {
+                    "no": 2,
+                    "text": "일반 집합 연산과 순수 관계 연산으로 구분된다."
+                },
+                {
+                    "no": 3,
+                    "text": "연산 수행 순서를 명시하는 절차적 방법이다."
+                },
+                {
+                    "no": 4,
+                    "text": "원하는 정보와 유도 방법을 기술하는 비절차적 방법이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "비절차적 방법은 관계 해석(튜플/도메인 관계해석) 설명에 가깝다."
+        },
+        {
+            "no": 8,
+            "topic": "개념적 설계",
+            "question": "데이터베이스 설계과정 중 개념적 설계 단계에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "산출물로 ERD가 만들어진다."
+                },
+                {
+                    "no": 2,
+                    "text": "DBMS에 독립적인 개념 스키마를 설계한다."
+                },
+                {
+                    "no": 3,
+                    "text": "트랜잭션 인터페이스를 설계한다."
+                },
+                {
+                    "no": 4,
+                    "text": "논리적 설계 단계의 전 단계에서 수행된다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "트랜잭션 인터페이스 설계는 보통 논리/물리 설계 및 구현 단계에서 구체화된다."
+        },
+        {
+            "no": 9,
+            "topic": "무결성 규정",
+            "question": "데이터베이스 무결성 규정(Integrity Rule)과 관련한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "무결성 규정에는 제약 조건, 식별자 등의 요소가 포함될 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "무결성 규정의 대상으로 도메인, 키, 종속성 등이 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "불법 사용자에 의한 갱신으로부터 DB를 보호하기 위한 규정이다."
+                },
+                {
+                    "no": 4,
+                    "text": "릴레이션 무결성 규정은 조작 과정의 의미적 관계를 명세한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "③은 보안(인가/권한) 개념에 가깝고, 무결성은 데이터의 정확성/일관성 제약이다."
+        },
+        {
+            "no": 10,
+            "topic": "Degree/Cardinality",
+            "question": "3행 4열의 릴레이션이 주어졌을 때 Degree와 Cardinality로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Degree : 4, Cardinality : 3"
+                },
+                {
+                    "no": 2,
+                    "text": "Degree : 3, Cardinality : 4"
+                },
+                {
+                    "no": 3,
+                    "text": "Degree : 3, Cardinality : 12"
+                },
+                {
+                    "no": 4,
+                    "text": "Degree : 12, Cardinality : 3"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Degree=속성 수(열), Cardinality=튜플 수(행)이다."
+        },
+        {
+            "no": 11,
+            "topic": "개체 무결성",
+            "question": "관계 데이터 모델의 무결성 제약 중 기본키 값이 NULL이 될 수 없고 원자값을 갖는 성질은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개체 무결성"
+                },
+                {
+                    "no": 2,
+                    "text": "참조 무결성"
+                },
+                {
+                    "no": 3,
+                    "text": "도메인 무결성"
+                },
+                {
+                    "no": 4,
+                    "text": "튜플의 유일성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "개체 무결성은 기본키는 NULL 불가(및 유일) 성질을 포함한다."
+        },
+        {
+            "no": 12,
+            "topic": "ERD 기호",
+            "question": "E-R 다이어그램에서 사용되는 기호와 의미 연결이 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "사각형 – 개체 타입"
+                },
+                {
+                    "no": 2,
+                    "text": "삼각형 – 속성"
+                },
+                {
+                    "no": 3,
+                    "text": "선 – 개체 타입과 속성을 연결"
+                },
+                {
+                    "no": 4,
+                    "text": "마름모 – 관계 타입"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "속성은 일반적으로 타원(원/타원)으로 표현한다."
+        },
+        {
+            "no": 13,
+            "topic": "슈퍼키",
+            "question": "릴레이션의 모든 튜플에 대해 유일성은 만족하지만 최소성은 만족하지 못하는 키는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "후보키"
+                },
+                {
+                    "no": 2,
+                    "text": "기본키"
+                },
+                {
+                    "no": 3,
+                    "text": "슈퍼키"
+                },
+                {
+                    "no": 4,
+                    "text": "외래키"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "슈퍼키는 유일성 O, 최소성 X."
+        },
+        {
+            "no": 14,
+            "topic": "관계대수→SQL(복원)",
+            "question": "다음 관계 대수식을 SQL로 가장 옳게 표현한 것은?\nπA (σp (r1 |X| r2))",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "select P from r1, r2 where A;"
+                },
+                {
+                    "no": 2,
+                    "text": "select A from r1, r2 where P;"
+                },
+                {
+                    "no": 3,
+                    "text": "select r1, r2 from A where P;"
+                },
+                {
+                    "no": 4,
+                    "text": "select A from r1, r2;"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "σp는 where 조건 P, πA는 select A 의미로 보는 복원 문항이다."
+        },
+        {
+            "no": 15,
+            "topic": "후보키 성질",
+            "question": "후보키는 릴레이션의 모든 튜플에 대해 유일성과 (   )을 모두 만족시켜야 한다. ( )에 들어갈 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "중복성"
+                },
+                {
+                    "no": 2,
+                    "text": "최소성"
+                },
+                {
+                    "no": 3,
+                    "text": "참조성"
+                },
+                {
+                    "no": 4,
+                    "text": "동일성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "후보키는 유일성 + 최소성을 만족한다."
+        }
+    ]
+}

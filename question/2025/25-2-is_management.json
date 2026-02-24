@@ -1,0 +1,666 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 2
+        },
+        "subject": {
+            "name": "정보시스템 구축 관리",
+            "code": "IS_MANAGEMENT"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "나선형 모델",
+            "question": "소프트웨어 생명주기 모델 중 다음 설명에 해당하는 모형은?\n- 계획수립과 위험 분석, 구축, 고객 평가를 반복\n- 위험분석으로 위험요소를 제거\n- 대규모 프로젝트에 유리",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프로토타입 모델"
+                },
+                {
+                    "no": 2,
+                    "text": "폭포수 모델"
+                },
+                {
+                    "no": 3,
+                    "text": "나선형(Spiral) 모델"
+                },
+                {
+                    "no": 4,
+                    "text": "RAD 모델"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "나선형 모델은 반복 + 위험 분석이 핵심이다."
+        },
+        {
+            "no": 2,
+            "topic": "나선형 4활동 순서",
+            "question": "나선형 모델의 4가지 주요 활동이 순서대로 나열된 것은?\nⒶ 계획 수립 Ⓑ 고객 평가 Ⓒ 개발 및 검증 Ⓓ 위험 분석",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Ⓐ-Ⓑ-Ⓓ-Ⓒ 순으로 반복"
+                },
+                {
+                    "no": 2,
+                    "text": "Ⓐ-Ⓓ-Ⓒ-Ⓑ 순으로 반복"
+                },
+                {
+                    "no": 3,
+                    "text": "Ⓐ-Ⓑ-Ⓒ-Ⓓ 순으로 반복"
+                },
+                {
+                    "no": 4,
+                    "text": "Ⓐ-Ⓒ-Ⓑ-Ⓓ 순으로 반복"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "계획→위험분석→개발/검증→고객평가 순으로 반복한다."
+        },
+        {
+            "no": 3,
+            "topic": "비용 추정 모형",
+            "question": "소프트웨어 비용 추정 모형(Estimation Models)이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "COCOMO"
+                },
+                {
+                    "no": 2,
+                    "text": "Putnam"
+                },
+                {
+                    "no": 3,
+                    "text": "Function-Point"
+                },
+                {
+                    "no": 4,
+                    "text": "PERT"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "PERT는 일정/네트워크 기반 프로젝트 관리 기법으로 비용 추정 모형으로 보지 않는다."
+        },
+        {
+            "no": 4,
+            "topic": "프로젝트 관리 목표",
+            "question": "소프트웨어 프로젝트 관리에 대한 설명으로 가장 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개발에 따른 산출물 관리"
+                },
+                {
+                    "no": 2,
+                    "text": "소요인력은 최대화하고 정책 결정은 신속히 처리"
+                },
+                {
+                    "no": 3,
+                    "text": "기간은 연장하되 최소 비용으로 개발"
+                },
+                {
+                    "no": 4,
+                    "text": "주어진 기간 내 최소 비용으로 사용자를 만족시키는 시스템 개발"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "일정/비용/범위(품질)를 균형 있게 관리해 목표를 달성한다."
+        },
+        {
+            "no": 5,
+            "topic": "CMM 레벨",
+            "question": "CMM(Capability Maturity Model) 모델의 레벨로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "최적 단계"
+                },
+                {
+                    "no": 2,
+                    "text": "관리 단계"
+                },
+                {
+                    "no": 3,
+                    "text": "정의 단계"
+                },
+                {
+                    "no": 4,
+                    "text": "계획 단계"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "CMM 레벨: 초기/반복(관리)/정의/관리(정량)/최적화."
+        },
+        {
+            "no": 6,
+            "topic": "Mesh Network",
+            "question": "대규모 디바이스 네트워크 생성에 최적화된 새로운 방식의 네트워크 기술은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Software Defined Perimeter"
+                },
+                {
+                    "no": 2,
+                    "text": "Virtual Private Network"
+                },
+                {
+                    "no": 3,
+                    "text": "Local Area Network"
+                },
+                {
+                    "no": 4,
+                    "text": "Mesh Network"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Mesh는 노드 간 다중 경로로 연결되는 토폴로지/기술이다."
+        },
+        {
+            "no": 7,
+            "topic": "WAS",
+            "question": "WAS(Web Application Server)가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "JEUS"
+                },
+                {
+                    "no": 2,
+                    "text": "JVM"
+                },
+                {
+                    "no": 3,
+                    "text": "Tomcat"
+                },
+                {
+                    "no": 4,
+                    "text": "WebSphere"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "JVM은 자바 가상머신(실행 환경)이다."
+        },
+        {
+            "no": 8,
+            "topic": "Hadoop",
+            "question": "다음 설명에 해당하는 용어는?\n- 오픈 소스 기반 분산 컴퓨팅 플랫폼\n- 일반 PC급으로 대형 스토리지 형성\n- 빅데이터 저장/처리",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "하둡(Hadoop)"
+                },
+                {
+                    "no": 2,
+                    "text": "비컨(Beacon)"
+                },
+                {
+                    "no": 3,
+                    "text": "포스퀘어(Foursquare)"
+                },
+                {
+                    "no": 4,
+                    "text": "멤리스터(Memristor)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Hadoop은 HDFS/MapReduce 등으로 분산 저장/처리를 제공한다."
+        },
+        {
+            "no": 9,
+            "topic": "정보보안 3요소",
+            "question": "정보보안의 3대 요소에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기밀성"
+                },
+                {
+                    "no": 2,
+                    "text": "휘발성"
+                },
+                {
+                    "no": 3,
+                    "text": "무결성"
+                },
+                {
+                    "no": 4,
+                    "text": "가용성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "CIA: Confidentiality/Integrity/Availability."
+        },
+        {
+            "no": 10,
+            "topic": "공개키 암호(오답)",
+            "question": "공개키 암호화 방식에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "공개키로 암호화된 메시지는 반드시 공개키로 복호화해야 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "비대칭 암호기법이라고도 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "대표적인 기법으로 RSA가 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "키 분배가 용이하고 관리해야 할 키 개수가 적다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "공개키로 암호화한 것은 대응하는 개인키로 복호화한다."
+        },
+        {
+            "no": 11,
+            "topic": "백도어 탐지",
+            "question": "백도어 탐지 방법으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "무결성 검사"
+                },
+                {
+                    "no": 2,
+                    "text": "닫힌 포트 확인"
+                },
+                {
+                    "no": 3,
+                    "text": "로그 분석"
+                },
+                {
+                    "no": 4,
+                    "text": "SetUID 파일 검사"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "의심 포트는 '열린 포트' 탐지가 일반적이며 닫힌 포트 확인은 탐지와 거리가 멀다."
+        },
+        {
+            "no": 12,
+            "topic": "위험 유형(서버 팜)",
+            "question": "다음 중 위험 유형이 다른 하나는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스위치 재밍(Switch Jamming)"
+                },
+                {
+                    "no": 2,
+                    "text": "서버 팜(Server Farm)"
+                },
+                {
+                    "no": 3,
+                    "text": "물리적 위험(예: 침수, 화재)"
+                },
+                {
+                    "no": 4,
+                    "text": "기술적 위험(예: 시스템 오류, 해킹)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "서버 팜은 인프라 구성 개념으로 위험 유형이 아니다."
+        },
+        {
+            "no": 13,
+            "topic": "폭포수 모델",
+            "question": "고전적 생명주기 모형으로 선형 순차적 모델이라고도 하며 타당성 검토~유지보수 단계를 거치는 모형은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "폭포수 모형"
+                },
+                {
+                    "no": 2,
+                    "text": "애자일 모형"
+                },
+                {
+                    "no": 3,
+                    "text": "컴포넌트 기반 방법론"
+                },
+                {
+                    "no": 4,
+                    "text": "6GT 모형"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "선형 순차적 개발은 폭포수 모델이다."
+        },
+        {
+            "no": 14,
+            "topic": "COCOMO 프로젝트 유형",
+            "question": "COCOMO 모델의 프로젝트 유형으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Organic"
+                },
+                {
+                    "no": 2,
+                    "text": "Semi-detached"
+                },
+                {
+                    "no": 3,
+                    "text": "Embedded"
+                },
+                {
+                    "no": 4,
+                    "text": "Sequential"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "COCOMO 유형은 Organic/Semi-detached/Embedded."
+        },
+        {
+            "no": 15,
+            "topic": "Metaverse",
+            "question": "가상 세계가 현실 세계에 흡수된 형태로 '세컨드라이프' 등이 대표적인 개념은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "AaaS"
+                },
+                {
+                    "no": 2,
+                    "text": "Grid"
+                },
+                {
+                    "no": 3,
+                    "text": "Metaverse"
+                },
+                {
+                    "no": 4,
+                    "text": "Splogger"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "메타버스는 현실-가상 융합형 가상 세계 개념으로 출제된다."
+        },
+        {
+            "no": 16,
+            "topic": "Sqoop",
+            "question": "하둡(Hadoop)과 관계형 데이터베이스 간 데이터를 전송하도록 설계된 도구는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Apnic"
+                },
+                {
+                    "no": 2,
+                    "text": "Topology"
+                },
+                {
+                    "no": 3,
+                    "text": "Sqoop"
+                },
+                {
+                    "no": 4,
+                    "text": "SDB"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Sqoop은 RDBMS ↔ Hadoop 간 대량 데이터 전송 도구이다."
+        },
+        {
+            "no": 17,
+            "topic": "테일러링",
+            "question": "소프트웨어 개발 방법론의 테일러링(Tailoring) 관련 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프로젝트 수행 시 예상되는 변화를 배제하고 신속히 진행해야 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "프로젝트에 최적화되도록 절차/산출물 등을 변경하는 활동이다."
+                },
+                {
+                    "no": 3,
+                    "text": "관리 목적: 위험을 사전 식별/제거하여 안정적 진행을 돕는다."
+                },
+                {
+                    "no": 4,
+                    "text": "기술 목적: 특성에 맞는 기법/도구를 도입한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "테일러링은 변화/특성을 반영해 방법론을 조정하는 활동이다."
+        },
+        {
+            "no": 18,
+            "topic": "SDN",
+            "question": "제어부와 데이터 전달부를 분리하여 소프트웨어로 네트워크를 제어/관리하는 기술은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SDN(Software Defined Networking)"
+                },
+                {
+                    "no": 2,
+                    "text": "NFS(Network File System)"
+                },
+                {
+                    "no": 3,
+                    "text": "Network Mapper"
+                },
+                {
+                    "no": 4,
+                    "text": "AOE Network"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "SDN은 Control Plane/Data Plane 분리가 핵심이다."
+        },
+        {
+            "no": 19,
+            "topic": "Honeypot",
+            "question": "침입자를 속여 공격기법 정보를 수집하는 의도적 취약 시스템은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Apache"
+                },
+                {
+                    "no": 2,
+                    "text": "Hadoop"
+                },
+                {
+                    "no": 3,
+                    "text": "Honeypot"
+                },
+                {
+                    "no": 4,
+                    "text": "MapReduce"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "허니팟은 공격을 유도해 분석/추적 정보를 수집한다."
+        },
+        {
+            "no": 20,
+            "topic": "Smurfing",
+            "question": "IP/ICMP 특성을 악용하여 특정 사이트에 집중적으로 데이터를 보내 네트워크/시스템을 불능으로 만드는 공격은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "TearDrop"
+                },
+                {
+                    "no": 2,
+                    "text": "Smishing"
+                },
+                {
+                    "no": 3,
+                    "text": "Qshing"
+                },
+                {
+                    "no": 4,
+                    "text": "Smurfing"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Smurf 공격은 ICMP를 이용한 증폭형 DoS로 출제된다."
+        },
+        {
+            "no": 21,
+            "topic": "물리적 보안",
+            "question": "물리적 보안에 해당하는 내용으로 가장 적절하지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "운영 서버 시스템의 도난/파괴 방지"
+                },
+                {
+                    "no": 2,
+                    "text": "정보시스템/네트워크 장비 위치 공간 분리"
+                },
+                {
+                    "no": 3,
+                    "text": "보안구역 출입 통제"
+                },
+                {
+                    "no": 4,
+                    "text": "조직 내 정보보안 정책과 절차 수립"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정책/절차 수립은 관리적 보안에 해당한다."
+        },
+        {
+            "no": 22,
+            "topic": "RSA",
+            "question": "큰 수의 소인수 분해가 어렵다는 기반으로 1978년 MIT에서 제안된 공개키 암호 알고리즘은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DES"
+                },
+                {
+                    "no": 2,
+                    "text": "ARIA"
+                },
+                {
+                    "no": 3,
+                    "text": "SEED"
+                },
+                {
+                    "no": 4,
+                    "text": "RSA"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "RSA는 소인수 분해의 어려움에 기반한다."
+        },
+        {
+            "no": 23,
+            "topic": "tcp wrapper",
+            "question": "외부 컴퓨터 접속 시 인가 여부를 점검해 허용/거부할 수 있는 접근제어 유틸리티는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "tcp wrapper"
+                },
+                {
+                    "no": 2,
+                    "text": "trace checker"
+                },
+                {
+                    "no": 3,
+                    "text": "token finder"
+                },
+                {
+                    "no": 4,
+                    "text": "change detector"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "tcp wrapper는 호스트 기반 접근 제어에 사용된다."
+        },
+        {
+            "no": 24,
+            "topic": "윈도우-리눅스 상호운용(오픈소스)",
+            "question": "다음 중 윈도우와 리눅스 간 상호 운용을 도와주는 오픈소스 소프트웨어가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Samba"
+                },
+                {
+                    "no": 2,
+                    "text": "OpenSSH"
+                },
+                {
+                    "no": 3,
+                    "text": "Cygwin"
+                },
+                {
+                    "no": 4,
+                    "text": "Microsoft Office"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Microsoft Office는 오픈소스가 아니다."
+        }
+    ]
+}

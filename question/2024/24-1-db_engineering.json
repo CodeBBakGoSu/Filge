@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "exam": {
+      "name": "정보처리기사",
+      "year": 2024,
+      "session": 1
+    },
+    "subject": {
+      "name": "데이터베이스 구축",
+      "code": "DB_ENGINEERING"
+    },
+    "type": "multiple_choice_single",
+    "language": "ko-KR",
+    "note": "업로드된 2024년 1회 기출 JSON(eip_2024_1.json) 기반 재구성: 과목별 분리 + topic 자동 정제"
+  },
+  "questions": [
+    {
+      "no": 41,
+      "topic": "DB 스키마",
+      "question": "다음 중, 아래에서 설명하는 스키마는 무엇인 가? • 물리적인 저장장치 입장에서 데이터베이스가 저장되는 방법이나 구조를 정의한 것이다. • 효율적인 관리를 위한 접근 권한, 보안 정책, 무 결성 규칙 등이 포함된다. • DBA에 의해 구성되며, 데이터베이스당 하나만 존재한다.",
+      "choices": [
+        {
+          "no": 1,
+          "text": "외부 스키마"
+        },
+        {
+          "no": 2,
+          "text": "논리 스키마"
+        },
+        {
+          "no": 3,
+          "text": "개념 스키마"
+        },
+        {
+          "no": 4,
+          "text": "내부 스키마"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(내부 스키마)이다."
+    },
+    {
+      "no": 42,
+      "topic": "릴레이션(차수/카디널리티)",
+      "question": "아래의 표를 참고하여 정확한 보기를 고르시오. 번호 지역 업종 매출 직원수 1 서울 컨설팅 100억 100명 2 부산 제조 50억 50명 3 대구 IT 30억 30명 4 인천 금융 20억 20명 5 광주 서비스 10억 10명",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Relation 5개, Cardinality 1개, Degree 4개"
+        },
+        {
+          "no": 2,
+          "text": "Relation 4개, Cardinality 5개, Degree 1개"
+        },
+        {
+          "no": 3,
+          "text": "5개 Relation 1개, Cardinality 5개, Degree"
+        },
+        {
+          "no": 4,
+          "text": "Relation 1개, Cardinality 6개, Degree 5개"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(5개 Relation 1개, Cardinality 5개, Degree)이다."
+    },
+    {
+      "no": 43,
+      "topic": "키(Key)",
+      "question": "다음 중, 키(key)에 대한 설명과 가장 거리가 먼 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "데이터를 분류, 정렬하거나 검색할 때의 기준 이 되는 속성을 의미한다."
+        },
+        {
+          "no": 2,
+          "text": "키의 종류에는 후보키, 기본키, 대체키, 슈퍼 키, 외래키 등이 있다."
+        },
+        {
+          "no": 3,
+          "text": "튜플들에 대해 유일성과 최소성을 모두 만족 시키는 속성이다."
+        },
+        {
+          "no": 4,
+          "text": "기본키로 지정된 속성을 제외한 후보키를 슈 퍼키라고 한다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(기본키로 지정된 속성을 제외한 후보키를 슈 퍼키라고 한다.)이다."
+    },
+    {
+      "no": 44,
+      "topic": "일반",
+      "question": "다음 중, 데이터 모델링 단계에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "개념 모델링"
+        },
+        {
+          "no": 2,
+          "text": "논리 모델링"
+        },
+        {
+          "no": 3,
+          "text": "추상 모델링"
+        },
+        {
+          "no": 4,
+          "text": "물리 모델링"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(추상 모델링)이다."
+    },
+    {
+      "no": 45,
+      "topic": "키(Key)",
+      "question": "아래가 설명하는 논리 개체 관계로 올바른 것은 무엇인가? • 개체와 개체 사이의 주종 관계를 나타낸 것으 로 식별 관계와 비식별 관계가 있다. • 식별 관계 : 개체의 외래키가 기본키에 포함되 는 관계 • 비식별 관계 : 개체의 외래키가 기본키에 포함 되지 않는 관계",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Dependent"
+        },
+        {
+          "no": 2,
+          "text": "Redundant"
+        },
+        {
+          "no": 3,
+          "text": "Recursive"
+        },
+        {
+          "no": 4,
+          "text": "Mutually Exclusive"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(Dependent)이다."
+    },
+    {
+      "no": 46,
+      "topic": "일반",
+      "question": "다음 중, 시스템 카탈로그에 대한 설명으로 가 장 거리가 먼 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "DBMS가 스스로 생성하고 유지한다."
+        },
+        {
+          "no": 2,
+          "text": "DB 객체가 변경되면 자동으로 반영된다."
+        },
+        {
+          "no": 3,
+          "text": "DML을 통해 조회 및 변경이 가능하다."
+        },
+        {
+          "no": 4,
+          "text": "데이터 사전으로도 불리며 메타 데이터가 포 함된다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(DML을 통해 조회 및 변경이 가능하다.)이다."
+    },
+    {
+      "no": 47,
+      "topic": "트랜잭션(ACID)",
+      "question": "다음 트랜잭션의 특징 중, 모든 연산이 수행되거 나 하나도 수행되지 말아야 한다는 것은 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Atomicity"
+        },
+        {
+          "no": 2,
+          "text": "Isolation"
+        },
+        {
+          "no": 3,
+          "text": "Consistency"
+        },
+        {
+          "no": 4,
+          "text": "Durability"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(Atomicity)이다."
+    },
+    {
+      "no": 48,
+      "topic": "SQL/DDL-DML-DCL",
+      "question": "국어, 영어, 수학 점수가 기록되어 있는 릴레이 션에 과학 속성을 추가하기 위해 필요한 데이터 베이스 명령어는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "INSERT"
+        },
+        {
+          "no": 2,
+          "text": "UPDATE"
+        },
+        {
+          "no": 3,
+          "text": "ALTER"
+        },
+        {
+          "no": 4,
+          "text": "SHIFT"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(ALTER)이다."
+    },
+    {
+      "no": 49,
+      "topic": "뷰(View)",
+      "question": "VIEW에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "물리적으로 실존하는 객체이다."
+        },
+        {
+          "no": 2,
+          "text": "시스템 카탈로그에 저장된다."
+        },
+        {
+          "no": 3,
+          "text": "뷰를 통해 또 다른 뷰를 정의할 수 있다."
+        },
+        {
+          "no": 4,
+          "text": "종속된 테이블이 제거되면 함께 제거된다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(물리적으로 실존하는 객체이다.)이다."
+    },
+    {
+      "no": 50,
+      "topic": "정규화/반정규화",
+      "question": "논리 데이터 모델을 시스템 운영의 단순화를 위 해서 중복, 통합, 분할 등을 수행하는 데이터 모 델링 기법은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Clustering"
+        },
+        {
+          "no": 2,
+          "text": "Partitioning"
+        },
+        {
+          "no": 3,
+          "text": "De-Normalization"
+        },
+        {
+          "no": 4,
+          "text": "Sharding"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(De-Normalization)이다."
+    },
+    {
+      "no": 51,
+      "topic": "일반",
+      "question": "서버와 저장장치를 직접 연결하는 스토리지 유 형은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "NAS"
+        },
+        {
+          "no": 2,
+          "text": "SAN"
+        },
+        {
+          "no": 3,
+          "text": "SAD"
+        },
+        {
+          "no": 4,
+          "text": "DAS"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(DAS)이다."
+    },
+    {
+      "no": 52,
+      "topic": "일반",
+      "question": "특정 열에 중복값 또는 Null에 대한 제한을 두어 개체 식별자의 역할을 할 수 있게 하는 데이터베 이스 무결성은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "개체 무결성"
+        },
+        {
+          "no": 2,
+          "text": "도메인 무결성"
+        },
+        {
+          "no": 3,
+          "text": "참조 무결성"
+        },
+        {
+          "no": 4,
+          "text": "사용자 무결성"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(개체 무결성)이다."
+    },
+    {
+      "no": 53,
+      "topic": "일반",
+      "question": "속성 A, B, C에 대한 관계식이 아래와 같을 때, 해당되는 종속성은 무엇인가? A → B, B → C, A → C",
+      "choices": [
+        {
+          "no": 1,
+          "text": "이행적 종속"
+        },
+        {
+          "no": 2,
+          "text": "완전 함수 종속"
+        },
+        {
+          "no": 3,
+          "text": "부분 함수 종속"
+        },
+        {
+          "no": 4,
+          "text": "배타적 종속"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(이행적 종속)이다."
+    },
+    {
+      "no": 54,
+      "topic": "일반",
+      "question": "다음 중, 로크의 단위가 큰 경우에 해당하지 않 는 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "병행성 수준이 낮아진다."
+        },
+        {
+          "no": 2,
+          "text": "오버헤드가 증가한다."
+        },
+        {
+          "no": 3,
+          "text": "로크의 개수가 적어진다."
+        },
+        {
+          "no": 4,
+          "text": "병행 제어 기법이 단순해진다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(오버헤드가 증가한다.)이다."
+    },
+    {
+      "no": 55,
+      "topic": "키(Key)",
+      "question": "다음 중, 결정자가 후보키가 아닌 함수 종속을 제거하여 모든 결정자가 후보키인 정규형은 무 엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "1NF"
+        },
+        {
+          "no": 2,
+          "text": "BCNF"
+        },
+        {
+          "no": 3,
+          "text": "2NF"
+        },
+        {
+          "no": 4,
+          "text": "3NF"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(BCNF)이다."
+    },
+    {
+      "no": 56,
+      "topic": "SQL/DDL-DML-DCL",
+      "question": "다음 중, DDL 명령어에 해당하지 않는 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "CREATE"
+        },
+        {
+          "no": 2,
+          "text": "ALTER"
+        },
+        {
+          "no": 3,
+          "text": "TRUNCATE"
+        },
+        {
+          "no": 4,
+          "text": "REVOKE"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(REVOKE)이다."
+    },
+    {
+      "no": 57,
+      "topic": "일반",
+      "question": "다음 중, 이상 현상이 아닌 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "삭제 이상"
+        },
+        {
+          "no": 2,
+          "text": "삽입 이상"
+        },
+        {
+          "no": 3,
+          "text": "갱신 이상"
+        },
+        {
+          "no": 4,
+          "text": "권한 이상"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(권한 이상)이다."
+    },
+    {
+      "no": 58,
+      "topic": "일반",
+      "question": "다음 중, 함수 종속에 대해 A→B를 올바르게 해 석한 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "A 속성은 B 속성에 함수적으로 종속된다."
+        },
+        {
+          "no": 2,
+          "text": "B 속성은 A 속성에 함수적으로 종속된다."
+        },
+        {
+          "no": 3,
+          "text": "A 속성은 종속자, B 속성은 결정자이다."
+        },
+        {
+          "no": 4,
+          "text": "B 속성은 A 속성에 대해 부분집합이다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(B 속성은 A 속성에 함수적으로 종속된다.)이다."
+    },
+    {
+      "no": 59,
+      "topic": "일반",
+      "question": "아래 ‘학과정보’ 테이블에 대한 SQL문의 실행 결과로 옳은 것은? 평균 담당 학과 인원 강의실 학점 교수 건축 40 3.5 A 201 교육 50 2.7 B 304 복지 30 4.1 C 107 경영 30 4.3 D 303 관광 40 3.3 E 402 select COUNT(*) from 학과정보 where 평균학점 >3.5; select AVG(인원) from 학과정보 where 담당교수 NOT IN(‘A’, ‘D’);",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번()이다."
+    },
+    {
+      "no": 60,
+      "topic": "일반",
+      "question": "송도지점의 날짜별 매출기록을 내림차순으로 조 회할 때 필요한 명령어가 올바르게 나열된 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "select 날짜, 매출 from 매출현황 where 지 점=‘송도’ order by 날짜 DESC"
+        },
+        {
+          "no": 2,
+          "text": "select 날짜, 매출 from 매출현황 where 지 점=‘송도’ order by 날짜 ASC"
+        },
+        {
+          "no": 3,
+          "text": "select 날짜, 매출 from 매출현황 where 지 점=‘송도’ sort by 날짜 DESC"
+        },
+        {
+          "no": 4,
+          "text": "select 날짜, 매출 from 매출현황 where 지 점=‘송도’ sort by 날짜 ASC"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(select 날짜, 매출 from 매출현황 where 지 점=‘송도’ order by 날짜 DESC)이다."
+    }
+  ]
+}

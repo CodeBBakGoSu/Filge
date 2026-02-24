@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "exam": {
+      "name": "정보처리기사",
+      "year": 2024,
+      "session": 1
+    },
+    "subject": {
+      "name": "프로그래밍 언어 활용",
+      "code": "LANGUAGE_APPLICATION"
+    },
+    "type": "multiple_choice_single",
+    "language": "ko-KR",
+    "note": "업로드된 2024년 1회 기출 JSON(eip_2024_1.json) 기반 재구성: 과목별 분리 + topic 자동 정제"
+  },
+  "questions": [
+    {
+      "no": 61,
+      "topic": "프로그래밍(Python)",
+      "question": "아래 Python코드의 실행결과로 올바른 것은 무 엇인가? a = [[0 for a in range(2)] for b in range(3)] print(a)",
+      "choices": [
+        {
+          "no": 1,
+          "text": "[0, 0, 0, 0, 0, 0]"
+        },
+        {
+          "no": 2,
+          "text": "[[0, 0], [0, 0], [0, 0]]"
+        },
+        {
+          "no": 3,
+          "text": "[[0, 0, 0], [0, 0, 0]]"
+        },
+        {
+          "no": 4,
+          "text": "[[0, 0], [0, 0, 0]]"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번([[0, 0], [0, 0], [0, 0]])이다."
+    },
+    {
+      "no": 62,
+      "topic": "프로그래밍(C)",
+      "question": "아래 C코드의 for문을 while문으로 올바르게 변환한 것은 무엇인가? for(i=0; i<10; i++){ sum+=i; }",
+      "choices": [
+        {
+          "no": 1,
+          "text": "while(i<10){ i=0; i++; sum+=i; }"
+        },
+        {
+          "no": 2,
+          "text": "i=0; while(i<10){ i++; sum+=i; }"
+        },
+        {
+          "no": 3,
+          "text": "i=0; while(i<10){ sum+=i; i++; }"
+        },
+        {
+          "no": 4,
+          "text": "while(i<10){ i=0; sum+=i; i++; }"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(i=0; while(i<10){ sum+=i; i++; })이다."
+    },
+    {
+      "no": 63,
+      "topic": "프로그래밍(C)",
+      "question": "아래 C코드에 선언된 변수c의 값을 출력하기 위한 서식문자로 가장 부적절한 것은? char c=70;",
+      "choices": [
+        {
+          "no": 1,
+          "text": "%d"
+        },
+        {
+          "no": 2,
+          "text": "%c"
+        },
+        {
+          "no": 3,
+          "text": "%f"
+        },
+        {
+          "no": 4,
+          "text": "%x"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(%f)이다."
+    },
+    {
+      "no": 64,
+      "topic": "프로그래밍(C)",
+      "question": "아래 C코드를 참고하여 출력되는 값이 나머지 셋과 다른 것을 고르시오. int ar[2][2] = {{11, 22}, {33, 44}}; int *p = ar; printf(“%d %d %d %d”, ar[0][1], p[1], *(p+1), *(ar+1));",
+      "choices": [
+        {
+          "no": 1,
+          "text": "ar[0][1]"
+        },
+        {
+          "no": 2,
+          "text": "p[1]"
+        },
+        {
+          "no": 3,
+          "text": "*(p+1)"
+        },
+        {
+          "no": 4,
+          "text": "*(ar+1)"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(*(ar+1))이다."
+    },
+    {
+      "no": 65,
+      "topic": "프로그래밍(C)",
+      "question": "아래 C코드의 실행결과로 올바른 것은 무엇인 가? int fn(int* x, int n){ if(n==1) return 1; return *x+fn(x, n-1); } int main(){ int x=5; printf(“%d”, fn(&x, x)); return 0; }",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번()이다."
+    },
+    {
+      "no": 66,
+      "topic": "프로그래밍(Python)",
+      "question": "아래 Python코드의 실행결과로 올바른 것은 무 엇인가? a = [1, 2, 3, 4, 5, 6, 7, 8] a[:5:2] = (10, 20, 30) print(a)",
+      "choices": [
+        {
+          "no": 1,
+          "text": "오류"
+        },
+        {
+          "no": 2,
+          "text": "[11, 22, 33, 14, 25, 36, 17, 28]"
+        },
+        {
+          "no": 3,
+          "text": "[10, 20, 30, 4, 5, 6, 7, 8]"
+        },
+        {
+          "no": 4,
+          "text": "[10, 2, 20, 4, 30, 6, 7, 8]"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번([10, 2, 20, 4, 30, 6, 7, 8])이다."
+    },
+    {
+      "no": 67,
+      "topic": "프로그래밍(Java)",
+      "question": "아래 Java코드의 실행결과로 올바른 것은 무엇 인가? class A{ public int func(int a, int b){ return a+b; } } class B extends A{ public double func(double a, double b){ return a-b; } } public class Main{ public static void main(String[] args) { int a=10, b=5; B x = new B(); System.out.println(x.func(a, b)); } }",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번()이다."
+    },
+    {
+      "no": 68,
+      "topic": "프로그래밍(Java)",
+      "question": "Java에서 실행 가능한 기본 출력 메소드가 아 닌 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "System.out.print()"
+        },
+        {
+          "no": 2,
+          "text": "System.out.printb()"
+        },
+        {
+          "no": 3,
+          "text": "System.out.println()"
+        },
+        {
+          "no": 4,
+          "text": "System.out.printf()"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(System.out.printb())이다."
+    },
+    {
+      "no": 69,
+      "topic": "일반",
+      "question": "다음 중, 디자인 패턴의 유형이 아닌 것은 무엇 인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "상속"
+        },
+        {
+          "no": 2,
+          "text": "생성"
+        },
+        {
+          "no": 3,
+          "text": "행위"
+        },
+        {
+          "no": 4,
+          "text": "구조"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(상속)이다."
+    },
+    {
+      "no": 70,
+      "topic": "일반",
+      "question": "다음 중, 디자인 패턴의 유형이 나머지 셋과 다 른 하나는?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Memento"
+        },
+        {
+          "no": 2,
+          "text": "State"
+        },
+        {
+          "no": 3,
+          "text": "Decorator"
+        },
+        {
+          "no": 4,
+          "text": "Command"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(Decorator)이다."
+    },
+    {
+      "no": 71,
+      "topic": "운영체제(UNIX/Linux)",
+      "question": "다음 중, 리눅스 버전 등의 시스템 정보를 출력 하는 리눅스 명령어는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "chown"
+        },
+        {
+          "no": 2,
+          "text": "fork"
+        },
+        {
+          "no": 3,
+          "text": "chdir"
+        },
+        {
+          "no": 4,
+          "text": "uname"
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(uname)이다."
+    },
+    {
+      "no": 72,
+      "topic": "일반",
+      "question": "다음 중, 아래에서 설명하는 객체지향 기술은 무 엇인가? • 캡슐화의 가장 큰 목적으로 실제 구현되는 내 용의 일부를 외부로부터 감추는 것이다. • 클래스 내부 속성과 메소드를 외부의 영향으로 부터 보호할 수 있도록 설계하는 방법이다.",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Information Hiding"
+        },
+        {
+          "no": 2,
+          "text": "Polymorphism"
+        },
+        {
+          "no": 3,
+          "text": "Abstract"
+        },
+        {
+          "no": 4,
+          "text": "Inheritance"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(Information Hiding)이다."
+    },
+    {
+      "no": 73,
+      "topic": "프로그래밍(C)",
+      "question": "다음 중, 정수를 저장할 수 있는 자료형이 아닌 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "int"
+        },
+        {
+          "no": 2,
+          "text": "short"
+        },
+        {
+          "no": 3,
+          "text": "double"
+        },
+        {
+          "no": 4,
+          "text": "long"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(double)이다."
+    },
+    {
+      "no": 74,
+      "topic": "운영체제(교착/회피)",
+      "question": "다음 중, 은행원 알고리즘은 교착 상태의 해결 방법 중 어떤 기법에 해당하는가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Recovery"
+        },
+        {
+          "no": 2,
+          "text": "Detection"
+        },
+        {
+          "no": 3,
+          "text": "Avoidance"
+        },
+        {
+          "no": 4,
+          "text": "Prevention"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(Avoidance)이다."
+    },
+    {
+      "no": 75,
+      "topic": "운영체제(UNIX/Linux)",
+      "question": "다음 중, 사용자 명령 해석을 통해 시스템의 기 능 수행을 돕는 유닉스의 구성요소는 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Shell"
+        },
+        {
+          "no": 2,
+          "text": "Utility"
+        },
+        {
+          "no": 3,
+          "text": "Micro-Kernel"
+        },
+        {
+          "no": 4,
+          "text": "Monolithic-Kernel"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(Shell)이다."
+    },
+    {
+      "no": 76,
+      "topic": "객체지향 분석(럼바우)",
+      "question": "다음 중, 자료 흐름도를 활용하여 입출력 데이 터, 세부 기능 등을 결정하는 럼바우 분석 절차 는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "객체 모델링"
+        },
+        {
+          "no": 2,
+          "text": "동적 모델링"
+        },
+        {
+          "no": 3,
+          "text": "기능 모델링"
+        },
+        {
+          "no": 4,
+          "text": "개념 모델링"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(기능 모델링)이다."
+    },
+    {
+      "no": 77,
+      "topic": "운영체제(UNIX/Linux)",
+      "question": "다음 중, 아래 내용이 설명하는 리눅스 로그 파 일은 무엇인가? • 리눅스 시스템에서 사용자의 성공한 로그인/로 그아웃 정보 기록 • 시스템의 종료/시작 시간 기록",
+      "choices": [
+        {
+          "no": 1,
+          "text": "tapping"
+        },
+        {
+          "no": 2,
+          "text": "wtmp"
+        },
+        {
+          "no": 3,
+          "text": "xtslog"
+        },
+        {
+          "no": 4,
+          "text": "linuxer"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(wtmp)이다."
+    },
+    {
+      "no": 78,
+      "topic": "네트워크(서브넷/IP)",
+      "question": "10.100.240.0/22 네트워크에서 FLSM 방식으 로 10개의 subnet으로 나누었을 때, 2번째 서브 넷의 5번째 유효한 IP주소는 무엇인가? (단, ip subnet-zero는 적용하지 않는다.)",
+      "choices": [
+        {
+          "no": 1,
+          "text": "10.100.240.132"
+        },
+        {
+          "no": 2,
+          "text": "10.100.240.133"
+        },
+        {
+          "no": 3,
+          "text": "10.100.240.69"
+        },
+        {
+          "no": 4,
+          "text": "10.100.240.68"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(10.100.240.133)이다."
+    },
+    {
+      "no": 79,
+      "topic": "일반",
+      "question": "작업별 실행 시간과 대기 시간이 아래 표와 같 을 때, HRN 방식을 적용할 경우 가장 먼저 수행 되는 작업은 무엇인가? 작업 실행시간 대기시간",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번()이다."
+    },
+    {
+      "no": 80,
+      "topic": "UI/UX 설계",
+      "question": "객체지향 기술 중, 캡슐화에 대한 처리와 가장 거리가 먼 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "문제 해결에 필요한 속성과 메소드를 하나의 클래스로 묶는다."
+        },
+        {
+          "no": 2,
+          "text": "인터페이스를 단순화 시킨다."
+        },
+        {
+          "no": 3,
+          "text": "실제 구현되는 내용을 외부의 영향으로부터 보호한다."
+        },
+        {
+          "no": 4,
+          "text": "여러 하위 객체들이 서로 다른 형태를 가질 수 있도록 한다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(여러 하위 객체들이 서로 다른 형태를 가질 수 있도록 한다.)이다."
+    }
+  ]
+}

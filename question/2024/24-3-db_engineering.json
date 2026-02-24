@@ -1,0 +1,558 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2024,
+            "session": 3
+        },
+        "subject": {
+            "name": "데이터베이스 구축",
+            "code": "DB_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "기출 PDF 기반 자동 추출(2단 편집은 컬럼 분리로 복원). 해설은 비워둠."
+    },
+    "questions": [
+        {
+            "no": 41,
+            "topic": "관계형 데이터 모델",
+            "question": "어떤 릴레이션에서 각 속성이 아래와 같이 도메 인을 가질 때, 이 릴레이션의 최대 기수는 얼마 인가? 성별 : 2 학과 : 3 수강형태 : 2",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3"
+                },
+                {
+                    "no": 2,
+                    "text": "7"
+                },
+                {
+                    "no": 3,
+                    "text": "셀 수 없음"
+                },
+                {
+                    "no": 4,
+                    "text": "12"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (12)입니다."
+        },
+        {
+            "no": 42,
+            "topic": "정렬 알고리즘",
+            "question": ", 17, 85, 56, 23]의 수열을 삽입 정렬할 때, 1 회전 후의 결과로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "[17, 42, 85, 23, 56]"
+                },
+                {
+                    "no": 2,
+                    "text": "[17, 42, 23, 85, 56]"
+                },
+                {
+                    "no": 3,
+                    "text": "[42, 17, 85, 56, 23]"
+                },
+                {
+                    "no": 4,
+                    "text": "[17, 42, 85, 56, 23]"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 ([42, 17, 85, 56, 23])입니다."
+        },
+        {
+            "no": 43,
+            "topic": "일반",
+            "question": "사용하고 있는 데이터가 논리적으로 유일하다고 생각할 수 있는 환경을 제공하는 데이터베이스 투명성은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Replication"
+                },
+                {
+                    "no": 2,
+                    "text": "Location"
+                },
+                {
+                    "no": 3,
+                    "text": "Fragmentation"
+                },
+                {
+                    "no": 4,
+                    "text": "Failure"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 1번 (Replication)입니다."
+        },
+        {
+            "no": 44,
+            "topic": "SQL",
+            "question": "다음 중 OLAP 함수의 종류가 아닌 것은 무엇 인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "COUNT"
+                },
+                {
+                    "no": 2,
+                    "text": "DELETE"
+                },
+                {
+                    "no": 3,
+                    "text": "SUM"
+                },
+                {
+                    "no": 4,
+                    "text": "RANK"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 2번 (DELETE)입니다."
+        },
+        {
+            "no": 45,
+            "topic": "SQL",
+            "question": "아래 SQL 문장을 올바르게 해석한 것은 무엇 인가? REVOKE SELECT ON lecture FROM jane;",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "jane 사용자의 lecture 테이블에 대한 SE- LECT 권한 확인"
+                },
+                {
+                    "no": 2,
+                    "text": "jane 사용자의 lecture 테이블에 대한 SE- LECT 권한 부여"
+                },
+                {
+                    "no": 3,
+                    "text": "jane 사용자의 lecture 테이블에 대한 SE- LECT 권한 요청"
+                },
+                {
+                    "no": 4,
+                    "text": "jane 사용자의 lecture 테이블에 대한 SE- LECT 권한 회수"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (jane 사용자의 lecture 테이블에 대한 SE- LECT 권한 회수)입니다."
+        },
+        {
+            "no": 46,
+            "topic": "트랜잭션/병행제어/회복",
+            "question": "트랜잭션의 특징인 ACID에 대한 설명으로 가장 거리가 먼 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "트랜잭션 실행 도중 다른 트랜잭션의 영향을 받지 않아야 한다"
+                },
+                {
+                    "no": 2,
+                    "text": "시스템 고정 요소는 트랜잭션 이후에도 같아 야 한다"
+                },
+                {
+                    "no": 3,
+                    "text": "트랜잭션의 결과는 항상 유지(영구 반영)되어 야 한다"
+                },
+                {
+                    "no": 4,
+                    "text": "모든 연산이 수행되거나 선택적으로 수행되 어야 한다"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (모든 연산이 수행되거나 선택적으로 수행되 어야 한다)입니다."
+        },
+        {
+            "no": 47,
+            "topic": "관계형 데이터 모델",
+            "question": "다음 중 수학에서의 교집합(∩) 연산과 같은 역 할을 하는 관계 연산은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "INTERSECT"
+                },
+                {
+                    "no": 2,
+                    "text": "MINUS"
+                },
+                {
+                    "no": 3,
+                    "text": "UNION"
+                },
+                {
+                    "no": 4,
+                    "text": "NOT"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 1번 (INTERSECT)입니다."
+        },
+        {
+            "no": 48,
+            "topic": "트랜잭션/병행제어/회복",
+            "question": "로크의 단위가 큰 경우에 해당하지 않는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "로크의 개수가 줄어든다"
+                },
+                {
+                    "no": 2,
+                    "text": "병행 제어 기법이 단순해진다"
+                },
+                {
+                    "no": 3,
+                    "text": "병행성 수준이 높아진다"
+                },
+                {
+                    "no": 4,
+                    "text": "오버헤드가 감소한다"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 (병행성 수준이 높아진다)입니다."
+        },
+        {
+            "no": 49,
+            "topic": "관계형 데이터 모델",
+            "question": "4개의 속성, 2개의 후보키, 6개의 릴레이션 인스 턴스가 존재하는 릴레이션의 차수는 얼마인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "4"
+                },
+                {
+                    "no": 2,
+                    "text": "2"
+                },
+                {
+                    "no": 3,
+                    "text": "6"
+                },
+                {
+                    "no": 4,
+                    "text": "알 수 없음"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 1번 (4)입니다."
+        },
+        {
+            "no": 50,
+            "topic": "SQL",
+            "question": "SQL 문법에서 HAVING 절을 사용하기 위해 함 께 사용해야 하는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GROUP BY"
+                },
+                {
+                    "no": 2,
+                    "text": "WHERE BY"
+                },
+                {
+                    "no": 3,
+                    "text": "ORDER BY"
+                },
+                {
+                    "no": 4,
+                    "text": "JOIN BY"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 1번 (GROUP BY)입니다."
+        },
+        {
+            "no": 51,
+            "topic": "SQL",
+            "question": "80점 대의 학생 정보를 조회하고 싶을 때, 적절 한 SQL 구문은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "BETWEEN 80 AND 89"
+                },
+                {
+                    "no": 2,
+                    "text": "BETWEEN 80 AND 90"
+                },
+                {
+                    "no": 3,
+                    "text": "BETWEEN 80 OR 89"
+                },
+                {
+                    "no": 4,
+                    "text": "BETWEEN 80 OR 90"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "정답은 1번 (BETWEEN 80 AND 89)입니다."
+        },
+        {
+            "no": 52,
+            "topic": "SQL",
+            "question": "아래의 SQL문장을 올바르게 해석한 것은 무엇 인가? SELECT",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "인공지능 테이블에서, 데이터베이스 수업을 수강하는 학생을 조회"
+                },
+                {
+                    "no": 2,
+                    "text": "인공지능 테이블에서, 데이터베이스 수업을 수강하지 않는 학생을 조회"
+                },
+                {
+                    "no": 3,
+                    "text": "데이터베이스 테이블에서, 인공지능 수업을 수강하는 학생을 조회"
+                },
+                {
+                    "no": 4,
+                    "text": "데이터베이스 테이블에서, 인공지능 수업을 수강하지 않는 학생을 조회"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 (데이터베이스 테이블에서, 인공지능 수업을 수강하는 학생을 조회)입니다."
+        },
+        {
+            "no": 53,
+            "topic": "관계형 데이터 모델",
+            "question": "다음 중 정규화의 필요성에 해당하지 않는 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "삽입 이상의 제거"
+                },
+                {
+                    "no": 2,
+                    "text": "갱신 이상의 제거"
+                },
+                {
+                    "no": 3,
+                    "text": "삭제 이상의 제거"
+                },
+                {
+                    "no": 4,
+                    "text": "성능 이상의 제거"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (성능 이상의 제거)입니다."
+        },
+        {
+            "no": 54,
+            "topic": "일반",
+            "question": "제3정규형을 만족시키기 위해 수행해야 하는 작 업으로 옳은 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "부분 함수 종속 제거"
+                },
+                {
+                    "no": 2,
+                    "text": "다치 종속 제거"
+                },
+                {
+                    "no": 3,
+                    "text": "이행적 함수 종속 제거"
+                },
+                {
+                    "no": 4,
+                    "text": "조인 종속 제거"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 (이행적 함수 종속 제거)입니다."
+        },
+        {
+            "no": 55,
+            "topic": "트랜잭션/병행제어/회복",
+            "question": "다음 중 로그를 이용한 회복 기법에 사용되는 연산이 아닌 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Undo"
+                },
+                {
+                    "no": 2,
+                    "text": "Redo"
+                },
+                {
+                    "no": 3,
+                    "text": "Replace"
+                },
+                {
+                    "no": 4,
+                    "text": "CheckPoint"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 (Replace)입니다."
+        },
+        {
+            "no": 56,
+            "topic": "정렬 알고리즘",
+            "question": ", 23]의 수열을 삽입 정렬할 때, 1 회전 후의 결과로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "[17, 42, 85, 23, 56]"
+                },
+                {
+                    "no": 2,
+                    "text": "[17, 42, 23, 85, 56]"
+                },
+                {
+                    "no": 3,
+                    "text": "[42, 17, 85, 56, 23]"
+                },
+                {
+                    "no": 4,
+                    "text": "[17, 42, 85, 56, 23]"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 2번 ([17, 42, 23, 85, 56])입니다."
+        },
+        {
+            "no": 57,
+            "topic": "관계형 데이터 모델",
+            "question": "관계 대수에 대한 설명과 가장 거리가 먼 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "절차적 언어이다"
+                },
+                {
+                    "no": 2,
+                    "text": "관계 해석과 관계 대수는 처리 기능 및 능력 이동등하다"
+                },
+                {
+                    "no": 3,
+                    "text": "일반 집합 연산자는 합집합, 교집합, 차집합, 교차곱이 있다"
+                },
+                {
+                    "no": 4,
+                    "text": "일반 집합 연산자와 존재 연산자가 있다"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (일반 집합 연산자와 존재 연산자가 있다)입니다."
+        },
+        {
+            "no": 58,
+            "topic": "관계형 데이터 모델",
+            "question": "다음 중 데이터베이스의 논리적 설계 단계에서 수행하지 않는 작업은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "모든 업무 영역에 대한 개체, 속성, 관계, 프 로세스 등을 파악한다"
+                },
+                {
+                    "no": 2,
+                    "text": "개념 모델을 컴퓨터가 이해할 수 있는 논리 적 구조로 매핑한다"
+                },
+                {
+                    "no": 3,
+                    "text": "목표 시스템에 적용할 수 있는 트랜잭션 인 터페이스를 설계한다"
+                },
+                {
+                    "no": 4,
+                    "text": "모든 업무 데이터를 비정규화하여 표현한다"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정답은 4번 (모든 업무 데이터를 비정규화하여 표현한다)입니다."
+        },
+        {
+            "no": 59,
+            "topic": "트랜잭션/병행제어/회복",
+            "question": "트랜잭션 분석을 위해 각 테이블에 대한 생성, 조회, 갱신, 삭제 프로세스의 영향도를 테이블 형식으로 표현한 것은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Balanced Tree"
+                },
+                {
+                    "no": 2,
+                    "text": "CRUD Matrix"
+                },
+                {
+                    "no": 3,
+                    "text": "Clustering"
+                },
+                {
+                    "no": 4,
+                    "text": "Entity Integrity"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "정답은 2번 (CRUD Matrix)입니다."
+        },
+        {
+            "no": 60,
+            "topic": "인덱스",
+            "question": "다음 중 중복 값을 허용하지 않는 인덱스를 생 성하기 위한 옵션은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "REPLACE"
+                },
+                {
+                    "no": 2,
+                    "text": "NULL"
+                },
+                {
+                    "no": 3,
+                    "text": "UNIQUE"
+                },
+                {
+                    "no": 4,
+                    "text": "FORCE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "정답은 3번 (UNIQUE)입니다."
+        }
+    ]
+}

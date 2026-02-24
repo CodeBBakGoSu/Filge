@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "exam": {
+      "name": "정보처리기사",
+      "year": 2024,
+      "session": 1
+    },
+    "subject": {
+      "name": "소프트웨어 개발",
+      "code": "SW_ENGINEERING"
+    },
+    "type": "multiple_choice_single",
+    "language": "ko-KR",
+    "note": "업로드된 2024년 1회 기출 JSON(eip_2024_1.json) 기반 재구성: 과목별 분리 + topic 자동 정제"
+  },
+  "questions": [
+    {
+      "no": 21,
+      "topic": "복원누락/문항손상",
+      "question": "①",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번()이다."
+    },
+    {
+      "no": 22,
+      "topic": "일반",
+      "question": "아래 트리를 In-Order 방식으로 운행할 경우 올바른 순서는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "A B D C E G H F"
+        },
+        {
+          "no": 2,
+          "text": "D B A G E H C F"
+        },
+        {
+          "no": 3,
+          "text": "D B G H E F C A"
+        },
+        {
+          "no": 4,
+          "text": "A B C D E F G H"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(D B A G E H C F)이다."
+    },
+    {
+      "no": 23,
+      "topic": "해싱/탐색",
+      "question": "다음 중, 해시 함수의 종류에 해당하지 않는 것 은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "제산법"
+        },
+        {
+          "no": 2,
+          "text": "폴딩법"
+        },
+        {
+          "no": 3,
+          "text": "난수 변환법"
+        },
+        {
+          "no": 4,
+          "text": "무작위법"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(난수 변환법)이다."
+    },
+    {
+      "no": 24,
+      "topic": "복원누락/문항손상",
+      "question": "B 12",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번()이다."
+    },
+    {
+      "no": 25,
+      "topic": "복원누락/문항손상",
+      "question": "②",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번()이다."
+    },
+    {
+      "no": 26,
+      "topic": "검토/인스펙션/FTR",
+      "question": "정형 기술 검토(FTR)의 원칙이 아닌 것은 무엇 인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "제품의 검토에만 집중한다."
+        },
+        {
+          "no": 2,
+          "text": "논쟁과 반박을 제한한다."
+        },
+        {
+          "no": 3,
+          "text": "참가자의 수를 확대한다."
+        },
+        {
+          "no": 4,
+          "text": "해결책에 대해서 논하지 않는다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(참가자의 수를 확대한다.)이다."
+    },
+    {
+      "no": 27,
+      "topic": "테스트 프로세스(V-모델/인수)",
+      "question": "V-모델 중 인수 테스트에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "사용자 요구사항 충족 여부를 사용자가 직 접 테스트하는 것이다."
+        },
+        {
+          "no": 2,
+          "text": "알파 테스트는 개발자의 장소에서 테스트를 진행한다."
+        },
+        {
+          "no": 3,
+          "text": "베타 테스트는 제한되지 않은 환경에서 테스 트를 진행한다."
+        },
+        {
+          "no": 4,
+          "text": "모듈의 기능 수행 여부와 논리적인 오류를 검출하는 과정이다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번(모듈의 기능 수행 여부와 논리적인 오류를 검출하는 과정이다.)이다."
+    },
+    {
+      "no": 28,
+      "topic": "단위 테스트 도구",
+      "question": "다음 중, 단위 테스트 도구가 아닌 것은 무엇인 가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "CppUnit"
+        },
+        {
+          "no": 2,
+          "text": "RowUnit"
+        },
+        {
+          "no": 3,
+          "text": "JUnit"
+        },
+        {
+          "no": 4,
+          "text": "HttpUnit"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(RowUnit)이다."
+    },
+    {
+      "no": 29,
+      "topic": "탐색(이진탐색)",
+      "question": "문자열 “ABCDEFGHIJKLMN”에서 이진 탐색 기법을 사용하여 “E”를 찾는 경우, 실제 비교 횟 수는 얼마인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "3"
+        },
+        {
+          "no": 2,
+          "text": "4"
+        },
+        {
+          "no": 3,
+          "text": "5"
+        },
+        {
+          "no": 4,
+          "text": "6"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(3)이다."
+    },
+    {
+      "no": 30,
+      "topic": "UI/UX 설계",
+      "question": "입력 데이터 간의 관계와 출력에 미치는 영향을 분석하여 테스트 케이스를 설계하여 테스트를 진행하는 기법으로 옳은 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Boundary Value Analysis"
+        },
+        {
+          "no": 2,
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "no": 3,
+          "text": "Cause-Effect Graphing"
+        },
+        {
+          "no": 4,
+          "text": "Error Guessing"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(Cause-Effect Graphing)이다."
+    },
+    {
+      "no": 31,
+      "topic": "일반",
+      "question": "테스트 진행을 위한 입력값, 실행 조건, 기대 결 과 등의 집합을 의미하는 테스트 관련 용어는 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "테스트 스크립트"
+        },
+        {
+          "no": 2,
+          "text": "테스트 스위트"
+        },
+        {
+          "no": 3,
+          "text": "테스트 케이스"
+        },
+        {
+          "no": 4,
+          "text": "테스트 드라이버"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(테스트 케이스)이다."
+    },
+    {
+      "no": 32,
+      "topic": "테스트 프로세스(V-모델/인수)",
+      "question": "V-모델에 의한 테스트 수행 절차를 올바르게 나열한 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "단위 테스트-통합 테스트-시스템 테스트- 인수 테스트"
+        },
+        {
+          "no": 2,
+          "text": "단위 테스트-인수 테스트-통합 테스트- 시스템 테스트"
+        },
+        {
+          "no": 3,
+          "text": "단위 테스트-시스템 테스트-통합 테스트- 인수 테스트"
+        },
+        {
+          "no": 4,
+          "text": "통합 테스트-시스템 테스트-인수 테스트- 단위 테스트"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(단위 테스트-통합 테스트-시스템 테스트- 인수 테스트)이다."
+    },
+    {
+      "no": 33,
+      "topic": "일반",
+      "question": "빅 오(O) 표기법 중, O(1)에 대한 설명으로 옳은 것은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "항상 일정한 수행 횟수를 가지는 시간 복잡 도이다."
+        },
+        {
+          "no": 2,
+          "text": "항상 한 번의 수행 횟수를 가지는 시간 복잡 도이다."
+        },
+        {
+          "no": 3,
+          "text": "연산 횟수가 일정하게 증가하는 시간 복잡도 이다."
+        },
+        {
+          "no": 4,
+          "text": "연산 횟수가 늘어나는 폭이 점점 커지는 시 간 복잡도이다."
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(항상 일정한 수행 횟수를 가지는 시간 복잡 도이다.)이다."
+    },
+    {
+      "no": 34,
+      "topic": "정적 분석 도구",
+      "question": "다음 중, 소스 코드 정적 분석 도구가 아닌 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "cppcheck"
+        },
+        {
+          "no": 2,
+          "text": "checkstyle"
+        },
+        {
+          "no": 3,
+          "text": "Valgrind"
+        },
+        {
+          "no": 4,
+          "text": "SonarQube"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(Valgrind)이다."
+    },
+    {
+      "no": 35,
+      "topic": "일반",
+      "question": "아래 트리에서, 트리의 높이와 노드 9의 깊이를 더한 값은?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "6"
+        },
+        {
+          "no": 2,
+          "text": "7"
+        },
+        {
+          "no": 3,
+          "text": "8"
+        },
+        {
+          "no": 4,
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "choiceNo": 1
+      },
+      "explanation": "정답은 1번(6)이다."
+    },
+    {
+      "no": 36,
+      "topic": "형상관리",
+      "question": "프로그램의 개발 단계별 산출물의 변경 사항 등 을 관리하는 기능 및 활동을 뜻하는 용어는 무 엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "생산 관리"
+        },
+        {
+          "no": 2,
+          "text": "형상 관리"
+        },
+        {
+          "no": 3,
+          "text": "절차 관리"
+        },
+        {
+          "no": 4,
+          "text": "유지 보수"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(형상 관리)이다."
+    },
+    {
+      "no": 37,
+      "topic": "테스트 원칙(살충제 패러독스)",
+      "question": "테스트 원칙 중, 동일한 테스트 케이스로 테스트 를 반복 수행하면 새로운 결함 발견이 불가능하 다는 것은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "Defect Clustering"
+        },
+        {
+          "no": 2,
+          "text": "Absence of Errors Fallacy"
+        },
+        {
+          "no": 3,
+          "text": "Pesticide Paradox"
+        },
+        {
+          "no": 4,
+          "text": "Pareto’s principle"
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번(Pesticide Paradox)이다."
+    },
+    {
+      "no": 38,
+      "topic": "복원누락/문항손상",
+      "question": "④ 2,",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 4
+      },
+      "explanation": "정답은 4번()이다."
+    },
+    {
+      "no": 39,
+      "topic": "통합 테스트",
+      "question": "아래와 같은 프로그램 구조에서, 이미지에 적힌 숫자 순으로 테스트를 진행하는 하향식 통합 테 스트 방식은 무엇인가?",
+      "choices": [
+        {
+          "no": 1,
+          "text": "중위 우선 방식"
+        },
+        {
+          "no": 2,
+          "text": "깊이 우선 방식"
+        },
+        {
+          "no": 3,
+          "text": "전위 우선 방식"
+        },
+        {
+          "no": 4,
+          "text": "너비 우선 방식"
+        }
+      ],
+      "answer": {
+        "choiceNo": 2
+      },
+      "explanation": "정답은 2번(깊이 우선 방식)이다."
+    },
+    {
+      "no": 40,
+      "topic": "복원누락/문항손상",
+      "question": "② 2,",
+      "choices": [
+        {
+          "no": 1,
+          "text": ""
+        },
+        {
+          "no": 2,
+          "text": ""
+        },
+        {
+          "no": 3,
+          "text": ""
+        },
+        {
+          "no": 4,
+          "text": ""
+        }
+      ],
+      "answer": {
+        "choiceNo": 3
+      },
+      "explanation": "정답은 3번()이다."
+    }
+  ]
+}

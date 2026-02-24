@@ -1,0 +1,1557 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 1
+        },
+        "subject": {
+            "name": "소프트웨어 설계",
+            "code": "SW_DESIGN"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "폭포수/나선형/위기/애자일/스크럼",
+            "question": "다음 중 전통적인 소프트웨어 개발 방법론으로, 단계가 순차적으로 진행되며 가장 오래된 모델로 알려진 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "나선형(Spiral) 모델"
+                },
+                {
+                    "no": 2,
+                    "text": "폭포수(Waterfall) 모델"
+                },
+                {
+                    "no": 3,
+                    "text": "프로토타이핑(Prototyping) 모델"
+                },
+                {
+                    "no": 4,
+                    "text": "익스트림 프로그래밍(XP)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "폭포수 모델은 순차적 단계 진행의 전통적 모델로 가장 오래된 모델로 분류된다."
+        },
+        {
+            "no": 2,
+            "topic": "나선형 모델",
+            "question": "나선형(Spiral) 모델에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "요구사항 변경을 거의 허용하지 않는다."
+                },
+                {
+                    "no": 2,
+                    "text": "위험 분석을 반복적으로 수행하며 점진적으로 개발한다."
+                },
+                {
+                    "no": 3,
+                    "text": "단위 테스트를 생략하고 통합 테스트만 수행한다."
+                },
+                {
+                    "no": 4,
+                    "text": "산출물이 한 번에 완성되는 빅뱅 방식이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "나선형 모델은 반복(Iterative) + 위험 분석(Risk Analysis)이 핵심이다."
+        },
+        {
+            "no": 3,
+            "topic": "애자일 특징",
+            "question": "애자일(Agile) 방법론의 특징으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "고객과의 협업을 중시한다."
+                },
+                {
+                    "no": 2,
+                    "text": "변화에 대한 대응을 중시한다."
+                },
+                {
+                    "no": 3,
+                    "text": "짧은 주기의 반복 개발을 지향한다."
+                },
+                {
+                    "no": 4,
+                    "text": "계획을 엄격히 고정하여 변경을 최소화한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "애자일은 변화 수용/대응을 핵심 가치로 둔다."
+        },
+        {
+            "no": 4,
+            "topic": "스크럼 구성요소",
+            "question": "스크럼(Scrum)의 구성 요소에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제품 백로그(Product Backlog)"
+                },
+                {
+                    "no": 2,
+                    "text": "스프린트 백로그(Sprint Backlog)"
+                },
+                {
+                    "no": 3,
+                    "text": "스크럼 마스터(Scrum Master)"
+                },
+                {
+                    "no": 4,
+                    "text": "WBS(Work Breakdown Structure)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "WBS는 전통적 계획/관리 기법으로 스크럼 핵심 구성 요소로 분류되지 않는다."
+        },
+        {
+            "no": 5,
+            "topic": "소프트웨어 위기",
+            "question": "소프트웨어 위기(Software Crisis)에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "하드웨어 성능 저하로 인해 발생한 위기"
+                },
+                {
+                    "no": 2,
+                    "text": "대규모 소프트웨어 개발의 비용/일정/품질 문제의 총칭"
+                },
+                {
+                    "no": 3,
+                    "text": "프로그램 언어의 종류가 감소하여 발생한 문제"
+                },
+                {
+                    "no": 4,
+                    "text": "네트워크 속도 저하로 인해 발생한 문제"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "SW 위기는 복잡도 증가로 인한 비용·일정 지연·품질 저하 문제를 말한다."
+        },
+        {
+            "no": 6,
+            "topic": "디자인 패턴-구조/생성",
+            "question": "GoF 디자인 패턴 중 구조(Structural) 패턴이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Adapter"
+                },
+                {
+                    "no": 2,
+                    "text": "Bridge"
+                },
+                {
+                    "no": 3,
+                    "text": "Composite"
+                },
+                {
+                    "no": 4,
+                    "text": "Prototype"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Prototype은 생성(Creational) 패턴이다."
+        },
+        {
+            "no": 7,
+            "topic": "디자인 패턴-생성",
+            "question": "GoF 디자인 패턴 중 생성(Creational) 패턴에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Observer"
+                },
+                {
+                    "no": 2,
+                    "text": "State"
+                },
+                {
+                    "no": 3,
+                    "text": "Abstract Factory"
+                },
+                {
+                    "no": 4,
+                    "text": "Chain of Responsibility"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Abstract Factory는 생성 패턴이다."
+        },
+        {
+            "no": 8,
+            "topic": "럼바우 분석",
+            "question": "럼바우(Rumbaugh)의 객체지향 분석 방법(OMT)에서 사용하는 모델로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "객체 모형, 동적 모형, 기능 모형"
+                },
+                {
+                    "no": 2,
+                    "text": "데이터 모형, 프로세스 모형, 네트워크 모형"
+                },
+                {
+                    "no": 3,
+                    "text": "논리 모형, 물리 모형, 구현 모형"
+                },
+                {
+                    "no": 4,
+                    "text": "상태 모형, 배치 모형, 흐름 모형"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "OMT는 객체/동적/기능 모형 3가지 모델로 설명한다."
+        },
+        {
+            "no": 9,
+            "topic": "CASE",
+            "question": "CASE 도구의 장점으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "생산성 향상"
+                },
+                {
+                    "no": 2,
+                    "text": "표준화 및 문서화 지원"
+                },
+                {
+                    "no": 3,
+                    "text": "품질 향상 및 유지보수 용이"
+                },
+                {
+                    "no": 4,
+                    "text": "요구사항 변경 시 비용 증가를 보장"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "CASE는 변경/관리 효율화로 비용을 줄이는 방향의 효과를 기대한다."
+        },
+        {
+            "no": 10,
+            "topic": "N-S 차트",
+            "question": "나시-슈나이더만(Nassi-Shneiderman) 차트(N-S Chart)에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "자료 흐름을 화살표로 표현하는 모델이다."
+                },
+                {
+                    "no": 2,
+                    "text": "구조적 프로그래밍의 제어 구조를 도형으로 표현한다."
+                },
+                {
+                    "no": 3,
+                    "text": "객체 간 메시지 흐름을 시간 순으로 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "데이터베이스 엔터티 관계를 표현한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "N-S 차트는 순차/선택/반복 등 제어 구조를 도형화한다."
+        },
+        {
+            "no": 11,
+            "topic": "COCOMO",
+            "question": "COCOMO 모형에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 점수를 기반으로 비용을 산정한다."
+                },
+                {
+                    "no": 2,
+                    "text": "원시 코드 라인 수(LOC) 기반의 비용 산정 모형이다."
+                },
+                {
+                    "no": 3,
+                    "text": "테스트 케이스 수로 비용을 산정한다."
+                },
+                {
+                    "no": 4,
+                    "text": "UI 화면 수로 비용을 산정한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "COCOMO는 LOC 기반의 대표적 비용 산정 모형이다."
+        },
+        {
+            "no": 12,
+            "topic": "델파이",
+            "question": "소프트웨어 비용 산정 기법 중 전문가들의 합의를 통해 추정치를 도출하는 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "COCOMO 기법"
+                },
+                {
+                    "no": 2,
+                    "text": "기능 점수(Function Point) 기법"
+                },
+                {
+                    "no": 3,
+                    "text": "델파이(Delphi) 기법"
+                },
+                {
+                    "no": 4,
+                    "text": "Putnam 기법"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "델파이는 산정 요원/조정자 및 반복 합의로 추정치를 도출한다."
+        },
+        {
+            "no": 13,
+            "topic": "요구사항 개발 프로세스",
+            "question": "요구사항 개발(Requirements Development) 단계의 올바른 순서는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "분석 → 확인(검증) → 도출 → 명세"
+                },
+                {
+                    "no": 2,
+                    "text": "도출 → 분석 → 명세 → 확인(검증)"
+                },
+                {
+                    "no": 3,
+                    "text": "명세 → 도출 → 분석 → 확인(검증)"
+                },
+                {
+                    "no": 4,
+                    "text": "확인(검증) → 명세 → 분석 → 도출"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "요구사항 개발은 도출-분석-명세-확인 순서로 정리한다."
+        },
+        {
+            "no": 14,
+            "topic": "객체지향 특징",
+            "question": "객체지향의 특징(상속, 다형성, 캡슐화, 정보은닉)에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "상속은 기존 클래스를 확장하여 재사용성을 높인다."
+                },
+                {
+                    "no": 2,
+                    "text": "다형성은 동일 메시지에 대해 서로 다른 동작을 가능하게 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "캡슐화는 데이터와 연산을 하나로 묶어 관리한다."
+                },
+                {
+                    "no": 4,
+                    "text": "정보 은닉은 모든 내부 구현을 외부에 공개하는 것이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "정보 은닉은 내부 구현을 감추고 필요한 인터페이스만 노출하는 개념이다."
+        },
+        {
+            "no": 15,
+            "topic": "유스케이스 다이어그램",
+            "question": "유스케이스(Use Case) 다이어그램에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "클래스 간 상속 관계를 표현한다."
+                },
+                {
+                    "no": 2,
+                    "text": "사용자 관점의 요구사항과 시스템 경계를 표현한다."
+                },
+                {
+                    "no": 3,
+                    "text": "프로세스 간 데이터 흐름을 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "배포 노드와 컴포넌트 배치를 표현한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "유스케이스 다이어그램은 액터-유스케이스로 사용자 관점 요구사항을 표현한다."
+        },
+        {
+            "no": 16,
+            "topic": "UI 화면 설계 도구",
+            "question": "UI 화면 설계 단계에서 화면 흐름과 레이아웃을 시각적으로 설계할 때 주로 사용하는 산출물로 가장 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "유스케이스 명세서"
+                },
+                {
+                    "no": 2,
+                    "text": "와이어프레임(Wireframe)"
+                },
+                {
+                    "no": 3,
+                    "text": "클래스 다이어그램"
+                },
+                {
+                    "no": 4,
+                    "text": "DFD"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "와이어프레임은 화면 구조/배치를 빠르게 설계하는 대표 산출물이다."
+        },
+        {
+            "no": 17,
+            "topic": "결합도/응집도",
+            "question": "다음 중 결합도(Coupling)가 가장 높은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "자료 결합(Data Coupling)"
+                },
+                {
+                    "no": 2,
+                    "text": "스탬프 결합(Stamp Coupling)"
+                },
+                {
+                    "no": 3,
+                    "text": "제어 결합(Control Coupling)"
+                },
+                {
+                    "no": 4,
+                    "text": "내용 결합(Content Coupling)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "내용 결합이 결합도 최악(가장 강함)으로 분류된다."
+        },
+        {
+            "no": 18,
+            "topic": "UML-컴포넌트/스테레오타입",
+            "question": "UML의 스테레오타입(Stereotype)에 대한 설명으로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "UML 요소의 의미를 확장하기 위한 표기이다."
+                },
+                {
+                    "no": 2,
+                    "text": "객체의 실행 순서를 시간 축으로 표현한다."
+                },
+                {
+                    "no": 3,
+                    "text": "데이터 저장소를 의미한다."
+                },
+                {
+                    "no": 4,
+                    "text": "오직 배치 다이어그램에서만 사용된다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "스테레오타입은 «interface», «entity»처럼 UML 의미 확장에 사용한다."
+        },
+        {
+            "no": 19,
+            "topic": "LOC 기법",
+            "question": "S/W 각 기능의 원시 코드 라인 수의 비관치, 낙관치, 기대치를 측정하여 예측치를 구하고 이를 이용하여 비용을 산정하는 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 점수 기법"
+                },
+                {
+                    "no": 2,
+                    "text": "COCOMO 기법"
+                },
+                {
+                    "no": 3,
+                    "text": "델파이 기법"
+                },
+                {
+                    "no": 4,
+                    "text": "LOC 기법"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "LOC 기법은 라인 수 기반이며 3점 추정(낙관/기대/비관)을 함께 사용하기도 한다."
+        },
+        {
+            "no": 20,
+            "topic": "위험관리 순서",
+            "question": "위험 관리(Risk Management)의 일반적인 수행 순서로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "위험 분석 → 위험 식별 → 위험 감시 → 위험 계획 수립"
+                },
+                {
+                    "no": 2,
+                    "text": "위험 식별 → 위험 분석 → 위험 계획 수립 → 위험 감시"
+                },
+                {
+                    "no": 3,
+                    "text": "위험 계획 수립 → 위험 분석 → 위험 식별 → 위험 감시"
+                },
+                {
+                    "no": 4,
+                    "text": "위험 감시 → 위험 식별 → 위험 분석 → 위험 계획 수립"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "식별-분석-계획-감시(조치) 순으로 정리한다."
+        },
+        {
+            "no": 21,
+            "topic": "위험 모니터링",
+            "question": "위험 모니터링(Monitoring)에 대한 설명으로 가장 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "위험을 최초로 찾아 목록화하는 활동"
+                },
+                {
+                    "no": 2,
+                    "text": "위험 발생 확률과 영향도를 산정하는 활동"
+                },
+                {
+                    "no": 3,
+                    "text": "위험 징후를 지속적으로 관찰·인지하는 활동"
+                },
+                {
+                    "no": 4,
+                    "text": "위험 대응 비용을 회계 처리하는 활동"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "모니터링은 위험 징후를 계속 추적/인지하는 활동이다."
+        },
+        {
+            "no": 22,
+            "topic": "LOC 개발기간 계산",
+            "question": "총 라인 수가 30,000이고 개발자 5명이 월평균 1인당 300라인을 개발할 수 있을 때, LOC 기법에 따른 개발 기간(개월)은? (단, 병행에 따른 손실은 무시한다.)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "10개월"
+                },
+                {
+                    "no": 2,
+                    "text": "15개월"
+                },
+                {
+                    "no": 3,
+                    "text": "20개월"
+                },
+                {
+                    "no": 4,
+                    "text": "25개월"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "기간 = 30000 / (5×300) = 20(개월)"
+        },
+        {
+            "no": 23,
+            "topic": "아키텍처 구축 절차",
+            "question": "소프트웨어 아키텍처 구축 절차로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "아키텍처 설계 → 요구사항 분석 → 검증 및 승인 → 아키텍처 분석"
+                },
+                {
+                    "no": 2,
+                    "text": "요구사항 분석 → 아키텍처 분석 → 아키텍처 설계 → 검증 및 승인"
+                },
+                {
+                    "no": 3,
+                    "text": "검증 및 승인 → 요구사항 분석 → 아키텍처 분석 → 아키텍처 설계"
+                },
+                {
+                    "no": 4,
+                    "text": "요구사항 분석 → 아키텍처 설계 → 아키텍처 분석 → 검증 및 승인"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "요구사항 분석-아키텍처 분석-설계-검증/승인 순이다."
+        },
+        {
+            "no": 24,
+            "topic": "기능 모델링 순서",
+            "question": "기능 모델링 수행 절차로 가장 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "제약 조건 파악 → 입/출력 정의 → DFD 상세화 → 기능 명세서 작성 → 최적화 기준 명세화"
+                },
+                {
+                    "no": 2,
+                    "text": "입/출력 정의 → DFD 상세화 → 기능 명세서 작성 → 제약 조건 파악 → 최적화 기준 명세화"
+                },
+                {
+                    "no": 3,
+                    "text": "DFD 상세화 → 입/출력 정의 → 기능 명세서 작성 → 최적화 기준 명세화 → 제약 조건 파악"
+                },
+                {
+                    "no": 4,
+                    "text": "입/출력 정의 → 기능 명세서 작성 → DFD 상세화 → 제약 조건 파악 → 최적화 기준 명세화"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "입/출력 정의→DFD 상세화→기능 명세서→제약 조건→최적화 기준 순으로 정리한다."
+        },
+        {
+            "no": 25,
+            "topic": "SOA 계층",
+            "question": "서비스 지향 아키텍처(SOA) 기반 애플리케이션을 구성하는 층이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "표현층"
+                },
+                {
+                    "no": 2,
+                    "text": "프로세스층"
+                },
+                {
+                    "no": 3,
+                    "text": "제어 클래스층"
+                },
+                {
+                    "no": 4,
+                    "text": "비즈니스층"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "제어 클래스층은 OOA/D(예: BCE) 분류에 가깝고 SOA 계층 구분으로는 일반적이지 않다."
+        },
+        {
+            "no": 26,
+            "topic": "COCOMO (복원문항)",
+            "question": "COCOMO 모형에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "산정 결과는 프로젝트를 완성하는데 필요한 Man-Month로 나타난다."
+                },
+                {
+                    "no": 2,
+                    "text": "보헴(Boehm)이 제안한 것으로 원시 코드 라인 수에 의한 비용 산정 기법이다."
+                },
+                {
+                    "no": 3,
+                    "text": "비용 견적의 유연성이 높아 개발비 견적에 널리 통용된다."
+                },
+                {
+                    "no": 4,
+                    "text": "프로젝트 개발 유형에 따라 Object, Dynamic, Function의 3가지 모드로 구분한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "COCOMO 모드는 일반적으로 Organic/Semi-detached/Embedded 등으로 구분한다."
+        },
+        {
+            "no": 27,
+            "topic": "프록시 패턴",
+            "question": "다음 설명에 해당하는 디자인 패턴은?\n- 접근이 어려운 객체에 대해 대리자를 두어 접근을 제어하고, 원래 객체의 작업을 대신 처리할 수 있다.",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Proxy"
+                },
+                {
+                    "no": 2,
+                    "text": "Decorator"
+                },
+                {
+                    "no": 3,
+                    "text": "Facade"
+                },
+                {
+                    "no": 4,
+                    "text": "Adapter"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Proxy는 대리자 객체로 접근 제어/지연 로딩 등을 제공한다."
+        },
+        {
+            "no": 28,
+            "topic": "행위 패턴",
+            "question": "디자인 패턴 중 행위(Behavioral) 패턴에 속하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Command"
+                },
+                {
+                    "no": 2,
+                    "text": "Observer"
+                },
+                {
+                    "no": 3,
+                    "text": "Prototype"
+                },
+                {
+                    "no": 4,
+                    "text": "State"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Prototype은 생성(Creational) 패턴이다."
+        },
+        {
+            "no": 29,
+            "topic": "인터페이스 구현 검증 도구",
+            "question": "인터페이스 구현 검증 도구에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "FitNesse : 웹 기반 테스트케이스 설계, 실행, 결과 확인 등을 지원한다."
+                },
+                {
+                    "no": 2,
+                    "text": "STAF : Ruby를 사용하는 애플리케이션 테스트 프레임워크이다."
+                },
+                {
+                    "no": 3,
+                    "text": "NTAF : FitNesse와 STAF을 통합한 테스트 자동화 프레임워크로 알려져 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "xUnit : JUnit, NUnit 등 단위 테스트 프레임워크 계열이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "②는 Watir 등 Ruby 기반 도구 설명에 가깝다."
+        },
+        {
+            "no": 30,
+            "topic": "EAI 구축 유형",
+            "question": "EAI(Enterprise Application Integration)의 구축 유형으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Point-to-Point"
+                },
+                {
+                    "no": 2,
+                    "text": "Hub & Spoke"
+                },
+                {
+                    "no": 3,
+                    "text": "Message Bus"
+                },
+                {
+                    "no": 4,
+                    "text": "Tree"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "대표 유형은 P2P, Hub&Spoke, Message Bus(ESB) 등이 있다."
+        },
+        {
+            "no": 31,
+            "topic": "미들웨어 유형",
+            "question": "미들웨어 솔루션의 유형에 포함되지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "WAS"
+                },
+                {
+                    "no": 2,
+                    "text": "Web Server"
+                },
+                {
+                    "no": 3,
+                    "text": "RPC"
+                },
+                {
+                    "no": 4,
+                    "text": "ORB"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Web Server는 일반적으로 미들웨어 솔루션 유형 분류에서 제외된다(서버 SW로 별도 분류)."
+        },
+        {
+            "no": 32,
+            "topic": "성능 측정 항목",
+            "question": "소프트웨어 설계 시 구축된 플랫폼의 성능 특성 분석에 사용되는 측정 항목이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "응답시간(Response Time)"
+                },
+                {
+                    "no": 2,
+                    "text": "가용성(Availability)"
+                },
+                {
+                    "no": 3,
+                    "text": "사용률(Utilization)"
+                },
+                {
+                    "no": 4,
+                    "text": "서버 튜닝(Server Tuning)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "서버 튜닝은 활동/행위에 가깝고 성능 측정 ‘항목’으로는 보통 보지 않는다."
+        },
+        {
+            "no": 33,
+            "topic": "애자일 방법론",
+            "question": "애자일 방법론에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 중심 개발(FDD)"
+                },
+                {
+                    "no": 2,
+                    "text": "스크럼(Scrum)"
+                },
+                {
+                    "no": 3,
+                    "text": "익스트림 프로그래밍(XP)"
+                },
+                {
+                    "no": 4,
+                    "text": "모듈 중심 개발"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FDD/스크럼/XP는 대표 애자일 방법론이다."
+        },
+        {
+            "no": 34,
+            "topic": "하향식/상향식 설계",
+            "question": "하향식 설계와 상향식 설계 비교 설명으로 가장 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "하향식 설계는 통합 시 인터페이스가 정의되어 통합이 비교적 단순하다."
+                },
+                {
+                    "no": 2,
+                    "text": "하향식 설계는 초기 단계에서 하위 데이터 구조의 세부사항 고려가 필요할 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "상향식 설계는 최하위 모듈부터 설계/구현 후 결합하여 검사한다."
+                },
+                {
+                    "no": 4,
+                    "text": "상향식 설계는 인터페이스가 성립되지 않아도 기능 추가가 쉽다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "상향식도 인터페이스/결합 설계가 필요하며 ‘인터페이스 없어도 쉽다’는 부적절하다."
+        },
+        {
+            "no": 35,
+            "topic": "유스케이스 다이어그램(복원문항)",
+            "question": "유스케이스 다이어그램에 관련된 내용으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "시스템과 상호작용하는 외부시스템은 액터로 파악해서는 안 된다."
+                },
+                {
+                    "no": 2,
+                    "text": "유스케이스는 사용자 측면의 요구사항으로 목표 달성을 위한 수행 내용을 기술한다."
+                },
+                {
+                    "no": 3,
+                    "text": "시스템 액터는 다른 시스템과 연동되어 데이터를 주고받는 외부 시스템을 말할 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "액터가 인식할 수 없는 시스템 내부 기능을 유스케이스로 파악해서는 안 된다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "외부 시스템도 시스템과 상호작용하면 액터(시스템 액터)가 될 수 있다."
+        },
+        {
+            "no": 36,
+            "topic": "UML 행위 다이어그램",
+            "question": "UML 다이어그램 중 행위(Behavioral) 다이어그램에 해당하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "유스케이스 다이어그램"
+                },
+                {
+                    "no": 2,
+                    "text": "시퀀스 다이어그램"
+                },
+                {
+                    "no": 3,
+                    "text": "활동 다이어그램"
+                },
+                {
+                    "no": 4,
+                    "text": "배치(Deployment) 다이어그램"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "배치 다이어그램은 구조(Structural) 다이어그램이다."
+        },
+        {
+            "no": 37,
+            "topic": "ISO 품질-이식성",
+            "question": "ISO/IEC 품질 특성 중 이식성(Portability)의 세부 특성으로 묶기에 가장 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "적용성, 설치성, 대체성, 공존성, 준수성"
+                },
+                {
+                    "no": 2,
+                    "text": "성숙성, 결함허용성, 회복성, 준수성, 분석성"
+                },
+                {
+                    "no": 3,
+                    "text": "이해성, 학습성, 운용성, 매력성, 접근성"
+                },
+                {
+                    "no": 4,
+                    "text": "기능적 완전성, 정확성, 상호운용성, 보안성, 준수성"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "이식성의 대표 세부 특성: 적용/설치/대체/공존/준수."
+        },
+        {
+            "no": 38,
+            "topic": "응집도",
+            "question": "응집도의 종류 중, 서로 의미 있는 연관 관계가 거의 없고 우연히 묶인 기능 요소로 구성되는 응집도는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Functional Cohesion"
+                },
+                {
+                    "no": 2,
+                    "text": "Sequential Cohesion"
+                },
+                {
+                    "no": 3,
+                    "text": "Logical Cohesion"
+                },
+                {
+                    "no": 4,
+                    "text": "Coincidental Cohesion"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Coincidental(우연적) 응집도는 가장 낮은 응집도로 분류된다."
+        },
+        {
+            "no": 39,
+            "topic": "N-S 차트(복원문항)",
+            "question": "NS(Nassi-Shneiderman) Chart에 대한 설명으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "논리의 기술에 중점을 둔 도형식 표현 방법이다."
+                },
+                {
+                    "no": 2,
+                    "text": "연속, 선택/다중선택, 반복 등의 제어구조로 표현한다."
+                },
+                {
+                    "no": 3,
+                    "text": "화살표를 주로 사용하여 제어 흐름을 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "복합 조건 처리 식별에 유리하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "화살표 중심 표현은 DFD/흐름도 성격에 가깝고 N-S는 블록 구조 중심이다."
+        },
+        {
+            "no": 40,
+            "topic": "아키텍처(파이프-필터 등)",
+            "question": "소프트웨어 아키텍처와 관련한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "파이프-필터 아키텍처에서 데이터는 파이프를 통해 양방향으로 흐르며 필터 이동 시 오버헤드가 발생하지 않는다."
+                },
+                {
+                    "no": 2,
+                    "text": "소프트웨어의 골격이 되는 기본 구조로 볼 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "데이터 중심 아키텍처는 공유 저장소를 통해 접근자 간 통신이 이루어져 확장이 용이하다."
+                },
+                {
+                    "no": 4,
+                    "text": "이해관계자의 품질 요구를 반영하여 품질 속성을 결정한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "파이프-필터는 보통 단방향 흐름으로 설명하며 오버헤드가 없다고 단정하기 어렵다."
+        },
+        {
+            "no": 41,
+            "topic": "GoF 행위 패턴",
+            "question": "GoF 디자인 패턴 중 행위(Behavioral) 패턴에 속하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Builder"
+                },
+                {
+                    "no": 2,
+                    "text": "Visitor"
+                },
+                {
+                    "no": 3,
+                    "text": "Prototype"
+                },
+                {
+                    "no": 4,
+                    "text": "Bridge"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Visitor는 행위 패턴, Builder/Prototype은 생성, Bridge는 구조 패턴이다."
+        },
+        {
+            "no": 42,
+            "topic": "미들웨어(복원문항)",
+            "question": "미들웨어에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "여러 운영체제에서 응용 프로그램들 사이에 위치한 소프트웨어이다."
+                },
+                {
+                    "no": 2,
+                    "text": "서비스 이용을 위해 사용자가 내부 동작을 쉽게 확인할 수 있어야 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "소프트웨어 컴포넌트를 연결하기 위한 인프라를 제공한다."
+                },
+                {
+                    "no": 4,
+                    "text": "1:1, 1:N, N:N 형태의 연결을 지원할 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "미들웨어는 내부 동작을 숨기고(투명성) 표준 인터페이스를 제공하는 것이 일반적이다."
+        },
+        {
+            "no": 43,
+            "topic": "FTR",
+            "question": "정형 기술 검토(FTR)의 지침으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "의제를 제한한다."
+                },
+                {
+                    "no": 2,
+                    "text": "논쟁과 반박을 제한한다."
+                },
+                {
+                    "no": 3,
+                    "text": "문제 영역을 명확히 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "참가자의 수를 제한하지 않는다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FTR은 효율을 위해 참가자 수를 적절히 제한한다."
+        },
+        {
+            "no": 44,
+            "topic": "마스터-슬레이브 아키텍처",
+            "question": "분산 시스템을 위한 마스터-슬레이브(Master-Slave) 아키텍처에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "일반적으로 실시간 시스템에서 사용될 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "마스터 프로세스는 연산, 통신, 조정을 책임질 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "슬레이브 프로세스는 데이터 수집 기능을 수행할 수 없다."
+                },
+                {
+                    "no": 4,
+                    "text": "마스터 프로세스는 슬레이브 프로세스들을 제어할 수 있다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "슬레이브는 데이터 수집/처리를 수행할 수 있다."
+        },
+        {
+            "no": 45,
+            "topic": "템플릿 메서드 패턴",
+            "question": "다음 설명에 해당하는 디자인 패턴은?\n- 부모 클래스에서 알고리즘의 골격을 정의하고, 구조는 유지한 채 자식 클래스가 특정 단계를 재정의할 수 있다.",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Factory"
+                },
+                {
+                    "no": 2,
+                    "text": "Adapter"
+                },
+                {
+                    "no": 3,
+                    "text": "Strategy"
+                },
+                {
+                    "no": 4,
+                    "text": "Template Method"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Template Method는 골격(템플릿) + 훅 메서드 오버라이드가 핵심이다."
+        },
+        {
+            "no": 46,
+            "topic": "모델링 다이어그램",
+            "question": "요구 사항 정의 및 분석·설계 결과물을 표현하기 위한 모델링 과정에서 사용되는 다이어그램이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DFD"
+                },
+                {
+                    "no": 2,
+                    "text": "UML Diagram"
+                },
+                {
+                    "no": 3,
+                    "text": "E-R Diagram"
+                },
+                {
+                    "no": 4,
+                    "text": "AVL Diagram"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "AVL은 트리 자료구조(AVL 트리)와 관련된 용어로 일반 모델링 다이어그램 분류가 아니다."
+        },
+        {
+            "no": 47,
+            "topic": "유스케이스 관계",
+            "question": "유스케이스(Use Case)의 구성 요소 간 관계에 포함되지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "연관(Association)"
+                },
+                {
+                    "no": 2,
+                    "text": "확장(Extend)"
+                },
+                {
+                    "no": 3,
+                    "text": "구체화(Realization)"
+                },
+                {
+                    "no": 4,
+                    "text": "일반화(Generalization)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "유스케이스 관계로는 연관/포함/확장/일반화 등이 주로 다뤄진다."
+        },
+        {
+            "no": 48,
+            "topic": "UML 사물(Things)",
+            "question": "UML의 사물(Things) 분류로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "구조(Structural), 행동(Behavioral), 그룹(Grouping), 주해(Annotation)"
+                },
+                {
+                    "no": 2,
+                    "text": "요구(Requirement), 테스트(Test), 배포(Deploy), 운영(Operation)"
+                },
+                {
+                    "no": 3,
+                    "text": "데이터(Data), 함수(Function), 제어(Control), 인터페이스(Interface)"
+                },
+                {
+                    "no": 4,
+                    "text": "정적(Static), 동적(Dynamic), 물리(Physical), 논리(Logical)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "UML Things는 구조/행동/그룹/주해로 구분한다."
+        },
+        {
+            "no": 49,
+            "topic": "스크럼 활동",
+            "question": "스크럼에서 매일 15분 내외로 진행 상황과 장애 요인을 공유하는 활동은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스프린트 회고(Sprint Retrospective)"
+                },
+                {
+                    "no": 2,
+                    "text": "일일 스크럼(Daily Scrum)"
+                },
+                {
+                    "no": 3,
+                    "text": "스프린트 계획(Sprint Planning)"
+                },
+                {
+                    "no": 4,
+                    "text": "제품 백로그 정제(Backlog Refinement)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Daily Scrum은 매일 짧게 진행상황/이슈를 공유한다."
+        },
+        {
+            "no": 50,
+            "topic": "동적/정적 다이어그램",
+            "question": "다음 중 동적(행위) 다이어그램이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "시퀀스 다이어그램"
+                },
+                {
+                    "no": 2,
+                    "text": "상태 다이어그램"
+                },
+                {
+                    "no": 3,
+                    "text": "활동 다이어그램"
+                },
+                {
+                    "no": 4,
+                    "text": "배치(Deployment) 다이어그램"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Deployment는 구조 다이어그램으로 분류된다."
+        },
+        {
+            "no": 51,
+            "topic": "결합도(복원문항)",
+            "question": "결합도의 종류에 대한 설명(또는 분류)로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기능 결합(Function Coupling)"
+                },
+                {
+                    "no": 2,
+                    "text": "내용 결합(Content Coupling)"
+                },
+                {
+                    "no": 3,
+                    "text": "공통 결합(Common Coupling)"
+                },
+                {
+                    "no": 4,
+                    "text": "외부 결합(External Coupling)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "일반적인 결합도 분류에 '기능 결합'은 포함되지 않는다(분류 용어로 부적절)."
+        },
+        {
+            "no": 52,
+            "topic": "4+1 뷰",
+            "question": "소프트웨어 아키텍처 4+1 뷰(View) 모델의 구성요소가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "구현(Development) 뷰"
+                },
+                {
+                    "no": 2,
+                    "text": "배치(Physical/Deployment) 뷰"
+                },
+                {
+                    "no": 3,
+                    "text": "물리(Physical) 뷰"
+                },
+                {
+                    "no": 4,
+                    "text": "논리(Logical) 뷰"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "4+1은 논리/프로세스/개발(구현)/물리(배치) + 유스케이스 뷰로 정리한다. 보기 ②와 ③이 중복 의미로 출제되며 ③을 오답 처리한 형태로 복원됨."
+        },
+        {
+            "no": 53,
+            "topic": "객체지향-캡슐화",
+            "question": "연관된 데이터와 연산을 함께 묶고 외부에 필요한 인터페이스만 노출하는 객체지향 개념은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "메시지(Message)"
+                },
+                {
+                    "no": 2,
+                    "text": "캡슐화(Encapsulation)"
+                },
+                {
+                    "no": 3,
+                    "text": "다형성(Polymorphism)"
+                },
+                {
+                    "no": 4,
+                    "text": "상속(Inheritance)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "캡슐화는 데이터+연산 묶음 + 인터페이스만 노출."
+        },
+        {
+            "no": 54,
+            "topic": "객체지향-메시지",
+            "question": "객체에게 어떤 행위를 하도록 지시하는 명령은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Class"
+                },
+                {
+                    "no": 2,
+                    "text": "Instance"
+                },
+                {
+                    "no": 3,
+                    "text": "Object"
+                },
+                {
+                    "no": 4,
+                    "text": "Message"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "객체지향에서 객체 간 요청/호출은 메시지로 표현한다."
+        },
+        {
+            "no": 55,
+            "topic": "럼바우 절차(복원문항)",
+            "question": "럼바우(Rumbaugh)의 객체지향 분석 절차를 가장 바르게 나열한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "객체 모형 → 동적 모형 → 기능 모형"
+                },
+                {
+                    "no": 2,
+                    "text": "객체 모형 → 기능 모형 → 동적 모형"
+                },
+                {
+                    "no": 3,
+                    "text": "기능 모형 → 동적 모형 → 객체 모형"
+                },
+                {
+                    "no": 4,
+                    "text": "기능 모형 → 객체 모형 → 동적 모형"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "OMT 절차는 객체→동적→기능 모형 순으로 제시된다."
+        },
+        {
+            "no": 56,
+            "topic": "UML 시퀀스 다이어그램",
+            "question": "객체들이 상호 동작하는 메시지 순서에 초점을 맞춰 시간 순서대로 나타내는 UML 다이어그램은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "클래스 다이어그램"
+                },
+                {
+                    "no": 2,
+                    "text": "시퀀스(Sequence) 다이어그램"
+                },
+                {
+                    "no": 3,
+                    "text": "배치(Deployment) 다이어그램"
+                },
+                {
+                    "no": 4,
+                    "text": "컴포넌트(Component) 다이어그램"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "시퀀스 다이어그램은 메시지 흐름을 시간 축으로 표현한다."
+        },
+        {
+            "no": 57,
+            "topic": "Brooks의 법칙",
+            "question": "프로젝트 일정이 지연된다고 해서 말기에 인력을 추가 투입하면 오히려 더 지연된다고 주장하는 법칙은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Putnam의 법칙"
+                },
+                {
+                    "no": 2,
+                    "text": "Mayer의 법칙"
+                },
+                {
+                    "no": 3,
+                    "text": "Brooks의 법칙"
+                },
+                {
+                    "no": 4,
+                    "text": "Boehm의 법칙"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Brooks의 법칙: 늦은 프로젝트에 인력 추가는 커뮤니케이션 비용 등으로 더 늦어질 수 있다."
+        }
+    ]
+}

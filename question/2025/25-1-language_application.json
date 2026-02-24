@@ -1,0 +1,450 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 1
+        },
+        "subject": {
+            "name": "프로그래밍 언어 활용",
+            "code": "LANGUAGE_APPLICATION"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "C 문자열 함수(복원)",
+            "question": "C언어 문자열 처리 함수의 서식과 기능 연결로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "strlen(s) - s의 길이를 구한다."
+                },
+                {
+                    "no": 2,
+                    "text": "strcpy(s1,s2) - s2를 s1으로 복사한다."
+                },
+                {
+                    "no": 3,
+                    "text": "strcmp(s1,s2) - s1과 s2를 연결한다."
+                },
+                {
+                    "no": 4,
+                    "text": "strrev(s) - s를 거꾸로 변환한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "strcmp는 문자열 비교 함수이며, 연결은 strcat에 해당한다."
+        },
+        {
+            "no": 2,
+            "topic": "Python split(복원)",
+            "question": "다음 파이썬 코드에서 입력으로 '19t94'를 넣었을 때 출력 결과는?\na, b = map(int, input().split(\"t\"))\nprint(a, b)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "19 94"
+                },
+                {
+                    "no": 2,
+                    "text": "19t94"
+                },
+                {
+                    "no": 3,
+                    "text": "t"
+                },
+                {
+                    "no": 4,
+                    "text": "19, 44"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "split(\"t\")로 '19'와 '94'가 분리되고 int로 변환되어 출력된다."
+        },
+        {
+            "no": 3,
+            "topic": "Python 자료형 선택(자동생성)",
+            "question": "여러 개의 값을 '순서를 유지'하며 한 번에 저장하고, 중복도 허용하는 파이썬 자료형으로 가장 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "set"
+                },
+                {
+                    "no": 2,
+                    "text": "list"
+                },
+                {
+                    "no": 3,
+                    "text": "dict"
+                },
+                {
+                    "no": 4,
+                    "text": "frozenset"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "list는 순서 유지 + 중복 허용 자료형이다."
+        },
+        {
+            "no": 4,
+            "topic": "JAVA 연산자 우선순위(복원)",
+            "question": "다음 중 JAVA에서 우선순위가 가장 낮은 연산자는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "--"
+                },
+                {
+                    "no": 2,
+                    "text": "%"
+                },
+                {
+                    "no": 3,
+                    "text": "&"
+                },
+                {
+                    "no": 4,
+                    "text": "="
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "대입(=) 연산자는 대부분의 연산자보다 우선순위가 낮다."
+        },
+        {
+            "no": 5,
+            "topic": "교착상태 필요조건(복원)",
+            "question": "교착 상태 발생의 필요조건이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Mutual Exclusion"
+                },
+                {
+                    "no": 2,
+                    "text": "Hold and Wait"
+                },
+                {
+                    "no": 3,
+                    "text": "Circular Wait"
+                },
+                {
+                    "no": 4,
+                    "text": "Preemption"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "필요조건은 상호배제/점유대기/비선점/환형대기이다. 보기 ④는 조건 자체가 아니다."
+        },
+        {
+            "no": 6,
+            "topic": "UNIX finger(복원)",
+            "question": "유닉스 시스템에서 사용자의 계정 정보와 최근 로그인 정보, 이메일, 예약 작업 정보 등을 출력하는 명령어는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "cat"
+                },
+                {
+                    "no": 2,
+                    "text": "finger"
+                },
+                {
+                    "no": 3,
+                    "text": "ls"
+                },
+                {
+                    "no": 4,
+                    "text": "print"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "finger 명령은 사용자 정보 조회에 사용된다."
+        },
+        {
+            "no": 7,
+            "topic": "HRN 스케줄링(복원)",
+            "question": "HRN(Highest Response-ratio Next) 스케줄링에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "대기 시간이 긴 프로세스는 우선순위가 높아질 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "SJF의 단점을 보완하기 위한 방식이다."
+                },
+                {
+                    "no": 3,
+                    "text": "긴 작업과 짧은 작업 간 불평등을 완화할 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "우선순위 수치가 가장 낮은 것부터 높은 순으로 선택한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "HRN은 보통 응답비(높을수록) 우선이다."
+        },
+        {
+            "no": 8,
+            "topic": "FIFO 페이지 교체(복원)",
+            "question": "4개의 페이지를 수용할 수 있는 주기억장치가 비어 있을 때, 참조 순서가 1,2,3,1,2,4,5,1 이고 FIFO 교체를 사용하면 페이지 결함 횟수는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "6회"
+                },
+                {
+                    "no": 2,
+                    "text": "7회"
+                },
+                {
+                    "no": 3,
+                    "text": "8회"
+                },
+                {
+                    "no": 4,
+                    "text": "9회"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "복원 정답 기준: 6회."
+        },
+        {
+            "no": 9,
+            "topic": "페이징 vs 세그먼테이션(복원)",
+            "question": "페이징 기법과 세그먼테이션 기법에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "페이징에서는 주소 변환을 위한 페이지 맵 테이블이 필요하다."
+                },
+                {
+                    "no": 2,
+                    "text": "페이지 크기로 나뉜 주기억장치 단위를 페이지 프레임이라 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "페이징은 다양한 크기의 논리 단위로 나누어 적재한다."
+                },
+                {
+                    "no": 4,
+                    "text": "세그먼테이션은 논리 단위(세그먼트) 기반으로 관리한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "다양한 크기 논리 단위는 세그먼테이션 설명에 가깝다."
+        },
+        {
+            "no": 10,
+            "topic": "LRU 페이지 교체(복원)",
+            "question": "4개의 페이지 프레임이 비어 있을 때, 참조 순서가 1,2,3,1,2,4,1,2,5이고 LRU 교체를 사용하면 페이지 결함 횟수는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "5회"
+                },
+                {
+                    "no": 2,
+                    "text": "6회"
+                },
+                {
+                    "no": 3,
+                    "text": "7회"
+                },
+                {
+                    "no": 4,
+                    "text": "8회"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "복원 정답 기준: 5회."
+        },
+        {
+            "no": 11,
+            "topic": "UNIX 특징(복원)",
+            "question": "UNIX 운영체제 특징으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "백그라운드 작업 수행이 가능하다."
+                },
+                {
+                    "no": 2,
+                    "text": "Multi-User는 지원하지만 Multi-Tasking은 지원하지 않는다."
+                },
+                {
+                    "no": 3,
+                    "text": "트리 구조의 파일 시스템을 갖는다."
+                },
+                {
+                    "no": 4,
+                    "text": "이식성이 높다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "UNIX는 Multi-User와 Multi-Tasking을 모두 지원한다."
+        },
+        {
+            "no": 12,
+            "topic": "이진 탐색 비교 횟수(복원)",
+            "question": "정렬된 자료 A~O(15개)에서 이진 탐색으로 E를 찾을 때 비교 횟수로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3"
+                },
+                {
+                    "no": 2,
+                    "text": "4"
+                },
+                {
+                    "no": 3,
+                    "text": "5"
+                },
+                {
+                    "no": 4,
+                    "text": "6"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "복원 정답 기준: 4회."
+        },
+        {
+            "no": 13,
+            "topic": "TCP 계층(복원)",
+            "question": "TCP/IP에서 TCP가 해당하는 계층은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "데이터 링크 계층"
+                },
+                {
+                    "no": 2,
+                    "text": "네트워크 계층"
+                },
+                {
+                    "no": 3,
+                    "text": "트랜스포트 계층"
+                },
+                {
+                    "no": 4,
+                    "text": "세션 계층"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "TCP는 전송(Transport) 계층 프로토콜이다."
+        },
+        {
+            "no": 14,
+            "topic": "OSI 전송계층(복원)",
+            "question": "OSI 7계층에서 단말기 사이 오류 수정과 흐름 제어를 수행하여 신뢰성 있는 데이터 전달을 담당하는 계층은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "전송 계층"
+                },
+                {
+                    "no": 2,
+                    "text": "응용 계층"
+                },
+                {
+                    "no": 3,
+                    "text": "세션 계층"
+                },
+                {
+                    "no": 4,
+                    "text": "표현 계층"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "신뢰성 전송/흐름제어/오류제어는 전송 계층에서 다룬다."
+        },
+        {
+            "no": 15,
+            "topic": "서브넷(복원)",
+            "question": "10.0.0.0 네트워크에서 서브넷 마스크가 255.240.0.0일 때 유효한 서브네트 ID로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "10.240.0.0"
+                },
+                {
+                    "no": 2,
+                    "text": "10.0.0.32"
+                },
+                {
+                    "no": 3,
+                    "text": "10.1.16.3"
+                },
+                {
+                    "no": 4,
+                    "text": "10.29.240.0"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "복원 정답 기준: 10.240.0.0"
+        },
+        {
+            "no": 16,
+            "topic": "L4 스위치(복원)",
+            "question": "부하 분산(Load Balancing)과 고가용성을 제공하여 신뢰성과 확장성을 향상시키는 장비로 가장 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "L2 스위치"
+                },
+                {
+                    "no": 2,
+                    "text": "L3 스위치"
+                },
+                {
+                    "no": 3,
+                    "text": "L4 스위치"
+                },
+                {
+                    "no": 4,
+                    "text": "리피터"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "L4 스위치는 전송계층 정보까지 활용해 로드밸런싱을 수행한다."
+        }
+    ]
+}

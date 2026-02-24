@@ -1,0 +1,396 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 2
+        },
+        "subject": {
+            "name": "소프트웨어 개발",
+            "code": "SW_ENGINEERING"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성(빈 보기는 합리적 보기로 보완)"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "Infix→Postfix 변환",
+            "question": "중위 표기법(Infix)의 수식 (A＋B)*C＋(D＋E)을 후위 표기법(Postfix)으로 옳게 표기한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "AB＋CDE*＋＋"
+                },
+                {
+                    "no": 2,
+                    "text": "AB＋C*DE＋＋"
+                },
+                {
+                    "no": 3,
+                    "text": "＋AB*C＋DE＋"
+                },
+                {
+                    "no": 4,
+                    "text": "＋*＋ABC＋DE"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "AB+ C* DE+ + 형태가 된다."
+        },
+        {
+            "no": 2,
+            "topic": "블랙박스/화이트박스",
+            "question": "블랙박스 테스트 기법으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "기초 경로 검사"
+                },
+                {
+                    "no": 2,
+                    "text": "동치 클래스 분해"
+                },
+                {
+                    "no": 3,
+                    "text": "경계값 분석"
+                },
+                {
+                    "no": 4,
+                    "text": "원인 결과 그래프"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "기초 경로 검사는 제어흐름 기반의 화이트박스 테스트 기법이다."
+        },
+        {
+            "no": 3,
+            "topic": "DRM 요소",
+            "question": "디지털 저작권 관리(DRM)의 기술 요소가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "크랙 방지 기술"
+                },
+                {
+                    "no": 2,
+                    "text": "정책 관리 기술"
+                },
+                {
+                    "no": 3,
+                    "text": "암호화 기술"
+                },
+                {
+                    "no": 4,
+                    "text": "방화벽 기술"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "방화벽은 네트워크 보안 장비/기술로 DRM 요소로 분류되지 않는다."
+        },
+        {
+            "no": 4,
+            "topic": "단위 테스트 범위(복원+보완)",
+            "question": "단위 테스트(Unit Test)를 통해 알 수 없는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "전체 시스템이 정상적으로 작동하는지에 대한 최종 판정"
+                },
+                {
+                    "no": 2,
+                    "text": "단위 모듈의 기능 수행 여부 및 내부 논리 오류"
+                },
+                {
+                    "no": 3,
+                    "text": "모듈 내부 분기/경로 등 구조적 결함의 일부"
+                },
+                {
+                    "no": 4,
+                    "text": "함수/메서드 단위에서 명세대로 동작하는지 여부"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "단위 테스트는 모듈 단위 검증으로, 시스템 전체의 최종 정상 동작 판정은 시스템/인수 테스트 영역이다."
+        },
+        {
+            "no": 5,
+            "topic": "코드 인스펙션",
+            "question": "다음 설명에 해당하는 것은?\n- 실행 대신 읽어보며 확인하는 정적 검토\n- 코드 품질 향상 기법\n- 결함, 표준 준수, 효율성 등을 점검",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "코드 인스펙션(Code Inspection)"
+                },
+                {
+                    "no": 2,
+                    "text": "회귀 테스트(Regression Test)"
+                },
+                {
+                    "no": 3,
+                    "text": "동적 분석(Dynamic Analysis)"
+                },
+                {
+                    "no": 4,
+                    "text": "베타 테스트(Beta Test)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "인스펙션은 실행 없이 규정된 절차로 결함을 찾는 정적 리뷰이다."
+        },
+        {
+            "no": 6,
+            "topic": "알고리즘 설계 기법",
+            "question": "알고리즘 설계 기법으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Divide and Conquer"
+                },
+                {
+                    "no": 2,
+                    "text": "Greedy"
+                },
+                {
+                    "no": 3,
+                    "text": "Static Block"
+                },
+                {
+                    "no": 4,
+                    "text": "Backtracking"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Divide and Conquer/Greedy/Backtracking은 대표 설계 기법이다."
+        },
+        {
+            "no": 7,
+            "topic": "선택 정렬",
+            "question": "다음 자료를 선택(Selection) 정렬로 오름차순 정렬할 때 3회전 후 결과는?\n37, 14, 17, 40, 35",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "14, 17, 37, 40, 35"
+                },
+                {
+                    "no": 2,
+                    "text": "14, 37, 17, 40, 35"
+                },
+                {
+                    "no": 3,
+                    "text": "17, 14, 37, 35, 40"
+                },
+                {
+                    "no": 4,
+                    "text": "14, 17, 35, 40, 37"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "1회전 14, 2회전 17, 3회전 35가 제자리로 이동한다."
+        },
+        {
+            "no": 8,
+            "topic": "테스트 드라이버",
+            "question": "하위 모듈은 있으나 상위 모듈이 없는 경우 하위 모듈을 구동하기 위한 제어 프로그램은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "드라이버(Driver)"
+                },
+                {
+                    "no": 2,
+                    "text": "스텁(Stub)"
+                },
+                {
+                    "no": 3,
+                    "text": "오라클(Oracle)"
+                },
+                {
+                    "no": 4,
+                    "text": "목업(Mock)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Driver는 테스트 대상(하위) 모듈을 호출하는 가상 상위 모듈이다."
+        },
+        {
+            "no": 9,
+            "topic": "재공학-마이그레이션",
+            "question": "소프트웨어 재공학의 주요 활동 중 기존 소프트웨어 시스템을 새로운 기술 또는 하드웨어 환경에서 사용할 수 있도록 변환하는 작업은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Analysis"
+                },
+                {
+                    "no": 2,
+                    "text": "Migration"
+                },
+                {
+                    "no": 3,
+                    "text": "Restructuring"
+                },
+                {
+                    "no": 4,
+                    "text": "Reverse Engineering"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Migration은 플랫폼/환경 이전 및 변환을 의미한다."
+        },
+        {
+            "no": 10,
+            "topic": "ISO/IEC 25000",
+            "question": "소프트웨어 품질 관련 국제 표준인 ISO/IEC 25000에 관한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "소프트웨어 품질평가를 위한 통합모델 표준이다."
+                },
+                {
+                    "no": 2,
+                    "text": "System and Software Quality Requirements and Evaluation로 SQuaRE라고도 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "ISO/IEC 2501n에서는 내부/외부/사용품질 측정과 품질측정요소 등을 다룬다."
+                },
+                {
+                    "no": 4,
+                    "text": "ISO/IEC 9126과 ISO/IEC 14598을 통합하였다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "해당 측정 관련 설명은 보통 ISO/IEC 2502n 계열 설명으로 본다."
+        },
+        {
+            "no": 11,
+            "topic": "스택 삭제-언더플로우",
+            "question": "다음은 스택의 자료 삭제 알고리즘이다. ⓐ에 들어갈 내용으로 옳은 것은? (Top: 스택 포인터)\nIf Top = 0 Then\n    (   ⓐ   )\nElse {\n    remove S(Top)\n    Top = Top - 1\n}",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Overflow"
+                },
+                {
+                    "no": 2,
+                    "text": "Top = Top + 1"
+                },
+                {
+                    "no": 3,
+                    "text": "Underflow"
+                },
+                {
+                    "no": 4,
+                    "text": "Top = Top"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Top=0이면 삭제할 원소가 없어 Underflow가 발생한다."
+        },
+        {
+            "no": 12,
+            "topic": "트리 후위 순회",
+            "question": "다음 트리를 후위 순회(Postorder Traversal)한 결과는?\n        A\n      /   \\\n     B     C\n    /     / \\\n   D     E   F",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "A B D C E F"
+                },
+                {
+                    "no": 2,
+                    "text": "D B A E C F"
+                },
+                {
+                    "no": 3,
+                    "text": "A B C D E F"
+                },
+                {
+                    "no": 4,
+                    "text": "D B E F C A"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "후위 순회는 좌-우-루트이므로 D,B,E,F,C,A 순이다."
+        },
+        {
+            "no": 13,
+            "topic": "형상관리 의미",
+            "question": "소프트웨어 형상관리의 의미로 적절한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "비용에 관한 사항을 효율적으로 관리하는 것"
+                },
+                {
+                    "no": 2,
+                    "text": "소프트웨어 변화에 따라 문서/산출물 및 변경 사항을 관리하는 것"
+                },
+                {
+                    "no": 3,
+                    "text": "테스트 과정에서 소프트웨어를 통합하는 것"
+                },
+                {
+                    "no": 4,
+                    "text": "개발 인력을 관리하는 것"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "형상관리는 변경 통제와 산출물 버전/상태 관리를 포함한다."
+        },
+        {
+            "no": 14,
+            "topic": "테스트 오라클 종류(복원+보완)",
+            "question": "테스트 오라클(Test Oracle)의 종류가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "참(True) 오라클"
+                },
+                {
+                    "no": 2,
+                    "text": "샘플링(Sampling) 오라클"
+                },
+                {
+                    "no": 3,
+                    "text": "휴리스틱(Heuristic) 오라클"
+                },
+                {
+                    "no": 4,
+                    "text": "참조성 검사 오라클"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "오라클 종류로는 참/샘플링/휴리스틱/일관성 검사 등이 대표적으로 언급된다."
+        }
+    ]
+}

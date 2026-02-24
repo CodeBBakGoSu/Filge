@@ -1,0 +1,774 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 3
+        },
+        "subject": {
+            "name": "프로그래밍 언어 활용",
+            "code": "LANGUAGE_APPLICATION"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 일부 보기 누락은 유사 난이도로 자동 생성(명시적으로 표시)"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "필기[20년2회] Banker’s Algorithm",
+            "question": "은행가 알고리즘(Banker’s Algorithm)은 교착상태 해결 방법 중 어떤 기법에 해당하는가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Avoidance"
+                },
+                {
+                    "no": 2,
+                    "text": "Detection"
+                },
+                {
+                    "no": 3,
+                    "text": "Prevention"
+                },
+                {
+                    "no": 4,
+                    "text": "Recovery"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "은행가 알고리즘은 교착상태 회피(Avoidance) 기법이다."
+        },
+        {
+            "no": 2,
+            "topic": "PCB",
+            "question": "프로세스 제어 블록(PCB)에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "프로세스에 할당된 자원 정보가 포함될 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "프로세스의 우선순위 정보가 포함될 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "부모 프로세스와 자식 프로세스는 PCB를 공유한다."
+                },
+                {
+                    "no": 4,
+                    "text": "프로세스의 현재 상태 정보를 포함한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "각 프로세스는 독립적인 PCB를 가진다."
+        },
+        {
+            "no": 3,
+            "topic": "IPSec(보기 누락)",
+            "question": "IPSec에 대한 설명으로 틀린 것은? (원문 보기 일부 누락: 복원 불가)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "암호화 수행 시 일방향 암호만 지원한다."
+                },
+                {
+                    "no": 2,
+                    "text": "보기 누락"
+                },
+                {
+                    "no": 3,
+                    "text": "보기 누락"
+                },
+                {
+                    "no": 4,
+                    "text": "보기 누락"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "IPSec은 대칭키 기반 암호화 등을 사용하며 '일방향 암호만'은 부적절한 설명이다."
+        },
+        {
+            "no": 4,
+            "topic": "Best Fit 내부 단편화",
+            "question": "빈 기억 공간 20K, 16K, 8K, 40K에서 Best Fit으로 17K 적재 시 내부 단편화는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3K"
+                },
+                {
+                    "no": 2,
+                    "text": "23K"
+                },
+                {
+                    "no": 3,
+                    "text": "64K"
+                },
+                {
+                    "no": 4,
+                    "text": "67K"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Best Fit은 20K에 배치 → 20-17=3K."
+        },
+        {
+            "no": 5,
+            "topic": "필기[20년3회] HRN",
+            "question": "HRN 방식 스케줄링에서 처리 순서로 옳은 것은? A(5/20), B(40/20), C(15/45), D(20/2)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "A → B → C → D"
+                },
+                {
+                    "no": 2,
+                    "text": "A → C → B → D"
+                },
+                {
+                    "no": 3,
+                    "text": "D → B → C → A"
+                },
+                {
+                    "no": 4,
+                    "text": "D → A → B → C"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "복원 정답 기준: D → A → B → C."
+        },
+        {
+            "no": 6,
+            "topic": "IPv4(보기 누락)",
+            "question": "IPv4에 대한 설명으로 틀린 것은? (보기 일부 누락: 핵심 오답만 반영)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "보기 누락"
+                },
+                {
+                    "no": 2,
+                    "text": "보기 누락"
+                },
+                {
+                    "no": 3,
+                    "text": "주소 지정 방식 중 애니캐스트(Anycast)가 포함된다."
+                },
+                {
+                    "no": 4,
+                    "text": "보기 누락"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "IPv4는 일반적으로 유니/브로드/멀티캐스트 중심으로 다루며 애니캐스트는 IPv6에서 대표적으로 다룬다."
+        },
+        {
+            "no": 7,
+            "topic": "필기[24년1회] Second-Chance",
+            "question": "3개 프레임, 참조열 2,3,2,1,5,2,4,5,3,2,5에서 2차 기회(Second-Chance) 알고리즘의 페이지 부재 횟수는? (복원 문항)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "7번"
+                },
+                {
+                    "no": 2,
+                    "text": "8번"
+                },
+                {
+                    "no": 3,
+                    "text": "9번"
+                },
+                {
+                    "no": 4,
+                    "text": "10번"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "복원 정답 기준: 9번."
+        },
+        {
+            "no": 8,
+            "topic": "ARQ",
+            "question": "오류 제어에 사용되는 자동반복요청(ARQ) 방식이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Stop-and-wait ARQ"
+                },
+                {
+                    "no": 2,
+                    "text": "Go-back-N ARQ"
+                },
+                {
+                    "no": 3,
+                    "text": "Selective-Repeat ARQ"
+                },
+                {
+                    "no": 4,
+                    "text": "Non-Acknowledge ARQ"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "ARQ는 ACK 기반 재전송 방식이며 Non-Acknowledge는 일반 ARQ 분류가 아니다."
+        },
+        {
+            "no": 9,
+            "topic": "Worst Fit",
+            "question": "Worst Fit으로 10K 프로그램을 배치할 때 할당되는 FREE 영역은? NO.1(8K), NO.2(12K), NO.3(10K IN USE), NO.4(20K IN USE), NO.5(16K FREE)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "NO.2"
+                },
+                {
+                    "no": 2,
+                    "text": "NO.3"
+                },
+                {
+                    "no": 3,
+                    "text": "NO.4"
+                },
+                {
+                    "no": 4,
+                    "text": "NO.5"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FREE 중 최대(16K)에 배치한다."
+        },
+        {
+            "no": 10,
+            "topic": "Banker’s Algorithm(정의)",
+            "question": "안전 상태/불안전 상태 개념으로 자원 할당을 조절하는 회피 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "환형 대기"
+                },
+                {
+                    "no": 2,
+                    "text": "은행원 알고리즘"
+                },
+                {
+                    "no": 3,
+                    "text": "비선점"
+                },
+                {
+                    "no": 4,
+                    "text": "상호 배제"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Dijkstra가 제안한 교착상태 회피 기법이다."
+        },
+        {
+            "no": 11,
+            "topic": "필기[20년2회] IPv6",
+            "question": "IPv6에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "128비트 주소 공간을 제공한다."
+                },
+                {
+                    "no": 2,
+                    "text": "인증 및 보안 기능을 포함하고 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "패킷 크기가 64KByte로 고정되어 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "확장 헤더로 기능 확장이 용이하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "IPv6에서 패킷 크기가 64KB로 고정이라는 설명은 부적절하다."
+        },
+        {
+            "no": 12,
+            "topic": "SJF",
+            "question": "다음 프로세스가 도착했을 때 SJF 정책에서 가장 먼저 처리되는 작업은? P1(6), P2(8), P3(4), P4(3)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "P1"
+                },
+                {
+                    "no": 2,
+                    "text": "P2"
+                },
+                {
+                    "no": 3,
+                    "text": "P3"
+                },
+                {
+                    "no": 4,
+                    "text": "P4"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "실행시간이 가장 짧은 P4(3)가 먼저 수행된다."
+        },
+        {
+            "no": 13,
+            "topic": "C 논리 OR 연산자",
+            "question": "C언어에서 두 논리값 중 하나라도 참이면 1, 모두 거짓이면 0을 반환하는 연산자는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "&&"
+                },
+                {
+                    "no": 2,
+                    "text": "||"
+                },
+                {
+                    "no": 3,
+                    "text": "&"
+                },
+                {
+                    "no": 4,
+                    "text": "|"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "|| 는 논리 OR 연산자이다."
+        },
+        {
+            "no": 14,
+            "topic": "JAVA 접근제어자",
+            "question": "JAVA 언어에서 접근 제어자가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "internal"
+                },
+                {
+                    "no": 2,
+                    "text": "private"
+                },
+                {
+                    "no": 3,
+                    "text": "default"
+                },
+                {
+                    "no": 4,
+                    "text": "public"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Java의 접근제어자는 public/protected/private/(package-private=default)이다."
+        },
+        {
+            "no": 15,
+            "topic": "OSI 네트워크 계층",
+            "question": "OSI 7계층 중 네트워크 계층 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "패킷을 발신지에서 최종 목적지까지 전달할 책임이 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "한 노드에서 다른 노드로 프레임을 전송할 책임이 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "패킷에 논리 주소(발신지/목적지)를 추가한다."
+                },
+                {
+                    "no": 4,
+                    "text": "라우터는 경로 지정/교환 기능을 제공한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "프레임 전송은 데이터링크 계층 설명에 가깝다."
+        },
+        {
+            "no": 16,
+            "topic": "세마포어",
+            "question": "세마포어(Semaphore)에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Dijkstra가 제시한 상호 배제 알고리즘이다."
+                },
+                {
+                    "no": 2,
+                    "text": "세마포어 변수는 양의 정수 값만 가질 수 있다."
+                },
+                {
+                    "no": 3,
+                    "text": "V 연산은 대기 프로세스를 깨우는 Signal 동작이다."
+                },
+                {
+                    "no": 4,
+                    "text": "P 연산은 임계영역 진입 여부를 결정하는 Wait 동작이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "세마포어는 0을 포함한 정수 값을 가질 수 있다."
+        },
+        {
+            "no": 17,
+            "topic": "C 변수명 규칙",
+            "question": "C언어에서 사용할 수 없는 변수명은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "student2019"
+                },
+                {
+                    "no": 2,
+                    "text": "text-color"
+                },
+                {
+                    "no": 3,
+                    "text": "_korea"
+                },
+                {
+                    "no": 4,
+                    "text": "amount"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "식별자에 하이픈(-)은 사용할 수 없다."
+        },
+        {
+            "no": 18,
+            "topic": "OSI 2계층 장비",
+            "question": "다음 장비 중 OSI 2계층 장비로 옳은 것은? (리피터, 허브, 브리지, 라우터, 스위치, L4 스위치)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "리피터, 허브"
+                },
+                {
+                    "no": 2,
+                    "text": "브리지, 스위치"
+                },
+                {
+                    "no": 3,
+                    "text": "라우터, 스위치"
+                },
+                {
+                    "no": 4,
+                    "text": "스위치, L4 스위치"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "브리지/스위치는 데이터링크 계층에서 동작한다."
+        },
+        {
+            "no": 19,
+            "topic": "인증(Authentication)",
+            "question": "아이디/패스워드로 신원(Identity)을 증명하는 과정에 해당하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Aging"
+                },
+                {
+                    "no": 2,
+                    "text": "Accounting"
+                },
+                {
+                    "no": 3,
+                    "text": "Authorization"
+                },
+                {
+                    "no": 4,
+                    "text": "Authentication"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Authentication은 신원 확인, Authorization은 권한 부여."
+        },
+        {
+            "no": 20,
+            "topic": "umask(복원)",
+            "question": "리눅스에서 생성된 파일 권한이 644일 경우 umask 값은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "022"
+                },
+                {
+                    "no": 2,
+                    "text": "666"
+                },
+                {
+                    "no": 3,
+                    "text": "777"
+                },
+                {
+                    "no": 4,
+                    "text": "755"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "파일 기본 666에서 umask 022를 빼면 644."
+        },
+        {
+            "no": 21,
+            "topic": "세그먼테이션 주소 변환",
+            "question": "세그먼트 테이블에서 논리 주소(2,176)의 물리 주소는? (세그먼트2 시작 222, 길이 198)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "398"
+                },
+                {
+                    "no": 2,
+                    "text": "400"
+                },
+                {
+                    "no": 3,
+                    "text": "1928"
+                },
+                {
+                    "no": 4,
+                    "text": "1930"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "시작주소 222 + 오프셋 176 = 398 (오프셋 176 < 길이 198)."
+        },
+        {
+            "no": 22,
+            "topic": "First Fit 내부 단편화",
+            "question": "빈 공간 15K, 23K, 22K, 21K에서 First Fit으로 17K 적재 시 내부 단편화는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "5K"
+                },
+                {
+                    "no": 2,
+                    "text": "6K"
+                },
+                {
+                    "no": 3,
+                    "text": "7K"
+                },
+                {
+                    "no": 4,
+                    "text": "8K"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "첫 적합은 23K → 23-17=6K."
+        },
+        {
+            "no": 23,
+            "topic": "4비트 단위",
+            "question": "데이터를 4비트 단위로 나타내는 정보 단위는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "nibble"
+                },
+                {
+                    "no": 2,
+                    "text": "character"
+                },
+                {
+                    "no": 3,
+                    "text": "full-word"
+                },
+                {
+                    "no": 4,
+                    "text": "double-word"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "nibble은 4비트 단위이다."
+        },
+        {
+            "no": 24,
+            "topic": "ARP",
+            "question": "TCP/IP 네트워크에서 IP 주소를 MAC 주소로 변환하는 프로토콜은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "UDP"
+                },
+                {
+                    "no": 2,
+                    "text": "ARP"
+                },
+                {
+                    "no": 3,
+                    "text": "TCP"
+                },
+                {
+                    "no": 4,
+                    "text": "ICMP"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "ARP는 IP→MAC 주소 해석을 수행한다."
+        },
+        {
+            "no": 25,
+            "topic": "JAVA 예외처리(복원)",
+            "question": "다음 JAVA 프로그램 실행 결과는?\ntry { int a=16/0; } catch(ArrayIndexOutOfBoundsException e1){print A} catch(ArithmeticException e2){print B} catch(NullPointerException e3){print C}",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "A"
+                },
+                {
+                    "no": 2,
+                    "text": "B"
+                },
+                {
+                    "no": 3,
+                    "text": "C"
+                },
+                {
+                    "no": 4,
+                    "text": "0"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "0으로 나누기 → ArithmeticException → B 출력."
+        },
+        {
+            "no": 26,
+            "topic": "C 비트연산(복원)",
+            "question": "다음 C 코드의 출력 결과는?\nint x=0xF1; int y=0xFF; printf(\"%x\", x&y);",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "FF"
+                },
+                {
+                    "no": 2,
+                    "text": "1F"
+                },
+                {
+                    "no": 3,
+                    "text": "F1"
+                },
+                {
+                    "no": 4,
+                    "text": "00"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "0xF1 & 0xFF = 0xF1."
+        },
+        {
+            "no": 27,
+            "topic": "C 스코프(복원)",
+            "question": "다음 C 프로그램에서 출력되는 값은?\nmain에서 a=10, function1/2/3에서 각각 지역변수 a를 선언",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "10"
+                },
+                {
+                    "no": 2,
+                    "text": "20"
+                },
+                {
+                    "no": 3,
+                    "text": "30"
+                },
+                {
+                    "no": 4,
+                    "text": "40"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "main의 지역변수 a는 변경되지 않으므로 10이 출력된다."
+        },
+        {
+            "no": 28,
+            "topic": "Python elif",
+            "question": "다음 Python 코드가 실행 결과 20이 되도록 ( )에 들어갈 것은?\nif x==10: ... ( ) x==20: print('20') else: ...",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "either"
+                },
+                {
+                    "no": 2,
+                    "text": "elif"
+                },
+                {
+                    "no": 3,
+                    "text": "else if"
+                },
+                {
+                    "no": 4,
+                    "text": "else"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "Python의 다중 분기 키워드는 elif이다."
+        }
+    ]
+}

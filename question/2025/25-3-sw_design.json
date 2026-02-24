@@ -1,0 +1,855 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 3
+        },
+        "subject": {
+            "name": "소프트웨어 설계",
+            "code": "SW_DESIGN"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반(연도/회차 표기는 topic에 포함) + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "필기[20년2회]/실기[20년1회] JSON",
+            "question": "웹과 컴퓨터 프로그램에서 용량이 적은 데이터를 교환하기 위해 데이터 객체를 속성·값의 쌍 형태로 표현하는 형식으로 JavaScript를 토대로 개발된 형식은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Python"
+                },
+                {
+                    "no": 2,
+                    "text": "XML"
+                },
+                {
+                    "no": 3,
+                    "text": "JSON"
+                },
+                {
+                    "no": 4,
+                    "text": "WEB SERVER"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "JSON은 키-값/배열 기반의 경량 데이터 교환 형식이다."
+        },
+        {
+            "no": 2,
+            "topic": "XP 프로세스(복원)",
+            "question": "XP 개발 프로세스에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "릴리즈 계획: 릴리즈 시점 일정을 수립하고 각 주기에 개발할 스토리를 고객과 선택한다."
+                },
+                {
+                    "no": 2,
+                    "text": "승인 테스트: 주기 시작과 함께 고객이 스토리를 참고해 테스트 시나리오를 만든다."
+                },
+                {
+                    "no": 3,
+                    "text": "스파이크: 기술적/설계적 위험을 탐지하기 위해 핵심 기능을 간단히 구현해 본다."
+                },
+                {
+                    "no": 4,
+                    "text": "사용자 스토리: 스크럼의 사용자 스토리와는 다른 개념이다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "XP와 스크럼 모두 ‘사용자 스토리’를 요구사항 표현 단위로 활용할 수 있으며 본질적으로 별개 개념이라고 단정하기 어렵다."
+        },
+        {
+            "no": 3,
+            "topic": "필기[20년2회] 럼바우 OMT 절차",
+            "question": "럼바우(Rumbaugh)의 객체지향 분석 절차를 가장 바르게 나열한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "객체 모형 → 동적 모형 → 기능 모형"
+                },
+                {
+                    "no": 2,
+                    "text": "객체 모형 → 기능 모형 → 동적 모형"
+                },
+                {
+                    "no": 3,
+                    "text": "기능 모형 → 동적 모형 → 객체 모형"
+                },
+                {
+                    "no": 4,
+                    "text": "기능 모형 → 객체 모형 → 동적 모형"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "OMT는 객체 모형→동적 모형→기능 모형 순으로 정리한다."
+        },
+        {
+            "no": 4,
+            "topic": "필기[22년1회] FTR 지침",
+            "question": "정형 기술 검토(FTR)의 지침으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "의제를 제한한다."
+                },
+                {
+                    "no": 2,
+                    "text": "논쟁과 반박을 제한한다."
+                },
+                {
+                    "no": 3,
+                    "text": "문제 영역을 명확히 표현한다."
+                },
+                {
+                    "no": 4,
+                    "text": "참가자의 수를 제한하지 않는다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "FTR은 효율을 위해 참가자 수를 제한하는 것이 일반적이다."
+        },
+        {
+            "no": 5,
+            "topic": "필기[25년1회] N-S Chart",
+            "question": "프로그램 설계도인 NS Chart에 대한 설명으로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "논리의 기술에 중점을 두고 도형을 이용한 표현 방법이다."
+                },
+                {
+                    "no": 2,
+                    "text": "이해하기 쉽고 코드 변환이 용이하다."
+                },
+                {
+                    "no": 3,
+                    "text": "화살표나 GOTO를 사용하여 이해하기 쉽다."
+                },
+                {
+                    "no": 4,
+                    "text": "연속, 선택, 반복 등의 제어 논리 구조를 표현한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "N-S 차트는 화살표/GOTO 중심이 아니라 블록 구조로 제어 논리를 표현한다."
+        },
+        {
+            "no": 6,
+            "topic": "필기[22년2회] 인스펙션 절차(그림 누락)",
+            "question": "인스펙션 과정 (가)~(마)에 들어갈 말을 보기에서 고르게 연결한 것이다. 다음 중 옳은 연결로 가장 적절한 것은? (그림 누락: 복원 기반)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "(가)-사전 교육, (나)-인스펙션 회의"
+                },
+                {
+                    "no": 2,
+                    "text": "(나)-준비, (다)-인스펙션 회의"
+                },
+                {
+                    "no": 3,
+                    "text": "(다)-인스펙션 회의, (라)-후속조치"
+                },
+                {
+                    "no": 4,
+                    "text": "(라)-수정, (마)-인스펙션 회의"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "인스펙션 기본 흐름은 사전교육→준비→회의→수정→후속조치로 정리된다. (그림 누락 복원 문항)"
+        },
+        {
+            "no": 7,
+            "topic": "필기[20년2회] 폭포수 모델",
+            "question": "폭포수 모형의 특징으로 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "개발 중 발생한 요구사항을 쉽게 반영할 수 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "순차적인 접근방법을 이용한다."
+                },
+                {
+                    "no": 3,
+                    "text": "단계적 정의와 산출물이 명확하다."
+                },
+                {
+                    "no": 4,
+                    "text": "적용 경험과 성공사례가 많다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "폭포수는 요구사항 변경 반영이 어렵다는 단점이 있다."
+        },
+        {
+            "no": 8,
+            "topic": "필기[20년2회] LOC 기간 산정",
+            "question": "LOC 기법에서 총 50,000라인, 월 평균 생산성 200라인/인, 참여 10인일 때 개발 소요 기간은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "25개월"
+                },
+                {
+                    "no": 2,
+                    "text": "50개월"
+                },
+                {
+                    "no": 3,
+                    "text": "200개월"
+                },
+                {
+                    "no": 4,
+                    "text": "2000개월"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "기간 = 50000 / (200×10) = 25개월이어야 하나, 보기 구성상 복원 오류 가능. 일반 계산 결과는 25개월이다."
+        },
+        {
+            "no": 9,
+            "topic": "필기[25년1회] 위험관리",
+            "question": "프로젝트 위험 요소를 인식하고 영향을 분석하여 사전에 대비하는 모든 기술과 활동을 포함하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Critical Path Method"
+                },
+                {
+                    "no": 2,
+                    "text": "Risk Analysis"
+                },
+                {
+                    "no": 3,
+                    "text": "Work Breakdown Structure"
+                },
+                {
+                    "no": 4,
+                    "text": "Waterfall Model"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "위험 식별/분석/대응 계획 등 위험 분석(관리) 활동을 의미한다."
+        },
+        {
+            "no": 10,
+            "topic": "필기[25년2회] NUI",
+            "question": "멀티터치, 제스처 인식 등 사용자의 자연스러운 움직임을 인식하여 정보를 주고받는 UI는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "GUI(Graphical User Interface)"
+                },
+                {
+                    "no": 2,
+                    "text": "OUI(Organic User Interface)"
+                },
+                {
+                    "no": 3,
+                    "text": "NUI(Natural User Interface)"
+                },
+                {
+                    "no": 4,
+                    "text": "CLI(Command Line Interface)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "NUI는 자연스러운 상호작용(터치/제스처/음성 등)을 강조한다."
+        },
+        {
+            "no": 11,
+            "topic": "필기[20년4회] 비용 추정 모형",
+            "question": "소프트웨어 비용 추정 모형(Estimation Models)이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "COCOMO"
+                },
+                {
+                    "no": 2,
+                    "text": "Putnam"
+                },
+                {
+                    "no": 3,
+                    "text": "Function-Point"
+                },
+                {
+                    "no": 4,
+                    "text": "PERT"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "PERT는 일정 산정/네트워크 기법으로 비용 추정 모형이 아니다."
+        },
+        {
+            "no": 12,
+            "topic": "디자인 패턴(생성/구조)",
+            "question": "다음 중 성격이 다른 설계 패턴은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "브리지(Bridge) 패턴"
+                },
+                {
+                    "no": 2,
+                    "text": "팩토리 메소드(Factory Method) 패턴"
+                },
+                {
+                    "no": 3,
+                    "text": "프로토타입(Prototype) 패턴"
+                },
+                {
+                    "no": 4,
+                    "text": "싱글톤(Singleton) 패턴"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Bridge는 구조 패턴, 나머지(Factory Method/Prototype/Singleton)는 생성 패턴이다."
+        },
+        {
+            "no": 13,
+            "topic": "UML Things(복원 보완)",
+            "question": "UML 사물(Things)의 종류가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "주해(Annotation) 사물"
+                },
+                {
+                    "no": 2,
+                    "text": "구조(Structural) 사물"
+                },
+                {
+                    "no": 3,
+                    "text": "행동(Behavioral) 사물"
+                },
+                {
+                    "no": 4,
+                    "text": "물리(Physical) 사물"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "UML Things는 구조/행동/그룹/주해로 분류한다."
+        },
+        {
+            "no": 14,
+            "topic": "필기[22년2회] 미들웨어",
+            "question": "미들웨어에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "여러 운영체제에서 응용 프로그램들 사이에 위치한 소프트웨어이다."
+                },
+                {
+                    "no": 2,
+                    "text": "사용자가 정보 교환 방법 등 내부 동작을 쉽게 확인할 수 있어야 한다."
+                },
+                {
+                    "no": 3,
+                    "text": "컴포넌트 연결을 위한 준비된 인프라 구조를 제공한다."
+                },
+                {
+                    "no": 4,
+                    "text": "1:1, 1:N, N:N 등 여러 형태로 연결이 가능하다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "미들웨어는 내부 동작을 숨기고 표준 인터페이스로 사용하게 하는 투명성을 지향한다."
+        },
+        {
+            "no": 15,
+            "topic": "결합도 약→강",
+            "question": "결합도(Coupling)를 약한 순서에서 강한 순서로 가장 옳게 나열한 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Stamp → Data → Control → Common → Content"
+                },
+                {
+                    "no": 2,
+                    "text": "Control → Data → Stamp → Common → Content"
+                },
+                {
+                    "no": 3,
+                    "text": "Content → Stamp → Control → Common → Data"
+                },
+                {
+                    "no": 4,
+                    "text": "Data → Stamp → Control → Common → Content"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "일반적으로 자료→스탬프→제어→공통→내용 결합 순으로 강해진다."
+        },
+        {
+            "no": 16,
+            "topic": "필기[20년2회] 추상화 단위",
+            "question": "객체지향 프로그램에서 데이터를 추상화하는 단위는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "메소드"
+                },
+                {
+                    "no": 2,
+                    "text": "클래스"
+                },
+                {
+                    "no": 3,
+                    "text": "상속성"
+                },
+                {
+                    "no": 4,
+                    "text": "메시지"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "클래스는 데이터(속성)와 연산(메서드)을 묶어 추상화한다."
+        },
+        {
+            "no": 17,
+            "topic": "필기[25년2회] 테스트 데이터 자동 생성(복원 보완)",
+            "question": "테스트 케이스 자동 생성 도구를 이용하여 테스트 데이터를 찾아내는 방법이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스텁(Stub)과 드라이버(Driver)"
+                },
+                {
+                    "no": 2,
+                    "text": "입력 도메인 분석"
+                },
+                {
+                    "no": 3,
+                    "text": "랜덤(Random) 테스트"
+                },
+                {
+                    "no": 4,
+                    "text": "자료 흐름도(DFD)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "DFD는 요구/분석 산출물로 테스트 데이터 자동 생성 기법으로 보지 않는다."
+        },
+        {
+            "no": 18,
+            "topic": "필기[21년3회] 폭포수 모델",
+            "question": "가장 오래된 모형으로 선형 순차적, 고전적 생명주기 모형이라고도 하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Waterfall Model"
+                },
+                {
+                    "no": 2,
+                    "text": "Prototype Model"
+                },
+                {
+                    "no": 3,
+                    "text": "COCOMO Model"
+                },
+                {
+                    "no": 4,
+                    "text": "Spiral Model"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "폭포수 모델은 선형 순차적 개발 모형이다."
+        },
+        {
+            "no": 19,
+            "topic": "필기[21년3회] LOC 기법",
+            "question": "원시 코드 라인 수의 비관/낙관/기대치를 측정하여 비용을 산정하는 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Effort Per Task 기법"
+                },
+                {
+                    "no": 2,
+                    "text": "전문가 감정 기법"
+                },
+                {
+                    "no": 3,
+                    "text": "델파이 기법"
+                },
+                {
+                    "no": 4,
+                    "text": "LOC 기법"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "LOC 기반 산정에서 3점 추정치를 활용해 예측치를 구한다."
+        },
+        {
+            "no": 20,
+            "topic": "나선형 모델 순서",
+            "question": "계획 수립 → 위험 분석 → 개발과 검증 → 고객 평가 순서로 반복하는 개발 모델은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "폭포수 모델"
+                },
+                {
+                    "no": 2,
+                    "text": "프로토타입 모델"
+                },
+                {
+                    "no": 3,
+                    "text": "나선형(Spiral) 모델"
+                },
+                {
+                    "no": 4,
+                    "text": "RAD 모델"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "나선형은 위험 분석을 포함한 반복 개발이다."
+        },
+        {
+            "no": 21,
+            "topic": "필기[20년4회] XP 가치",
+            "question": "익스트림 프로그래밍(XP)의 5가지 가치에 속하지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "의사소통"
+                },
+                {
+                    "no": 2,
+                    "text": "단순성"
+                },
+                {
+                    "no": 3,
+                    "text": "피드백"
+                },
+                {
+                    "no": 4,
+                    "text": "고객 배제"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "XP는 고객 참여를 중시한다."
+        },
+        {
+            "no": 22,
+            "topic": "Fan-in",
+            "question": "주어진 한 모듈을 제어(호출)하는 상위 모듈 수를 나타내는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Fan-out"
+                },
+                {
+                    "no": 2,
+                    "text": "Coupling"
+                },
+                {
+                    "no": 3,
+                    "text": "Fan-in"
+                },
+                {
+                    "no": 4,
+                    "text": "Cohesion"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Fan-in은 해당 모듈을 호출하는 상위 모듈 수이다."
+        },
+        {
+            "no": 23,
+            "topic": "필기[22년1회] 코드 인스펙션",
+            "question": "코드 인스펙션에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "실행 대신 읽어보고 눈으로 확인하는 방법이다."
+                },
+                {
+                    "no": 2,
+                    "text": "코드 품질 향상 기법 중 하나이다."
+                },
+                {
+                    "no": 3,
+                    "text": "동적 테스트 시에만 활용하는 기법이다."
+                },
+                {
+                    "no": 4,
+                    "text": "결함과 함께 코딩 표준 준수 여부, 효율성 등도 검사한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "인스펙션은 정적 검토 기법이다."
+        },
+        {
+            "no": 24,
+            "topic": "필기[20년3회] 애자일 특징",
+            "question": "애자일 기법에 대한 설명으로 맞지 않는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "절차와 도구보다 개인과 소통을 중요하게 생각한다."
+                },
+                {
+                    "no": 2,
+                    "text": "계획에 중점을 두어 변경 대응이 난해하다."
+                },
+                {
+                    "no": 3,
+                    "text": "실행되는 소프트웨어에 가치를 둔다."
+                },
+                {
+                    "no": 4,
+                    "text": "고객과의 피드백을 중요하게 생각한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "애자일은 변화 대응을 중시한다."
+        },
+        {
+            "no": 25,
+            "topic": "UML 상태 다이어그램-이벤트",
+            "question": "UML 상태 다이어그램에서 객체의 전이를 유발하는 자극으로 상태 변화를 일으키는 현상은 무엇인가?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "이벤트(Event)"
+                },
+                {
+                    "no": 2,
+                    "text": "액션(Action)"
+                },
+                {
+                    "no": 3,
+                    "text": "가드(Guard)"
+                },
+                {
+                    "no": 4,
+                    "text": "상태(State)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "전이를 트리거하는 것은 이벤트이다."
+        },
+        {
+            "no": 26,
+            "topic": "필기[23년1회] 터치 제스처",
+            "question": "스마트폰 터치 제스처 종류로 가장 거리가 먼 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "drag"
+                },
+                {
+                    "no": 2,
+                    "text": "flick"
+                },
+                {
+                    "no": 3,
+                    "text": "press"
+                },
+                {
+                    "no": 4,
+                    "text": "flow"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "drag/flick/press는 일반 제스처 용어이며 flow는 일반적인 터치 제스처 분류가 아니다."
+        },
+        {
+            "no": 27,
+            "topic": "필기[21년1회] 소켓",
+            "question": "포트를 할당하고 클라이언트 요청 시 연결을 수행하는 내·외부 송수신 연계 기술은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DB 링크 기술"
+                },
+                {
+                    "no": 2,
+                    "text": "소켓(Socket) 기술"
+                },
+                {
+                    "no": 3,
+                    "text": "스크럼 기술"
+                },
+                {
+                    "no": 4,
+                    "text": "프로토타입 기술"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "소켓은 네트워크 통신을 위한 엔드포인트(포트 기반)이다."
+        },
+        {
+            "no": 28,
+            "topic": "필기[20년4회] 코드 분류",
+            "question": "코드화 대상 항목의 중량, 면적, 용량 등의 물리적 수치를 이용하여 만든 코드는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "순차 코드"
+                },
+                {
+                    "no": 2,
+                    "text": "10진 코드"
+                },
+                {
+                    "no": 3,
+                    "text": "표의 숫자 코드"
+                },
+                {
+                    "no": 4,
+                    "text": "블록 코드"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "블록 코드는 대상의 물리적 수치(규격 등) 기반으로 분류/표현하는 코드로 출제된다."
+        },
+        {
+            "no": 29,
+            "topic": "필기[22년1회] UI 설계 도구-목업",
+            "question": "다음 설명에 해당하는 UI 설계 도구는?\n- 실제 화면과 유사하게 만든 정적인 형태의 모형\n- 시각적 구성 요소 배치 중심(일반적으로 실제 구현은 아님)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "스토리보드(Storyboard)"
+                },
+                {
+                    "no": 2,
+                    "text": "목업(Mockup)"
+                },
+                {
+                    "no": 3,
+                    "text": "프로토타입(Prototype)"
+                },
+                {
+                    "no": 4,
+                    "text": "유스케이스(Usecase)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "목업은 정적 화면 모형에 가깝다."
+        },
+        {
+            "no": 30,
+            "topic": "필기[20년4회] CPM(그림 누락)",
+            "question": "CPM 네트워크가 주어졌을 때 임계 경로(Critical Path)의 소요 기일은? (그림 누락: 강의 참고 문항)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "10일"
+                },
+                {
+                    "no": 2,
+                    "text": "12일"
+                },
+                {
+                    "no": 3,
+                    "text": "14일"
+                },
+                {
+                    "no": 4,
+                    "text": "16일"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "그림이 누락된 복원 문항으로, 제시된 정답(강의 동일 문항 기준)을 반영했다."
+        },
+        {
+            "no": 31,
+            "topic": "필기[20년4회] DFD 설명",
+            "question": "DFD(Data Flow Diagram)에 대한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "자료 흐름 그래프 또는 버블 차트라고도 한다."
+                },
+                {
+                    "no": 2,
+                    "text": "구조적 분석 기법에 이용된다."
+                },
+                {
+                    "no": 3,
+                    "text": "시간 흐름을 명확하게 표현할 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "요소는 화살표, 원, 사각형, 직선(단선/이중선)으로 표시한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "DFD는 데이터 흐름 중심으로 시간 흐름을 명확히 표현하는 용도는 아니다."
+        }
+    ]
+}

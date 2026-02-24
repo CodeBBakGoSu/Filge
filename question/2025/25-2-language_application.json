@@ -1,0 +1,504 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 2
+        },
+        "subject": {
+            "name": "프로그래밍 언어 활용",
+            "code": "LANGUAGE_APPLICATION"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 코드/표현 누락은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "인터페이스 구현 검증 도구",
+            "question": "인터페이스 구현 검증 도구가 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Spring"
+                },
+                {
+                    "no": 2,
+                    "text": ".NET"
+                },
+                {
+                    "no": 3,
+                    "text": "STAF"
+                },
+                {
+                    "no": 4,
+                    "text": "NTAF"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "STAF/NTAF는 테스트 자동화 프레임워크로 언급되며 Spring은 일반적으로 검증 도구로 분류하지 않는다."
+        },
+        {
+            "no": 2,
+            "topic": "Python 변수 규칙",
+            "question": "파이썬 변수 작성 규칙 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "첫 자리에 숫자를 사용할 수 없다."
+                },
+                {
+                    "no": 2,
+                    "text": "영문 대/소문자, 숫자, 밑줄(_) 사용이 가능하다."
+                },
+                {
+                    "no": 3,
+                    "text": "변수 이름의 중간에 공백을 사용할 수 있다."
+                },
+                {
+                    "no": 4,
+                    "text": "예약어는 사용할 수 없다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "식별자에 공백은 사용할 수 없다."
+        },
+        {
+            "no": 3,
+            "topic": "C 표준 라이브러리",
+            "question": "C언어 표준 라이브러리와 의미 연결이 잘못된 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "stdio.h - 데이터 입·출력 라이브러리"
+                },
+                {
+                    "no": 2,
+                    "text": "math.h - 수학 함수 처리 라이브러리"
+                },
+                {
+                    "no": 3,
+                    "text": "time.h - 시간 라이브러리"
+                },
+                {
+                    "no": 4,
+                    "text": "string.h - 자료형 변환, 난수 발생, 메모리 할당 등 라이브러리"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "자료형 변환/난수/메모리 할당은 보통 stdlib.h에 해당한다."
+        },
+        {
+            "no": 4,
+            "topic": "UNIX 프로세스 생성",
+            "question": "UNIX에서 새로운 프로세스를 생성하는 시스템 호출은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "ls"
+                },
+                {
+                    "no": 2,
+                    "text": "cat"
+                },
+                {
+                    "no": 3,
+                    "text": "fork"
+                },
+                {
+                    "no": 4,
+                    "text": "chmod"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "fork()는 프로세스를 복제하여 새 프로세스를 생성한다."
+        },
+        {
+            "no": 5,
+            "topic": "지역성(Locality)",
+            "question": "지역성(Locality)에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "어느 순간 특정 부분을 집중적으로 참조하는 경향이 있다."
+                },
+                {
+                    "no": 2,
+                    "text": "시간 지역성 예: 순환, 부프로그램, 스택"
+                },
+                {
+                    "no": 3,
+                    "text": "공간 지역성은 하나의 기억장소가 가까운 장래에 참조될 가능성이 높음을 의미한다."
+                },
+                {
+                    "no": 4,
+                    "text": "공간 지역성 예: 순차적 코드 실행"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "③은 시간 지역성 설명에 가깝다. 공간 지역성은 인접한 주소가 함께 참조되는 성질이다."
+        },
+        {
+            "no": 6,
+            "topic": "페이지 교체 기법",
+            "question": "기억장치 관리의 페이지 교체 기법이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "LFU"
+                },
+                {
+                    "no": 2,
+                    "text": "FIFO"
+                },
+                {
+                    "no": 3,
+                    "text": "LUF"
+                },
+                {
+                    "no": 4,
+                    "text": "LRU"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "대표 교체 기법은 FIFO/LRU/LFU 등이며 LUF는 일반적 명칭이 아니다."
+        },
+        {
+            "no": 7,
+            "topic": "HRN 스케줄링(복원)",
+            "question": "HRN 방식으로 스케줄링할 때 처리 순서로 옳은 것은? (대기시간/서비스시간)\nA(5/20), B(40/20), C(15/45), D(20/2)",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "A → B → C → D"
+                },
+                {
+                    "no": 2,
+                    "text": "A → C → B → D"
+                },
+                {
+                    "no": 3,
+                    "text": "D → B → C → A"
+                },
+                {
+                    "no": 4,
+                    "text": "D → A → B → C"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "복원 정답 기준: D → A → B → C."
+        },
+        {
+            "no": 8,
+            "topic": "OSI 데이터링크 계층",
+            "question": "OSI 7계층에서 링크의 설정/유지/종료 및 노드 간 오류 제어와 흐름 제어를 수행하는 계층은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "데이터링크 계층"
+                },
+                {
+                    "no": 2,
+                    "text": "물리 계층"
+                },
+                {
+                    "no": 3,
+                    "text": "세션 계층"
+                },
+                {
+                    "no": 4,
+                    "text": "응용 계층"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "프레이밍/오류제어/흐름제어는 데이터링크 계층에서 수행한다."
+        },
+        {
+            "no": 9,
+            "topic": "IP 클래스 D",
+            "question": "IP 주소 체계에서 D클래스의 주소 범위는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "0.0.0.0 - 127.255.255.255"
+                },
+                {
+                    "no": 2,
+                    "text": "128.0.0.0 - 191.255.255.255"
+                },
+                {
+                    "no": 3,
+                    "text": "192.0.0.0 - 223.255.255.255"
+                },
+                {
+                    "no": 4,
+                    "text": "224.0.0.0 - 239.255.255.255"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "D클래스는 멀티캐스트 용도로 224~239 범위이다."
+        },
+        {
+            "no": 10,
+            "topic": "Well-Known Port(SSH)",
+            "question": "인터넷의 Well-Known Port로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Telnet - 23"
+                },
+                {
+                    "no": 2,
+                    "text": "SMTP - 25"
+                },
+                {
+                    "no": 3,
+                    "text": "POP3 - 110"
+                },
+                {
+                    "no": 4,
+                    "text": "SSH - 69"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "SSH 기본 포트는 22이다."
+        },
+        {
+            "no": 11,
+            "topic": "IPv4 전송 방식",
+            "question": "IPv4가 사용하지 않는 전송 방식은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "멀티캐스트"
+                },
+                {
+                    "no": 2,
+                    "text": "유니캐스트"
+                },
+                {
+                    "no": 3,
+                    "text": "브로드캐스트"
+                },
+                {
+                    "no": 4,
+                    "text": "애니캐스트"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "IPv4는 유니/브로드/멀티캐스트를 주로 사용하며 애니캐스트는 IPv6에서 대표적으로 다룬다."
+        },
+        {
+            "no": 12,
+            "topic": "UNIX 특징",
+            "question": "UNIX 운영체제의 특징이 아닌 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "높은 이식성"
+                },
+                {
+                    "no": 2,
+                    "text": "계층적 파일 시스템"
+                },
+                {
+                    "no": 3,
+                    "text": "단일 작업용 시스템"
+                },
+                {
+                    "no": 4,
+                    "text": "네트워킹 시스템"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "UNIX는 다중 사용자/다중 작업을 지원한다."
+        },
+        {
+            "no": 13,
+            "topic": "Best Fit 내부 단편화(복원)",
+            "question": "빈 기억 공간이 20K, 16K, 8K, 40K일 때 Best Fit으로 17K 프로그램을 적재하면 내부 단편화 크기는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "3K"
+                },
+                {
+                    "no": 2,
+                    "text": "23K"
+                },
+                {
+                    "no": 3,
+                    "text": "64K"
+                },
+                {
+                    "no": 4,
+                    "text": "67K"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Best Fit은 20K에 적재 → 20-17=3K."
+        },
+        {
+            "no": 14,
+            "topic": "네트워크 장치(게이트웨이) (복원+보완)",
+            "question": "네트워크 장치에 대한 설명으로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "허브는 여러 단말이 LAN에 접속하도록 지원하는 중계 장치이다."
+                },
+                {
+                    "no": 2,
+                    "text": "리피터는 물리 계층에서 신호를 재생·중계한다."
+                },
+                {
+                    "no": 3,
+                    "text": "브리지는 데이터링크 계층에서 MAC 프로토콜 기반 LAN을 연결한다."
+                },
+                {
+                    "no": 4,
+                    "text": "게이트웨이는 네트워크 계층에서 동작하며 동일 전송 프로토콜 네트워크를 연결한다."
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "게이트웨이는 보통 '서로 다른 프로토콜/아키텍처' 간 변환/연결에 초점이 있다."
+        },
+        {
+            "no": 15,
+            "topic": "C do-while 결과(복원)",
+            "question": "다음 C 프로그램의 출력 결과로 옳은 것은?\nmain(){ int i=0,sum=0; do{ i++; sum+=i; }while(i<10); printf(\"%d\",sum);} ",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "25"
+                },
+                {
+                    "no": 2,
+                    "text": "30"
+                },
+                {
+                    "no": 3,
+                    "text": "45"
+                },
+                {
+                    "no": 4,
+                    "text": "55"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "1부터 10까지 합 = 55."
+        },
+        {
+            "no": 16,
+            "topic": "JAVA 상속 출력(복원)",
+            "question": "다음 JAVA 프로그램의 실행 결과는?\nclass stu{ int stu; public stu(int n){stu=n;} public void print(){System.out.println(stu);} }\nclass sch extends stu{ public sch(int n){ super(n); super.print(); } }\npublic class Gisafirst{ public static void main(String[] args){ sch obj=new sch(25);} }",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "stu"
+                },
+                {
+                    "no": 2,
+                    "text": "sch"
+                },
+                {
+                    "no": 3,
+                    "text": "10"
+                },
+                {
+                    "no": 4,
+                    "text": "25"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "sch 생성 시 super.print()로 25가 출력된다."
+        },
+        {
+            "no": 17,
+            "topic": "Python 리스트/딕셔너리 출력(복원)",
+            "question": "다음 Python 프로그램의 실행 결과는?\na=100\nlist_data=['a','b','c']\ndict_data={'a':90,'b':95}\nprint(list_data[0])\nprint(dict_data['a'])",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "a\\n90"
+                },
+                {
+                    "no": 2,
+                    "text": "100\\n90"
+                },
+                {
+                    "no": 3,
+                    "text": "100\\n100"
+                },
+                {
+                    "no": 4,
+                    "text": "a\\na"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "list_data[0]은 'a', dict_data['a']는 90."
+        },
+        {
+            "no": 18,
+            "topic": "Python 함수 실행(복원)",
+            "question": "다음 Python 프로그램의 실행 결과는?\n\ndef sum(a,z):\n    result=0\n    for a in range(z):\n        result=result+a\n    return result\nprint(sum(1,11))",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "6"
+                },
+                {
+                    "no": 2,
+                    "text": "10"
+                },
+                {
+                    "no": 3,
+                    "text": "15"
+                },
+                {
+                    "no": 4,
+                    "text": "55"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "range(11)=0~10 합 = 55."
+        }
+    ]
+}

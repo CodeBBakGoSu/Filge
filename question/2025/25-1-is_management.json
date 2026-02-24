@@ -1,0 +1,558 @@
+{
+    "meta": {
+        "exam": {
+            "name": "정보처리기사",
+            "year": 2025,
+            "session": 1
+        },
+        "subject": {
+            "name": "정보시스템 구축 관리",
+            "code": "IS_MANAGEMENT"
+        },
+        "type": "multiple_choice_single",
+        "language": "ko-KR",
+        "note": "복원 기반 + 누락/불완전 항목은 유사 난이도로 자동 생성"
+    },
+    "questions": [
+        {
+            "no": 1,
+            "topic": "Well-Known Port(SSH) (복원)",
+            "question": "인터넷의 Well-Known Port로 옳지 않은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Telnet - 23"
+                },
+                {
+                    "no": 2,
+                    "text": "SMTP - 25"
+                },
+                {
+                    "no": 3,
+                    "text": "POP3 - 110"
+                },
+                {
+                    "no": 4,
+                    "text": "SSH - 69"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "SSH 기본 포트는 22이다."
+        },
+        {
+            "no": 2,
+            "topic": "클라우드 유형(자동생성)",
+            "question": "클라우드 컴퓨팅 유형 중 '애플리케이션을 서비스 형태로 제공'하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SaaS"
+                },
+                {
+                    "no": 2,
+                    "text": "IaaS"
+                },
+                {
+                    "no": 3,
+                    "text": "PaaS"
+                },
+                {
+                    "no": 4,
+                    "text": "NaaS"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "SaaS는 Software as a Service이다."
+        },
+        {
+            "no": 3,
+            "topic": "WIPS(복원)",
+            "question": "WIPS에 대한 설명으로 가장 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "무선랜 접속을 감시하고 비인가 접속을 차단하는 무선 침입 방지 시스템"
+                },
+                {
+                    "no": 2,
+                    "text": "DB 트랜잭션 충돌을 방지하는 로킹 기법"
+                },
+                {
+                    "no": 3,
+                    "text": "웹 페이지 렌더링 속도를 최적화하는 기술"
+                },
+                {
+                    "no": 4,
+                    "text": "서버 로그를 암호화하는 DRM 요소"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "WIPS는 Wireless Intrusion Prevention System이다."
+        },
+        {
+            "no": 4,
+            "topic": "Evil Twin Attack(복원)",
+            "question": "공격자가 합법적인 와이파이 제공자처럼 행세하여 사용자 정보를 탈취하는 무선 공격 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Evil Twin Attack"
+                },
+                {
+                    "no": 2,
+                    "text": "Phishing"
+                },
+                {
+                    "no": 3,
+                    "text": "Logic Bomb"
+                },
+                {
+                    "no": 4,
+                    "text": "Cyberbullying"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Evil Twin은 가짜 AP로 유도해 트래픽/정보를 탈취한다."
+        },
+        {
+            "no": 5,
+            "topic": "리눅스 로그(wtmp) (복원)",
+            "question": "리눅스에서 시스템 전체 로그인 기록을 저장하는 로그 파일로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "wtmp"
+                },
+                {
+                    "no": 2,
+                    "text": "passwd"
+                },
+                {
+                    "no": 3,
+                    "text": "fstab"
+                },
+                {
+                    "no": 4,
+                    "text": "shadow"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "wtmp는 로그인/로그아웃 등 기록을 저장한다."
+        },
+        {
+            "no": 6,
+            "topic": "Snow Crash/메타버스(복원)",
+            "question": "‘Snow Crash(1992)’에서 처음 등장한 개념으로 가상이지만 현실에서도 활용되는 개념은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "메타버스"
+                },
+                {
+                    "no": 2,
+                    "text": "파티셔닝"
+                },
+                {
+                    "no": 3,
+                    "text": "정규화"
+                },
+                {
+                    "no": 4,
+                    "text": "디지털 저작권 관리"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Snow Crash에서 ‘Metaverse’ 개념이 알려졌다."
+        },
+        {
+            "no": 7,
+            "topic": "블록체인 암호(ECC) (복원)",
+            "question": "블록체인에서 공개키 암호화 방식으로 널리 사용되는 암호화 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "ECC"
+                },
+                {
+                    "no": 2,
+                    "text": "DES"
+                },
+                {
+                    "no": 3,
+                    "text": "MD4"
+                },
+                {
+                    "no": 4,
+                    "text": "RC2"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "ECC는 공개키 기반 서명/키교환에 널리 사용된다."
+        },
+        {
+            "no": 8,
+            "topic": "RBAC(복원)",
+            "question": "역할(Role)에 기반하여 접근 권한을 부여하는 접근통제 방식은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DAC"
+                },
+                {
+                    "no": 2,
+                    "text": "MAC"
+                },
+                {
+                    "no": 3,
+                    "text": "RBAC"
+                },
+                {
+                    "no": 4,
+                    "text": "ABAC"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "RBAC는 Role-Based Access Control이다."
+        },
+        {
+            "no": 9,
+            "topic": "보안 목표(복원)",
+            "question": "다음 중 허가되지 않은 변경을 통제하는 보안 목표는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Reliability(신뢰성)"
+                },
+                {
+                    "no": 2,
+                    "text": "Interoperability(상호운용성)"
+                },
+                {
+                    "no": 3,
+                    "text": "Integrity(무결성)"
+                },
+                {
+                    "no": 4,
+                    "text": "Usability(사용성)"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Integrity는 데이터/시스템의 무단 변경 방지를 의미한다."
+        },
+        {
+            "no": 10,
+            "topic": "Secure Coding-입력 데이터 약점(복원)",
+            "question": "Secure 코딩에서 입력 데이터 보안 약점과 관련한 설명으로 틀린 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "SQL 삽입: 외부 입력이 SQL 쿼리에 삽입되어 공격이 가능"
+                },
+                {
+                    "no": 2,
+                    "text": "XSS: 검증되지 않은 입력으로 브라우저에서 악성 코드 실행"
+                },
+                {
+                    "no": 3,
+                    "text": "충분하지 않은 키 길이: 입력 데이터 보안 약점에 대한 올바른 예시"
+                },
+                {
+                    "no": 4,
+                    "text": "자원 삽입: 시스템 리소스를 조작해 임의 파일 로드/실행 가능"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "키 길이 문제는 보통 암호강도/암호화 설계 이슈로 입력 검증 약점 분류와는 결이 다르다."
+        },
+        {
+            "no": 11,
+            "topic": "디지털 트윈(복원)",
+            "question": "물리적 사물과 동일하게 표현되는 가상 모델로, 설계~제조~서비스 과정 최적화를 지원하는 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "최적화"
+                },
+                {
+                    "no": 2,
+                    "text": "실행 시간"
+                },
+                {
+                    "no": 3,
+                    "text": "디지털 트윈"
+                },
+                {
+                    "no": 4,
+                    "text": "N-Screen"
+                }
+            ],
+            "answer": {
+                "choiceNo": 3
+            },
+            "explanation": "Digital Twin은 현실 자산의 가상 모델을 의미한다."
+        },
+        {
+            "no": 12,
+            "topic": "DAS/NAS(복원)",
+            "question": "저장장치를 호스트 버스 어댑터에 직접 연결하는 방식의 스토리지 시스템은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "DAS"
+                },
+                {
+                    "no": 2,
+                    "text": "NAS"
+                },
+                {
+                    "no": 3,
+                    "text": "N-SCREEN"
+                },
+                {
+                    "no": 4,
+                    "text": "NFC"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "DAS(Direct Attached Storage)는 직접 연결 방식이다."
+        },
+        {
+            "no": 13,
+            "topic": "포맷 스트링 버그(복원)",
+            "question": "printf() 등에서 외부 입력이 포맷 스트링(%x 등)을 제어할 수 있어 발생하는 취약점은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Buffer Overflow"
+                },
+                {
+                    "no": 2,
+                    "text": "Format String Bug"
+                },
+                {
+                    "no": 3,
+                    "text": "SQL Injection"
+                },
+                {
+                    "no": 4,
+                    "text": "CSRF"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "포맷 스트링 취약점은 메모리 누출/쓰기 등으로 악용될 수 있다."
+        },
+        {
+            "no": 14,
+            "topic": "Spanning Tree(복원)",
+            "question": "브리지와 LAN으로 구성된 망에서 루프를 형성하지 않도록 연결을 설정하는 알고리즘은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Spanning Tree Algorithm"
+                },
+                {
+                    "no": 2,
+                    "text": "Diffie-Hellman Algorithm"
+                },
+                {
+                    "no": 3,
+                    "text": "Hash Algorithm"
+                },
+                {
+                    "no": 4,
+                    "text": "Digital Signature Algorithm"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "STP는 스위치/브리지 환경에서 루프를 방지한다."
+        },
+        {
+            "no": 15,
+            "topic": "코드 오류-Transcription(복원)",
+            "question": "원래 12536으로 기입되어야 하는데 12936으로 표기된 경우 해당하는 코드 오류는?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Addition Error"
+                },
+                {
+                    "no": 2,
+                    "text": "Omission Error"
+                },
+                {
+                    "no": 3,
+                    "text": "Sequence Error"
+                },
+                {
+                    "no": 4,
+                    "text": "Transcription Error"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "전사(Transcription)는 잘못 베껴 쓰는 유형으로 출제된다."
+        },
+        {
+            "no": 16,
+            "topic": "국내 개방형 클라우드 플랫폼(PaaS-TA) (복원)",
+            "question": "국내 IT 서비스 경쟁력 강화를 목표로 개발된 개방형 클라우드 컴퓨팅 플랫폼은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "N2OS"
+                },
+                {
+                    "no": 2,
+                    "text": "PaaS-TA"
+                },
+                {
+                    "no": 3,
+                    "text": "KAWS"
+                },
+                {
+                    "no": 4,
+                    "text": "Metaverse"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "복원 정답 기준: PaaS-TA"
+        },
+        {
+            "no": 17,
+            "topic": "Ping Flood(복원)",
+            "question": "대량의 ICMP Echo를 보내 응답 처리로 자원을 소모시켜 정상 동작을 방해하는 공격은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "RBAC"
+                },
+                {
+                    "no": 2,
+                    "text": "Ping Flood"
+                },
+                {
+                    "no": 3,
+                    "text": "Brute-Force"
+                },
+                {
+                    "no": 4,
+                    "text": "Trojan Horses"
+                }
+            ],
+            "answer": {
+                "choiceNo": 2
+            },
+            "explanation": "ICMP 기반 서비스 거부(DoS) 형태로 출제된다."
+        },
+        {
+            "no": 18,
+            "topic": "Ping of Death(복원)",
+            "question": "허용 범위 이상의 ICMP 패킷을 전송하여 대상 시스템을 마비시키는 공격 기법은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Ping of Death"
+                },
+                {
+                    "no": 2,
+                    "text": "Session Hijacking"
+                },
+                {
+                    "no": 3,
+                    "text": "Piggyback Attack"
+                },
+                {
+                    "no": 4,
+                    "text": "XSS"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "비정상(과대) ICMP 패킷으로 시스템 장애를 유발하는 공격으로 출제된다."
+        },
+        {
+            "no": 19,
+            "topic": "Mesh Network(복원)",
+            "question": "대규모 디바이스 네트워크 생성에 최적화된 새로운 방식의 네트워크 기술로 옳은 것은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Software Defined Perimeter"
+                },
+                {
+                    "no": 2,
+                    "text": "Virtual Private Network"
+                },
+                {
+                    "no": 3,
+                    "text": "Local Area Network"
+                },
+                {
+                    "no": 4,
+                    "text": "Mesh Network"
+                }
+            ],
+            "answer": {
+                "choiceNo": 4
+            },
+            "explanation": "Mesh는 노드 간 다중 경로로 연결되는 메시 토폴로지 기반이다."
+        },
+        {
+            "no": 20,
+            "topic": "Kubernetes(복원)",
+            "question": "리눅스 재단에서 관리하며 컨테이너화된 애플리케이션의 자동 배포, 스케일링 등을 제공하는 시스템은?",
+            "choices": [
+                {
+                    "no": 1,
+                    "text": "Kubernetes"
+                },
+                {
+                    "no": 2,
+                    "text": "Apache"
+                },
+                {
+                    "no": 3,
+                    "text": "MySQL"
+                },
+                {
+                    "no": 4,
+                    "text": "OpenSSL"
+                }
+            ],
+            "answer": {
+                "choiceNo": 1
+            },
+            "explanation": "Kubernetes는 컨테이너 오케스트레이션 플랫폼이다."
+        }
+    ]
+}
